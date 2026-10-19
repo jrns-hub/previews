@@ -1,0 +1,42 @@
+{
+ "id": "S010",
+ "name": "Black Mountain Iron Works",
+ "kind": "business",
+ "group": "trades",
+ "cat": "Iron works",
+ "addr": "203 Padgettown Rd, Black Mountain, NC 28711",
+ "street": "203 Padgettown Rd",
+ "town": "Black Mountain",
+ "phone": "(828) 669-1001",
+ "hours": "",
+ "rating": "5.0 (5)",
+ "desc": "",
+ "social": [],
+ "photos": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QT3RPW9sYfrP0VCae8dO1rQPcrRKRp8x3a-H62nwnSHGlQAp2vm0wI1t4M7IJEIo572sAH5vAN-jwQ43SQfYJXZ_1TP0clBibt0MAbYJLMb5qJxdL2ph6UjaFQK8BKXITs67k",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QbhoeaB8P49xCaJDOHbbGEtNW1ABf8dDhPNfECzD89KKtjIAaBzRGG5VTuob1XWYIgRm2ORpLKqPOcZhtMQ9JY1WFvdNM1_ED3MfHR3coQuDX6hh8R-m9Sdw9GYlR49EpTmO4"
+ ],
+ "reviews": [
+  {
+   "a": "Chuck Tann",
+   "s": 5,
+   "t": "Tekla & Jon did a fabulous job creating & installing our new railing! I now have a work of art on our entry stairs. Wonderful caring people that took to heart what we wanted. Highly recommended!"
+  },
+  {
+   "a": "Billybob Joe",
+   "s": 5,
+   "t": "The studio definitely deserves nothing short of a 5 star review. All the ironwork is made on the site by the Howachyns. Drop by if you’re in town or consider if you need railings or any other custom work. It lives up to the motto “we’ll forge your fantasy.” The studio has way more invintoey than the online store, so it pays to go there."
+  },
+  {
+   "a": "James Hickey",
+   "s": 5,
+   "t": "We just had railing installed at our home. We couldn't be happier. Dan listened to what are vision of what we were looking for, and delivered a finished product that fit perfectly into our existing natural rock stairs and garden."
+  },
+  {
+   "a": "Kenneth Penland",
+   "s": 5,
+   "t": "Teresa is a go getter and a very knowledgeable business owner, I Loved meeting her and seeing her beautiful unique metal fabrication. I will be referring her to all my friends."
+  }
+ ],
+ "score": 63
+}

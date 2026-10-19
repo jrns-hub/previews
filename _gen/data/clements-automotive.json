@@ -1,0 +1,61 @@
+{
+ "id": "S028",
+ "name": "Clements Automotive",
+ "kind": "business",
+ "group": "auto",
+ "cat": "Auto repair shop",
+ "addr": "561 Blue Ridge Rd, Black Mountain, NC 28711",
+ "street": "561 Blue Ridge Rd",
+ "town": "Black Mountain",
+ "phone": "(828) 669-4992",
+ "hours": "Mon 8:30 AM–5 PM; Tue 8:30 AM–5 PM; Wed 8:30 AM–5 PM; Thu 8:30 AM–5 PM; Fri 8:30 AM–5 PM; Sat Closed; Sun Closed",
+ "rating": "5.0 (12)",
+ "desc": "",
+ "social": [],
+ "photos": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RIgTfe2hWN6Eb6RuisjV_fN7jypwW8zYMuNlrxSScFxyrOrjI9xMlby2TSh-gKtUpEVIczDfBzBO__Cu0-mEX9eOK-rbeCpQ_S3pwc10ltL_6wsPwJs1UN17j9q2oxP6LNkho"
+ ],
+ "reviews": [
+  {
+   "a": "Cessah Reamon",
+   "s": 5,
+   "t": "We were needing to get my brakes and rotor pads changed for my 2022 Mazda Cx-5. We came in on a Friday of a Memorial day weekend and they were able to cater us with our request. They were polite, and accommodating towards us. Got our car back by the afternoon and they did a splendid job in a reasonable cost. We are grateful we have them in the neighborhood!"
+  },
+  {
+   "a": "aaron ellerman",
+   "s": 5,
+   "t": "Jeep was having issues during a vacation trip, and they fixed it the same day. Great service and hospitality."
+  },
+  {
+   "a": "Jim Norton",
+   "s": 5,
+   "t": "Great shop. Was a referral from a friend and they are my go to shop for anything automotive. Friendly and accurate"
+  },
+  {
+   "a": "Jeramy Martin",
+   "s": 5,
+   "t": "They work on all makes and models. Very trusted mechanics with years of knowledge."
+  },
+  {
+   "a": "David Ford",
+   "s": 5,
+   "t": "Clement's Automotive had me back oñ the road when the dealership didn't have a clue. You rock Tump"
+  },
+  {
+   "a": "Joha Gom",
+   "s": 5,
+   "t": "It provides a very good mechanical service with a guarantee and very good customer service.👍🏻👍🏻👍🏻 …"
+  },
+  {
+   "a": "john lewis",
+   "s": 5,
+   "t": "They are the best mechanics. Very knowledgable"
+  },
+  {
+   "a": "Brad Ray",
+   "s": 5,
+   "t": "Great work, friendly and knowledgeable staff!"
+  }
+ ],
+ "score": 63
+}

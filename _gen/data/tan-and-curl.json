@@ -1,0 +1,72 @@
+{
+ "id": "S106",
+ "name": "Tan & Curl",
+ "kind": "business",
+ "group": "beauty",
+ "cat": "Beauty salon",
+ "addr": "131 Warren Wilson Rd, Swannanoa, NC 28778",
+ "street": "131 Warren Wilson Rd",
+ "town": "Swannanoa",
+ "phone": "(828) 298-0917",
+ "hours": "Mon 7 AM–6 PM; Tue 7 AM–6 PM; Wed Closed; Thu 7 AM–6 PM; Fri 7 AM–6 PM; Sat Closed; Sun Closed",
+ "rating": "5.0 (19)",
+ "desc": "",
+ "social": [],
+ "photos": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QcyrHks7KqCIhCqJAxPlPxUWoqKIqJR7q40NUR4IiRlxjtX6eRNeCZgaUfBGgDeUiybKwt9aVS33uDzGZxu7LI8B0OoFC_gFWgpS1EvFBt5KPPn8gX8lnAD3LC4YGrzJT0VJsOCA",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Sp0erWXBsRIGiwlRuwNz3qL68dgJ7txGP6vMBxfR78L_l2Gul6vXLJtPmoj_OIDj5SxKtjwezPVLBdlWWerZ_ELtYPNNBkUPKQySMLsa5gJvSXw6hcF6vZ_WL6B-AKsRyhHFcmUw"
+ ],
+ "reviews": [
+  {
+   "a": "Vickie Sherlin",
+   "s": 5,
+   "t": "I must say this is by far the cleanest, most upscale salon I have been to. They are pricey but the amenities are; Alexa (that actually works) and plays what you want while you're tanning, big rooms, nice beds, the decor makes you feel like youre in a fantasy land it's so gorgeous. The gym is ok. Linda, the owner? Was very nice and showed us around, and while you're tanning you have fans all over your body. I honestly could have laid there longer. I wasnt hot. The fans were at my head, feet and in the bed. It was pleasant. I didnt want it to end. I'll definitely be returning and giving tan and curl my membership. I currently tan at a big gym/tan place in marion."
+  },
+  {
+   "a": "Lillian Modak",
+   "s": 5,
+   "t": "Linda, the owner, is a gifted stylist, caring friend and is always looking for new products to help her customers. She listens and does what you ask. Charming setting!"
+  },
+  {
+   "a": "Diann Duckett",
+   "s": 5,
+   "t": "Linda is a wonderful lady! Very helpful and have a variety of services from hair to tanning to exercise machines. I would highly recommend this place!"
+  },
+  {
+   "a": "Karen Stallings",
+   "s": 5,
+   "t": "Linda does an AMAZING job making my hair look Beautiful! Her prices are more than reasonable and she is a Sweetheart!"
+  },
+  {
+   "a": "James Willis",
+   "s": 5,
+   "t": "My wife loves to tan there. I love sitting in the parking lot listening to the birds and watching the squirrels while she tans. I love sitting in the parking lot listening to the birds and watching the squirrels while she tans"
+  },
+  {
+   "a": "Barton Evans",
+   "s": 5,
+   "t": "Linda does a great job. Very professional and clean operation by an experienced hair stylist."
+  },
+  {
+   "a": "Tugas Lehigh",
+   "s": 5,
+   "t": "The owner is a pleasant helpful lady. The exercise area is well equipt with a variety of machines and exceptionally well decorated. I'd recommend it."
+  },
+  {
+   "a": "Helen K",
+   "s": 5,
+   "t": "Owner is very experienced and knowledgeable hair dresser. She gave me an excellent perm & was fast at rolling hair."
+  },
+  {
+   "a": "Helen E Kershaw",
+   "s": 5,
+   "t": "Linda does a great job with haircuts & perms. She listens to what you want."
+  },
+  {
+   "a": "Sherry Gregg",
+   "s": 5,
+   "t": "Linda is the best! She has cut my hair for years."
+  }
+ ],
+ "score": 54
+}

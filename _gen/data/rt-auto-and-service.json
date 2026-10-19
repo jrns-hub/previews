@@ -1,0 +1,74 @@
+{
+ "id": "S088",
+ "name": "RT Auto And Service",
+ "kind": "business",
+ "group": "auto",
+ "cat": "Auto repair shop",
+ "addr": "2282 US-70, Swannanoa, NC 28778",
+ "street": "2282 US-70",
+ "town": "Swannanoa",
+ "phone": "(828) 686-1972",
+ "hours": "Mon 8 AM–5 PM; Tue 8 AM–5 PM; Wed 8 AM–5 PM; Thu 8 AM–5 PM; Fri 8 AM–5 PM; Sat Closed; Sun Closed",
+ "rating": "4.9 (152)",
+ "desc": "",
+ "social": [
+  "https://www.facebook.com/RTAuto.inc"
+ ],
+ "photos": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SUko5je2UmhZN4GJHVVlHnP3ol7hgGZKeQXf-YBWCQ_eNd4nRYe_-ecAFewh9KZmB9VE5eUhMy9DZG6E2g-QbTXRWBAyCM_b6pD6unjIKm3YJuJbkF_Wdfx67ed_GvsDf1nj8Fq6axYHhE",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SWlrxzYZtUxTpXf_BbMQbB44svjh3n28jbJ1U0x6nqlcHrP2V54ELXYrFeFM9OisZ9x1SlAc-25vcsDUimbBLAPswU8e5nqBtwvqSMk3Dq2itKxUF83MOAF0gycMaL-wXzVq2UnxJElrs"
+ ],
+ "reviews": [
+  {
+   "a": "Anna&jack Jones",
+   "s": 5,
+   "t": "Keith was great! He was able to diagnose our problem without issue. He was recommended by a family friend. Rob was able to replace our engine coil and spark plug in 30 minutes. I would go back anytime but we were traveling. The cost was better than two other mechanics in the area."
+  },
+  {
+   "a": "Dudley Allen",
+   "s": 5,
+   "t": "ABSOLUTELY one of the best visits I've ever made to a mechanic. Keith and crew were honest, helpful, and extremely knowledgeable. Very impressed and have found our family mechanic."
+  },
+  {
+   "a": "Tyler Castillo",
+   "s": 5,
+   "t": "Got my Camry's safety inspection done here. The mechanic was quick, kind and an easy going professional. Will definitely be back for my auto needs and would recommend them to anybody in there area! ⭐⭐⭐⭐⭐/⭐⭐⭐⭐⭐"
+  },
+  {
+   "a": "Cat",
+   "s": 5,
+   "t": "I've been a customer of Rob's and RT Auto for over 20 years and recommend him to everyone I know. He is an honest, friendly affordable mechanic and will take great care of your vehicles. Because of this he is in high demand so expect to wait a few days to be able to get your car serviced."
+  },
+  {
+   "a": "Kyla",
+   "s": 5,
+   "t": "This is the kind of place where you show up as a new customer and leave loyal for life. I called for an emergency brake repair and they squeezed me into their schedule same-day despite being very busy. Frank did a great job fixing my brakes and rotors, they truly feel like new. He even checked for any other problems (didn't find any which gave me peace of mind, I appreciate him looking). But what really struck me as unique was watching the way these guys interacted with every customer who came in. Every person's situation was different and I watched them take special care of every single one. The whole team was incredibly friendly and fun to be around. The pricing was more than fair – I was so grateful for their help I offered to pay extra for getting me in same-day, which they politely declined. These guys are the definition of 5 star service. Knowledgeable, hardworking, and goodhearted people – I've already recommended them to my best friend. Thank you again RT Auto!! Love you guys!"
+  },
+  {
+   "a": "Anna Mittelman",
+   "s": 5,
+   "t": "Just moved to the area and this will definitely be my go to mechanic. They’re very friendly and don’t try to upsell you. They fixed my AC issue for a reasonable price and made sure to explain the problem."
+  },
+  {
+   "a": "Tim Edwards",
+   "s": 5,
+   "t": "Great service! Honest and reliable repair you can trust."
+  },
+  {
+   "a": "Lee Smith",
+   "s": 5,
+   "t": "RT Auto really took care of me. I anticipated a much larger bill but they discovered the problem was simply a minor adjustment. Thank you"
+  },
+  {
+   "a": "d bax",
+   "s": 5,
+   "t": "After being completely submerged in the floods, I figured that was the end of my '77. Rob said, \"Not so fast\". Today, after months of his hard work, he sent her home. I could not be more impressed and grateful."
+  },
+  {
+   "a": "Shannon Davis",
+   "s": 5,
+   "t": "Brake work was completed and very thorough. You definitely can beat the prices."
+  }
+ ],
+ "score": 68
+}

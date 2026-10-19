@@ -171,19 +171,29 @@ def build(d):
         visit_img=img(photos[-1], 900, 675, f"{name} in {d['town']}") if len(photos) > 1 else "", dock=dock, script=script)
 
 
-def main(slugs):
-    files = [DATA / f"{s}.json" for s in slugs] if slugs else sorted(DATA.glob("*.json"))
+def main(args):
+    limit = None
+    if args[:1] == ["--limit"]:
+        limit, args = int(args[1]), args[2:]
+    files = [DATA / f"{s}.json" for s in args] if args else sorted(DATA.glob("*.json"), key=lambda f: -json.loads(f.read_text(encoding="utf-8")).get("score", 0))
+    built = 0
     for f in files:
+        if limit is not None and built >= limit:
+            break
         d = json.loads(f.read_text(encoding="utf-8"))
         out = ROOT / f.stem / "index.html"
-        if out.exists() and not slugs and not d.get("rebuild"):
+        if out.exists() and not args and not d.get("rebuild"):
             continue
         if not d.get("photos"):
             print("skip (no photos):", f.stem)
             continue
         out.parent.mkdir(exist_ok=True)
         out.write_text(build(d), encoding="utf-8")
+        built += 1
         print("built", f.stem)
+    # manifest the call list reads, so new previews show up there without a rebuild
+    man = {json.loads(f.read_text(encoding="utf-8"))["id"]: f.stem for f in DATA.glob("*.json") if (ROOT / f.stem / "index.html").exists()}
+    (ROOT / "manifest.json").write_text(json.dumps(man, indent=1), encoding="utf-8")
 
 
 if __name__ == "__main__":

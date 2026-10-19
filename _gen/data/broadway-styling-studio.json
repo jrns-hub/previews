@@ -1,0 +1,66 @@
+{
+ "id": "S018",
+ "name": "Broadway Styling Studio",
+ "kind": "business",
+ "group": "beauty",
+ "cat": "Beauty salon",
+ "addr": "3028 US-70, Black Mountain, NC 28711",
+ "street": "3028 US-70",
+ "town": "Black Mountain",
+ "phone": "(828) 669-8434",
+ "hours": "",
+ "rating": "4.7 (28)",
+ "desc": "",
+ "social": [],
+ "photos": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9T8Ji04BPltq_8g2i6mkZ1c3aqkp9nqDtE53L3ZFSvIIGfCRaCDNsXm2kaMFaGLsYp_0WUTrDSu0xJPQznensCvmIlcAdf6GduNHxN1RdeuHUzDznLJ6sEroeFaGvqaGurlXO80"
+ ],
+ "reviews": [
+  {
+   "a": "Sherri Bagwell",
+   "s": 5,
+   "t": "Don't let the outside of the building fool you. It looks like a 1950's \"curl & chat.\" There is some real hidden talent inside. Monica Gardner is amazing with hair. She does great cuts, but her talent really shines with color. She's so affordable it's almost absurd."
+  },
+  {
+   "a": "James Shook",
+   "s": 5,
+   "t": "The stylist did a great job on my daughter's hair. It was a last minute appointment and we had called around several places. She was able to squeeze us in while some ones hair color was setting... We will be back"
+  },
+  {
+   "a": "Judy Switzer",
+   "s": 5,
+   "t": "Monica has been my colorist/stylist for several years now. She's a genius!"
+  },
+  {
+   "a": "Tina Wexler",
+   "s": 5,
+   "t": "Monica's awesome!! I found the one! xxoo I'm hair happy."
+  },
+  {
+   "a": "Britt Taylor",
+   "s": 5,
+   "t": "Great cuts are a ridiculously low price. Been a customer for 15 yrs. Ask for Monica or Theresa"
+  },
+  {
+   "a": "Wanda roland",
+   "s": 5,
+   "t": "Monica does my hair She is great."
+  },
+  {
+   "a": "Colby O'Neal",
+   "s": 5,
+   "t": "Excellent service and friendly staff"
+  },
+  {
+   "a": "Brianna Taylor",
+   "s": 5,
+   "t": "Only place I will get my hair done! Love love love!!!"
+  },
+  {
+   "a": "Jeff Brigman",
+   "s": 5,
+   "t": "Got one of the best haircuts I’ve ever had they do men and women and children"
+  }
+ ],
+ "score": 62
+}

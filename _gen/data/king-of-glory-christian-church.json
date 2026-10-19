@@ -1,0 +1,52 @@
+{
+ "id": "S063",
+ "name": "King of Glory Christian Church",
+ "kind": "church",
+ "group": "church",
+ "cat": "Church",
+ "addr": "218 Patton Cove Rd, Swannanoa, NC 28778",
+ "street": "218 Patton Cove Rd",
+ "town": "Swannanoa",
+ "phone": "(828) 686-0074",
+ "hours": "Mon Open 24 hours; Tue Open 24 hours; Wed Open 24 hours; Thu Open 24 hours; Fri Open 24 hours; Sat Closed; Sun 8 AM–1 PM",
+ "rating": "4.9 (20)",
+ "desc": "",
+ "social": [],
+ "photos": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QwYxcTRvXGSmewm5P73ipUqMhQJQP_It2vlW1jYxF-sH221ZrzPxnUIuGRAVySD5xI2wuCh-ib4KfQB_n15gCVlsxuYUdtSMzkqOKdwZdTLuQJaCD85KxSLjgX0HEG5eP8snVHyg",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SSEMF5-dbBZJb1yfi6NmkIr4xa4phLUbhxvSew2a4IJIQOsYuN3SDZ4JQdog7GfJ78_bRA_xfja59gU5eezHlXDJMRjJnAO44kcFnnKm6FhJQ8KbDgobqrxDGf0EmVIqW2_FeEAq3IaC2G"
+ ],
+ "reviews": [
+  {
+   "a": "Michael Betancourt",
+   "s": 5,
+   "t": "King of Glory is a great church with a heart to pursue the Kingdom of God. They have a family atmosphere and it is truly a place that feels like home."
+  },
+  {
+   "a": "Kristin Betancourt",
+   "s": 5,
+   "t": "What a wonderful church that truly embraces family and community! Everyone makes you feel so loved! King Of Glory is awesome!"
+  },
+  {
+   "a": "Teri Glover",
+   "s": 5,
+   "t": "Awesome people. The presence of God is here. Worship rocks!"
+  },
+  {
+   "a": "Rocky Steppe",
+   "s": 5,
+   "t": "Genuine people and very much a family church. Love it!"
+  },
+  {
+   "a": "Joy West",
+   "s": 5,
+   "t": "My current home... Of course it's awesome..."
+  },
+  {
+   "a": "Barbara Ailes",
+   "s": 5,
+   "t": "Awesome teaching and Worshipping"
+  }
+ ],
+ "score": 46
+}

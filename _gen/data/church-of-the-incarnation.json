@@ -1,0 +1,28 @@
+{
+ "id": "S027",
+ "name": "Church of the Incarnation",
+ "kind": "church",
+ "group": "church",
+ "cat": "Church",
+ "addr": "116 Vance Ave, Black Mountain, NC 28711",
+ "street": "116 Vance Ave",
+ "town": "Black Mountain",
+ "phone": "(828) 669-2320",
+ "hours": "",
+ "rating": "5.0 (7)",
+ "desc": "",
+ "social": [
+  "https://www.facebook.com/IncarnationNC"
+ ],
+ "photos": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RqsELYLF3r_Hzw5eVCHqYNKmR-pKMVSQigcXlyqSAbd4Nq8LWJqnqHjmhlSc6_RiYTKDeqJieDGA8jxFHyNt6he-sVUBSzpAaGYOnxa3ItJpaHX7jLLm5TKHPdUE0rP-Ab0RdFjQ"
+ ],
+ "reviews": [
+  {
+   "a": "Jessica F.",
+   "s": 5,
+   "t": "The father's at this church are amazing and God's blessings. I felt at home and heard even though I said nothing. God favor is on this church. I will be back and probably join."
+  }
+ ],
+ "score": 65
+}

@@ -1,0 +1,31 @@
+{
+ "id": "S066",
+ "name": "Lakey Gap Chapel",
+ "kind": "church",
+ "group": "church",
+ "cat": "Church",
+ "addr": "198 Old Lakey Gap Rd, Black Mountain, NC 28711",
+ "street": "198 Old Lakey Gap Rd",
+ "town": "Black Mountain",
+ "phone": "",
+ "hours": "Mon Closed; Tue Closed; Wed 7–8 PM; Thu Closed; Fri Closed; Sat Closed; Sun 10 AM–12 PM6–7 PM",
+ "rating": "4.6 (5)",
+ "desc": "",
+ "social": [],
+ "photos": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SZKiz0sRlbVjOSlrilXN4aTGnk4I_fKJ6CrV3Zg69mrgkv2GS_8ow0pa5tOEzNi5v9Bh0-a4Zywhk4QImCBrf__lMb05qQbedhNZUOQzt1dDirq8cSrj6OgjmvbnqTKbgQFp53Rg"
+ ],
+ "reviews": [
+  {
+   "a": "Juliana Lyons",
+   "s": 5,
+   "t": "Cute church, very structured service. Congregation is tiny but genuine. A very good place to worship the Lord on Sunday mornings!"
+  },
+  {
+   "a": "Meg Huggins",
+   "s": 5,
+   "t": "Very welcoming congregation. Love the small church atmosphere!"
+  }
+ ],
+ "score": 45
+}

@@ -1,0 +1,36 @@
+{
+ "id": "S003",
+ "name": "Bee Tree Christian Church",
+ "kind": "church",
+ "group": "church",
+ "cat": "Church",
+ "addr": "1185 Bee Tree Rd, Swannanoa, NC 28778",
+ "street": "1185 Bee Tree Rd",
+ "town": "Swannanoa",
+ "phone": "(828) 298-6286",
+ "hours": "",
+ "rating": "4.8 (4)",
+ "desc": "",
+ "social": [],
+ "photos": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RceBPKuuwCIXdmV9Cu8silpq4uK6fol6H8pae9SQwe0ij9Hggqi6EVlJtv5b_VH9MnumYTU-eosz5plfEeJi5tY91gO0aJDf0xik9OTPEL_ftf-EkmlJqHSkCb3iPhCE9iQK1y"
+ ],
+ "reviews": [
+  {
+   "a": "Fred Smith",
+   "s": 5,
+   "t": "This place is devastated and needs your help. Please find a way to help this one hundred year old church."
+  },
+  {
+   "a": "Mark",
+   "s": 5,
+   "t": "The Church building I grew up in seems to be gone. God is still here. So sorry to see this happened."
+  },
+  {
+   "a": "Tugas Lehigh",
+   "s": 4,
+   "t": "This historic country church has friendly people who are warm and welcoming to everyone."
+  }
+ ],
+ "score": 31
+}

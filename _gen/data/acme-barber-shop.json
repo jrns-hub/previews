@@ -1,0 +1,75 @@
+{
+ "id": "W005",
+ "name": "Acme Barber Shop",
+ "kind": "business",
+ "group": "beauty",
+ "cat": "Barber shop",
+ "addr": "117 Broadway Ave, Black Mountain, NC 28711",
+ "street": "117 Broadway Ave",
+ "town": "Black Mountain",
+ "phone": "(828) 357-5074",
+ "hours": "Mon Closed; Tue 10 AM–6 PM; Wed 10 AM–6 PM; Thu 10 AM–6 PM; Fri 10 AM–6 PM; Sat Closed; Sun Closed",
+ "rating": "4.8 (64)",
+ "desc": "",
+ "social": [
+  "https://www.facebook.com/61581425699556/"
+ ],
+ "photos": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9ToXv73q3c4dSk4o_G9alSgPIHuL6Vhp-XPLOro9SpTpx7ycI6W28omoXf91We-OlS1VFx_knAfExF6MpK4mCMjD5Wg6VMywGNgpHIAVNdgembzvtnV4HGUBJprH4aPo5RbZnM8bNuev4zD",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QU3hoAA-YleqewXt2B27NHG5Fwy4D_VKzGO28NRPu5W9sXX6fv6Sr1b7qQqgJcPIKHN6lhnWGYN8ujof1b6D0xVo93KFTTl8x-bRuLBu2rmiy97LbqQ29SWRlyO1hFEchdDMW5",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9T950tlM976Kf9JpZj4s_E5PMg1j-Ln1knOH37qUGv_Q-_OoevcDkk0h_IUJPlJ4N3cKhb6XL0D-4xMH_EQzqjbV2a_qKRKmAlPMm_w3siVSjAx_Um-7pEFdH3ozV08o-1REWmV"
+ ],
+ "reviews": [
+  {
+   "a": "Cheyenne Bryson",
+   "s": 5,
+   "t": "Great place to take kids. Alicia was so great, she listened to what he wanted and knocked it out in no time! Highly recommend taking your littles here as well as your self!"
+  },
+  {
+   "a": "Amber Bryant",
+   "s": 5,
+   "t": "I & mom only all times go get haircuts short. Benny owner barber shop can women cut hair matter too. He very sweet person and very good cut short. 💜💇✂ He know me, my mom, aunt and grandma all time here. …"
+  },
+  {
+   "a": "Chris Karcher",
+   "s": 5,
+   "t": "(Mens Haircut) This was my first time going Acme Barber Shop and had a great experience! I got my hair cut by Misty. She did a great job, and I would highly recommend her! She was also very friendly and personable. We were talking for at least 20 minutes after she was done. Felt like I was talking to a friend. (Which I appreciate from a Barber.) Overall I had a great experience and will be going back to Misty from here on out to get my haircut."
+  },
+  {
+   "a": "Jack Stephens",
+   "s": 5,
+   "t": "It took me quite a while to find a new barber that I liked. I went through several bad ones and many not so good haircuts. Then I finally found Misty and Acme Barber Shop in Black Mountain. Misty is a truly great barber as well as an awesome person. I have been going to her for quite some time now. I always get a great haircut, plus I really enjoy talking to Misty. She's a great, interesting, and all-around super nice person. I highly recommend going to Misty for a haircut."
+  },
+  {
+   "a": "Paul Price",
+   "s": 5,
+   "t": "Acme is a small town barbershop. I get my haircuts done by Pam. She does a fantastic job! For a men’s haircut “my cut” is a little complicated. I’ve gone to many different salons and barbers over the years and most of the time the stylist has trouble understanding what I’m looking to do. Pam got it right away and does a great job. Not to mention she is friendly and easy to talk to. I don’t plan on using anyone else anytime soon. Highly recommend her."
+  },
+  {
+   "a": "Marc Mullinax",
+   "s": 5,
+   "t": "Misty is the best barber, anyone could ever ask for! Great conversation, great atmosphere, reasonable prices and she will give you a haircut, that you will love! We drive about 12 miles for the best of the best. Thank you Misty!"
+  },
+  {
+   "a": "GARY FOSS",
+   "s": 5,
+   "t": "Misty, the owner gave me a high quality haircut that my wife loved, was friendly and provided tips to the area, which added a lot of value to our weekend trip to Western Carolina. Highly recommended!!! I told her she needs to solicit recommendations from customers more. Check it out. You will not be disappointed."
+  },
+  {
+   "a": "frank boles",
+   "s": 5,
+   "t": "A very reasonable Barber that can do a top notch job. Misty is the best!! She is so friendly, and you can make your appointment which is recommended"
+  },
+  {
+   "a": "Michael Murphy",
+   "s": 4,
+   "t": "Love these guys. Down home atmosphere and small town vibe. Benny is funny and always a joy. They have cartoons playing on the TV mostly, and you can enjoy the regulars’ conversation. Only qualm I have is that I feel that their hours aren’t very regular, but that’s to be expected with a classic barber."
+  },
+  {
+   "a": "n s",
+   "s": 5,
+   "t": "Great trim, affordable and wonderful lady named PAM! Got in quick and am super happy. Reminded me that I don't need to spend a ton of money on a great trim/haircut. Thanks Pam!!"
+  }
+ ],
+ "score": 84
+}

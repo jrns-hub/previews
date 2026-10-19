@@ -7,7 +7,7 @@ If GROQ_API_KEY is set, Groq's free tier writes the headline and short copy from
 Without it, plain fact-based copy is used. Pages that were built by hand have no data file and are never touched.
 Stdlib only.
 """
-import html, json, os, re, sys, urllib.request
+import html, json, os, re, sys, time, urllib.error, urllib.request
 from pathlib import Path
 from string import Template
 
@@ -77,13 +77,20 @@ def groq_copy(d):
               "visit_h: 2 to 5 words, sentence case.\n"
               "No em dashes, no exclamation marks, no words like nestled, elevate, hidden gem, one-stop.\n\nFACTS:\n"
               + json.dumps(facts, ensure_ascii=False))
-    for model in ("openai/gpt-oss-120b", "llama-3.3-70b-versatile", "openai/gpt-oss-20b"):
+    for model in ("openai/gpt-oss-120b", "openai/gpt-oss-120b", "openai/gpt-oss-20b", "openai/gpt-oss-120b"):
         body = json.dumps({"model": model, "messages": [{"role": "user", "content": prompt}],
                            "response_format": {"type": "json_object"}, "temperature": 0.6}).encode()
         req = urllib.request.Request("https://api.groq.com/openai/v1/chat/completions", body,
                                      {"Authorization": f"Bearer {key}", "Content-Type": "application/json", "User-Agent": "previews-gen/1.0"})
         try:
             out = json.loads(json.loads(urllib.request.urlopen(req, timeout=60).read())["choices"][0]["message"]["content"])
+        except urllib.error.HTTPError as ex:
+            if ex.code in (401, 403):
+                sys.exit("Groq rejected the key. Fix the GROQ_API_KEY secret; nothing was built with plain copy.")
+            wait = float(ex.headers.get("retry-after") or 20) if ex.code == 429 else 3
+            print(f"  groq {model} {ex.code}, waiting {wait:.0f}s")
+            time.sleep(min(wait, 90))
+            continue
         except Exception as ex:
             if "401" in str(ex) or "403" in str(ex):
                 sys.exit("Groq rejected the key (401). Fix the GROQ_API_KEY secret; nothing was built with plain copy.")
@@ -110,7 +117,10 @@ def plain_copy(d):
 
 def build(d):
     world = WORLDS[WORLD_FOR.get(d["group"], "cabinet")]
-    c = groq_copy(d) or plain_copy(d)
+    c = groq_copy(d)
+    if c is None and os.environ.get("GROQ_API_KEY"):
+        return None
+    c = c or plain_copy(d)
     c = {k: (clean(v) if isinstance(v, str) else v) for k, v in c.items()}
     name, phone = d["name"], d.get("phone", "")
     tel = re.sub(r"[^\d]", "", phone)
@@ -189,10 +199,15 @@ def main(args):
         if not d.get("photos"):
             print("skip (no photos):", f.stem)
             continue
+        page = build(d)
+        if page is None:
+            print("left for next run (Groq busy):", f.stem)
+            continue
         out.parent.mkdir(exist_ok=True)
-        out.write_text(build(d), encoding="utf-8")
+        out.write_text(page, encoding="utf-8")
         built += 1
         print("built", f.stem)
+        time.sleep(4)
     # manifest the call list reads, so new previews show up there without a rebuild
     man = {json.loads(f.read_text(encoding="utf-8"))["id"]: f.stem for f in DATA.glob("*.json") if (ROOT / f.stem / "index.html").exists()}
     (ROOT / "manifest.json").write_text(json.dumps(man, indent=1), encoding="utf-8")

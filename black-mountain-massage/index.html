@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>Black Mountain Massage &amp; Wellness · Massage and bodywork in Black Mountain, NC</title>
+<meta name="description" content="Massage, acupuncture, Reiki and specialty bodywork a short walk from downtown Black Mountain, NC. Open 7 days by appointment. Same-day online booking.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap">
+<style>
+/* World: their roadside sign. Black sign board framed in lime, sunflower and turquoise planks, white clapboard cottage. */
+:root{
+  --board:#141714;      /* the sign's black */
+  --lime:#6dc21b;       /* sign frame */
+  --sun:#f6d21c;        /* sunflower plank */
+  --sea:#2bc6c4;        /* turquoise plank */
+  --cottage:#fbfaf4;    /* clapboard white */
+  --ink:#141714;
+  --soft:#5a6157;
+  --line:#dcdcd2;
+  --display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
+  --body:"Atkinson Hyperlegible",ui-sans-serif,system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+body{margin:0;background:var(--cottage);color:var(--ink);font:18px/1.6 var(--body);-webkit-font-smoothing:antialiased}
+::selection{background:var(--sun);color:var(--board)}
+a{color:inherit;text-underline-offset:.2em;text-decoration-thickness:2px}
+:focus-visible{outline:3px solid var(--sea);outline-offset:3px;border-radius:4px}
+img{max-width:100%;height:auto;display:block}
+figure{margin:0}
+.wrap{max-width:1180px;margin:0 auto;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+
+/* top bar */
+header{position:sticky;top:0;z-index:20;background:var(--board);color:#fff;border-bottom:4px solid var(--lime);padding-top:env(safe-area-inset-top,0px)}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:68px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;font-family:var(--display);font-weight:700;font-size:1.05rem;line-height:1.15}
+.brand img{width:46px;height:46px;border-radius:50%}
+.bar nav{display:flex;gap:22px;font-size:.95rem}
+.bar nav a{text-decoration:none;opacity:.88}.bar nav a:hover{opacity:1;text-decoration:underline}
+.book{display:inline-flex;align-items:center;gap:8px;background:var(--sun);color:var(--board);font-family:var(--display);font-weight:800;text-decoration:none;padding:12px 20px;border-radius:999px;white-space:nowrap;box-shadow:0 2px 0 rgba(0,0,0,.25)}
+.book:hover{background:#ffe04a}
+@media (max-width:860px){.bar nav{display:none}.brand span{display:none}}
+
+/* hero: the sign */
+.hero{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:clamp(24px,4vw,56px);align-items:center;padding-block:clamp(36px,6vw,72px)}
+@media (max-width:860px){.hero{grid-template-columns:1fr}}
+.planks{list-style:none;margin:0 0 28px;padding:0;display:grid;gap:8px;width:fit-content;transform-origin:top center}
+.planks li{font-family:var(--display);font-weight:800;text-transform:uppercase;font-size:clamp(2.2rem,5.6vw,4.1rem);line-height:1;letter-spacing:.06em;padding:.16em .32em .12em;color:var(--board);border:3px solid var(--board);border-radius:6px;box-shadow:0 4px 10px rgba(20,23,20,.18)}
+.planks li:nth-child(odd){background:var(--sun)}
+.planks li:nth-child(even){background:var(--sea)}
+.planks li:nth-child(2){margin-left:.35em}.planks li:nth-child(4){margin-left:.2em}
+@media (prefers-reduced-motion:no-preference){.planks{animation:sway 2.6s cubic-bezier(.2,.8,.2,1) .2s both}}
+@keyframes sway{0%{transform:rotate(-2.4deg)}35%{transform:rotate(1.4deg)}65%{transform:rotate(-.6deg)}100%{transform:rotate(0)}}
+.lede{font-size:clamp(1.1rem,1.8vw,1.3rem);max-width:34ch;margin:0 0 26px}
+.actions{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.ghost{display:inline-flex;align-items:center;gap:8px;padding:12px 18px;border:2px solid var(--board);border-radius:999px;text-decoration:none;font-weight:700}
+.ghost:hover{background:var(--board);color:#fff}
+.proof{margin-top:22px;display:flex;align-items:center;gap:10px;font-size:.98rem;color:var(--soft)}
+.proof b{color:var(--ink)}
+.stars{color:#c99a00;letter-spacing:2px;font-size:1.05rem}
+.photo{position:relative;border:6px solid var(--board);border-radius:14px;overflow:hidden;box-shadow:0 18px 40px rgba(20,23,20,.22)}
+.photo img{aspect-ratio:4/5;object-fit:cover;object-position:62% 50%;width:100%}
+@media (max-width:860px){.photo img{aspect-ratio:4/3}}
+.photo figcaption{position:absolute;left:0;right:0;bottom:0;padding:10px 14px;background:linear-gradient(transparent,rgba(0,0,0,.65));color:#fff;font-size:.88rem}
+
+/* honor every body */
+.honor{background:var(--board);color:#fff;padding-block:clamp(48px,8vw,96px)}
+.honor h2{font-family:var(--display);font-weight:800;font-size:clamp(2.2rem,5.4vw,4rem);line-height:1.02;margin:0 0 20px;max-width:16ch}
+.honor h2 em{font-style:normal;color:var(--sun)}
+.honor p{max-width:60ch;margin:0 0 14px;color:#e9ece4;font-size:1.12rem}
+.tags{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+.tags span{border:2px solid var(--lime);color:#fff;padding:6px 14px;border-radius:999px;font-size:.92rem}
+
+/* services */
+.services{padding-block:clamp(48px,7vw,88px)}
+.sec-head{display:flex;justify-content:space-between;align-items:end;gap:20px;flex-wrap:wrap;margin-bottom:30px}
+h2.t{font-family:var(--display);font-weight:800;font-size:clamp(1.9rem,4vw,2.9rem);line-height:1.05;margin:0}
+.svc-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:clamp(24px,4vw,56px);align-items:start}
+@media (max-width:860px){.svc-grid{grid-template-columns:1fr}}
+.hands{border-radius:14px;overflow:hidden;position:sticky;top:96px}
+.hands img{aspect-ratio:4/5;object-fit:cover;width:100%}
+@media (max-width:860px){.hands{position:static}.hands img{aspect-ratio:16/10}}
+.group{margin-bottom:34px}
+.group h3{font-family:var(--display);font-weight:700;font-size:1.05rem;margin:0 0 6px;display:flex;align-items:center;gap:10px}
+.group h3::before{content:"";width:22px;height:10px;border-radius:2px;background:var(--sun);border:2px solid var(--board)}
+.group:nth-of-type(2) h3::before{background:var(--sea)}
+.group:nth-of-type(3) h3::before{background:var(--lime)}
+.svc{list-style:none;margin:0;padding:0}
+.svc li{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:14px 0;border-bottom:1px solid var(--line)}
+.svc b{font-family:var(--display);font-weight:700;font-size:1.22rem;display:block}
+.svc span{color:var(--soft)}
+.svc a{font-weight:700;white-space:nowrap;font-size:.95rem}
+.note{background:#fff;border:2px dashed var(--line);border-radius:12px;padding:14px 16px;color:var(--soft);font-size:.98rem}
+
+/* reviews */
+.reviews{background:#f1f0e6;padding-block:clamp(48px,7vw,88px);border-block:1px solid var(--line)}
+.rv-grid{columns:3 300px;column-gap:20px}
+.rv{break-inside:avoid;margin:0 0 20px;background:#fff;border-radius:14px;padding:20px 20px 16px;border:1px solid var(--line)}
+.rv blockquote{margin:0 0 12px;font-size:1.04rem}
+.rv blockquote mark{background:linear-gradient(transparent 60%,rgba(246,210,28,.7) 60%);color:inherit;padding:0 .1em}
+.rv footer{font-size:.9rem;color:var(--soft)}
+.rv .stars{font-size:.95rem}
+.allrv{display:inline-flex;margin-top:8px;font-weight:700}
+
+/* community */
+.community{padding-block:clamp(48px,7vw,88px)}
+.cc{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:0;border:3px solid var(--board);border-radius:14px;overflow:hidden}
+.cc div{padding:22px;border-right:3px solid var(--board)}
+.cc div:last-child{border-right:0}
+@media (max-width:860px){.cc div{border-right:0;border-bottom:3px solid var(--board)}.cc div:last-child{border-bottom:0}}
+.cc div:nth-child(1){background:var(--sun)}.cc div:nth-child(2){background:#fff}.cc div:nth-child(3){background:var(--sea)}.cc div:nth-child(4){background:#fff}
+.cc h3{font-family:var(--display);font-weight:800;font-size:1.25rem;margin:0 0 6px;line-height:1.15}
+.cc p{margin:0}
+
+/* memberships */
+.members{padding-block:0 clamp(48px,7vw,88px)}
+.mem{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:20px}
+.mem article{background:#fff;border:1px solid var(--line);border-radius:14px;padding:24px}
+.mem h3{font-family:var(--display);font-weight:800;font-size:1.4rem;margin:0 0 4px}
+.mem .price{color:var(--soft);margin:0 0 12px}
+.mem ul{margin:0;padding-left:1.1em}.mem li{margin:.3em 0}
+
+/* visit */
+.visit{background:var(--board);color:#fff;padding-block:clamp(48px,7vw,88px);border-top:6px solid var(--lime)}
+.visit-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(24px,4vw,56px);align-items:center}
+@media (max-width:860px){.visit-grid{grid-template-columns:1fr}}
+.visit h2{font-family:var(--display);font-weight:800;font-size:clamp(2rem,4.6vw,3.2rem);line-height:1.04;margin:0 0 18px}
+.visit dl{display:grid;grid-template-columns:auto 1fr;gap:10px 18px;margin:0 0 26px}
+.visit dt{color:var(--sun);font-weight:700}.visit dd{margin:0}
+.visit .ghost{border-color:#fff;color:#fff}.visit .ghost:hover{background:#fff;color:var(--board)}
+.logo-big{justify-self:center;width:min(320px,70vw);border-radius:50%;filter:drop-shadow(0 18px 30px rgba(0,0,0,.45))}
+
+.preview{background:#e9e8de;color:var(--soft);font-size:.86rem;text-align:center;padding:12px 20px calc(12px + env(safe-area-inset-bottom,0px))}
+.mobilebook{display:none}
+@media (max-width:860px){.mobilebook{display:flex;position:fixed;left:12px;right:12px;bottom:calc(12px + env(safe-area-inset-bottom,0px));z-index:30;justify-content:center}.mobilebook .book{width:100%;justify-content:center;font-size:1.05rem;padding:15px}body{padding-bottom:84px}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap bar">
+    <a class="brand" href="#top"><img src="https://static.wixstatic.com/media/79ff2e_30eadaaf0d3d4e0fabf583311cbfc082~mv2.png/v1/fit/w_120,h_120,q_90/logo.png" alt="" width="46" height="46"><span>Black Mountain<br>Massage &amp; Wellness</span></a>
+    <nav aria-label="Sections"><a href="#services">Services</a><a href="#reviews">Reviews</a><a href="#community">Community care</a><a href="#visit">Visit</a></nav>
+    <a class="book" href="https://booking.mangomint.com/blackmountainmassagewellness">Book a session</a>
+  </div>
+</header>
+
+<main id="top">
+  <section class="wrap hero" aria-labelledby="hero-h">
+    <div>
+      <h1 id="hero-h" class="sr-only" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">Give your body some love</h1>
+      <ul class="planks" aria-hidden="true"><li>Give</li><li>Your</li><li>Body</li><li>Some</li><li>Love</li></ul>
+      <p class="lede">Massage, acupuncture and bodywork in a little white cottage an easy walk from downtown Black Mountain. Open 7 days.</p>
+      <div class="actions">
+        <a class="book" href="https://booking.mangomint.com/blackmountainmassagewellness">Book a session, same day online</a>
+        <a class="ghost" href="tel:+18286746188">Call or text 828-674-6188</a>
+      </div>
+      <p class="proof"><span class="stars" aria-hidden="true">★★★★★</span><span><b>5.0 on Google</b> from <a href="https://www.google.com/maps/place/Black+Mountain+Massage+%26+Wellness/@35.6187568,-82.3183751,17z">338 reviews</a></span></p>
+    </div>
+    <figure class="photo">
+      <img src="https://static.wixstatic.com/media/79ff2e_a29572943fc0428597616edb78661a76~mv2.jpg/v1/fit/w_1400,h_1400,q_85/storefront.jpg" alt="The Black Mountain Massage and Wellness sign and painted 'Give your body some love' planks in front of the white cottage at 106 South Ridgeway Avenue, under an autumn maple" width="1400" height="933">
+      <figcaption>106 S Ridgeway Ave, Black Mountain</figcaption>
+    </figure>
+  </section>
+
+  <section class="honor" aria-labelledby="honor-h">
+    <div class="wrap">
+      <h2 id="honor-h">We <em>honor every body.</em></h2>
+      <p>We welcome all sizes, shapes, colors, identities, activity levels, and backgrounds.</p>
+      <p>We believe healing thrives in community. Supporting balance and wellbeing extends to both the clients we serve and the practitioners who work with us.</p>
+      <div class="tags"><span>Women-owned</span><span>LGBTQ+ owned</span><span>Licensed massage therapists</span><span>HSA and HRA cards welcome</span></div>
+    </div>
+  </section>
+
+  <section class="wrap services" id="services" aria-labelledby="svc-h">
+    <div class="sec-head"><h2 class="t" id="svc-h">Find the session your body is asking for</h2><a class="book" href="https://booking.mangomint.com/blackmountainmassagewellness">See times and prices</a></div>
+    <div class="svc-grid">
+      <figure class="hands"><img src="https://static.wixstatic.com/media/79ff2e_832a453eae014fb6afdcd03f9310b9ff~mv2.jpg/v1/fit/w_1200,h_1200,q_85/hands.jpg" alt="A massage therapist's hands working along a client's upper back" width="1200" height="800" loading="lazy"></figure>
+      <div>
+        <div class="group"><h3>Massage</h3><ul class="svc">
+          <li><div><b>Integrative Massage</b><span>Therapeutic massage customized to you</span></div><a href="https://booking.mangomint.com/blackmountainmassagewellness">Book</a></li>
+          <li><div><b>Clothed Chair &amp; Table Massage</b><span>Quick, focused work. 20 to 30 minutes is a real reset.</span></div><a href="https://booking.mangomint.com/blackmountainmassagewellness">Book</a></li>
+          <li><div><b>Couples Massage</b><span>Receive side by side with your loved one</span></div><a href="https://booking.mangomint.com/blackmountainmassagewellness">Book</a></li>
+        </ul></div>
+        <div class="group"><h3>Specialty bodywork</h3><ul class="svc">
+          <li><div><b>Manual Lymph Drainage</b><span>Light, rhythmic work to reduce swelling and stagnation</span></div><a href="https://booking.mangomint.com/blackmountainmassagewellness">Book</a></li>
+          <li><div><b>Bioenergetic-Shen Treatment®</b><span>Whole-person support: body, psyche and energy</span></div><a href="https://booking.mangomint.com/blackmountainmassagewellness">Book</a></li>
+        </ul></div>
+        <div class="group"><h3>Other wellness</h3><ul class="svc">
+          <li><div><b>Acupuncture</b><span>Stimulate healing, relieve pain and restore flow. New here.</span></div><a href="https://booking.mangomint.com/blackmountainmassagewellness">Book</a></li>
+          <li><div><b>Reiki Energy Healing</b><span>Hands-on energy work for stress relief</span></div><a href="https://booking.mangomint.com/blackmountainmassagewellness">Book</a></li>
+        </ul></div>
+        <p class="note">Up to four sessions at a time, so couples and small groups can come in together. Book online up to two hours before your session, or call or text and we'll find you a time.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="reviews" id="reviews" aria-labelledby="rv-h">
+    <div class="wrap">
+      <div class="sec-head"><h2 class="t" id="rv-h">338 people said it better than we could</h2><a class="allrv" href="https://www.google.com/maps/place/Black+Mountain+Massage+%26+Wellness/@35.6187568,-82.3183751,17z">Read every review on Google</a></div>
+      <div class="rv-grid">
+        <figure class="rv"><blockquote>Came here to celebrate my honeymoon and did a couples massage… <mark>If this was all I did on my honeymoon it would've been worth the 4 1/2 hour drive by itself.</mark></blockquote><footer><span class="stars" aria-label="5 stars">★★★★★</span> Ali K., with Rachel and Katie</footer></figure>
+        <figure class="rv"><blockquote>Easily walkable from the main street downtown… <mark>It was the best massage I think I have ever had.</mark> She listened to where I wanted to focus my session (and actually did what I asked!)</blockquote><footer><span class="stars" aria-label="5 stars">★★★★★</span> Holly D., with Rachel</footer></figure>
+        <figure class="rv"><blockquote>Sarah explain[ed] lymphatic drainage and the process beforehand… <mark>I woke up this morning feeling refreshed, energized</mark>, and excited to continue to learn more about my body.</blockquote><footer><span class="stars" aria-label="5 stars">★★★★★</span> Jessica R., lymphatic drainage with Sarah</footer></figure>
+        <figure class="rv"><blockquote>I'm also a LMT and appreciate a skilled and talented bodyworker. <mark>Do yourself a favor and book with Kiber.</mark></blockquote><footer><span class="stars" aria-label="5 stars">★★★★★</span> Beth B., 90 minutes with Kiber</footer></figure>
+        <figure class="rv"><blockquote>Easy to schedule, <mark>I can use my HSA card (!)</mark>, and while I've had a different therapist both times, the massages have been consistently <i>very</i> good.</blockquote><footer><span class="stars" aria-label="5 stars">★★★★★</span> Jen J., two holiday visits</footer></figure>
+        <figure class="rv"><blockquote>Very skillful on deep tissue, knows the trigger points, and <mark>reduces my chronic pain level after a session.</mark> Very welcoming business.</blockquote><footer><span class="stars" aria-label="5 stars">★★★★★</span> M., regular with Katie</footer></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap community" id="community" aria-labelledby="cc-h">
+    <div class="sec-head"><h2 class="t" id="cc-h">Care that meets you where you are</h2></div>
+    <div class="cc">
+      <div><h3>Pay what you can</h3><p>At the Black Mountain Tailgate Market, twice a month.</p></div>
+      <div><h3>Sliding scale</h3><p>Community care on specific days for some services.</p></div>
+      <div><h3>VA Community Care</h3><p>VA referral required. Limited availability.</p></div>
+      <div><h3>HSA and HRA</h3><p>Use your health savings or reimbursement card.</p></div>
+    </div>
+  </section>
+
+  <section class="wrap members" aria-labelledby="mem-h">
+    <div class="sec-head"><h2 class="t" id="mem-h">Make it a habit, save 10%</h2><a class="ghost" href="https://clients.mangomint.com/gift-cards/386842">Give a gift card</a></div>
+    <div class="mem">
+      <article><h3>Service membership</h3><p class="price">Pick your service and length. That's your monthly credit, billed at 10% off.</p><ul><li>Unused sessions roll over for 60 days</li><li>10% off extra sessions</li><li>One monthly add-on for massage members: a free hot towel, 25% off CBD, cupping or hot stones, or $5 off another add-on</li></ul></article>
+      <article><h3>Account balance membership</h3><p class="price">$50 to $300 a month, in $50 steps, added to your balance.</p><ul><li>Spend it on any service or product</li><li>10% off everything while you're a member</li><li>Your balance never expires, even if you cancel</li></ul></article>
+    </div>
+  </section>
+
+  <section class="visit" id="visit" aria-labelledby="visit-h">
+    <div class="wrap visit-grid">
+      <div>
+        <h2 id="visit-h">Come in. Breathe out.</h2>
+        <dl>
+          <dt>Where</dt><dd>106 S Ridgeway Ave, Black Mountain, NC 28711. An easy walk from downtown.</dd>
+          <dt>When</dt><dd>Open 7 days a week, by appointment</dd>
+          <dt>Talk to us</dt><dd><a href="tel:+18286746188">828-674-6188</a>, call or text</dd>
+        </dl>
+        <div class="actions"><a class="book" href="https://booking.mangomint.com/blackmountainmassagewellness">Book a session</a><a class="ghost" href="https://www.google.com/maps/dir/?api=1&destination=106+S+Ridgeway+Ave+Black+Mountain+NC">Get directions</a></div>
+      </div>
+      <img class="logo-big" src="https://static.wixstatic.com/media/79ff2e_30eadaaf0d3d4e0fabf583311cbfc082~mv2.png/v1/fit/w_640,h_640,q_90/logo.png" alt="Black Mountain Massage and Wellness logo: a sunflower over green and turquoise waves" width="640" height="640" loading="lazy">
+    </div>
+  </section>
+</main>
+
+<div class="mobilebook"><a class="book" href="https://booking.mangomint.com/blackmountainmassagewellness">Book a session</a></div>
+<p class="preview">Preview made for Black Mountain Massage &amp; Wellness by Wolfgang Joerns, Black Mountain. Not live. Photos, reviews and services come from your own website and Google listing.</p>
+</body>
+</html>

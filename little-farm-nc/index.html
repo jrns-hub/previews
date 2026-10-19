@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>Little Farm NC · U-pick flowers in the Swannanoa Valley</title>
+<meta name="description" content="A family and community farm in the Swannanoa Valley. U-pick flowers, herbs and hot peppers, flower CSA, spring seedlings and an honor-stand on Montreat Road.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gabarito:wght@500;700;800;900&family=Public+Sans:ital,wght@0,400;0,600;1,400&display=swap">
+<style>
+/* World: a U-pick zinnia field by the river. Field green ground, zinnia pink and orange, a kraft hang-tag like the one on their honor-stand jars. */
+:root{
+  --field:#173d22;     /* deep field green */
+  --leaf:#2f6b35;
+  --zinnia:#d8336e;    /* hot pink zinnia */
+  --marigold:#f08a1c;  /* orange zinnia */
+  --kraft:#c9a274;     /* tag paper */
+  --kraftink:#3b2a18;
+  --sky:#eef4ee;
+  --ink:#16201a;
+  --soft:#4b5a50;
+  --line:#d6dfd6;
+  --display:"Gabarito",ui-sans-serif,system-ui,sans-serif;
+  --body:"Public Sans",ui-sans-serif,system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+body{margin:0;background:var(--sky);color:var(--ink);font:18px/1.65 var(--body);-webkit-font-smoothing:antialiased}
+::selection{background:var(--zinnia);color:#fff}
+a{color:inherit;text-underline-offset:.2em;text-decoration-thickness:2px}
+:focus-visible{outline:3px solid var(--marigold);outline-offset:3px;border-radius:4px}
+img{max-width:100%;height:auto;display:block}
+figure{margin:0}
+.wrap{max-width:1200px;margin:0 auto;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+.btn{display:inline-flex;align-items:center;gap:8px;font-family:var(--display);font-weight:800;text-decoration:none;padding:13px 22px;border-radius:999px;white-space:nowrap}
+.btn.pink{background:var(--zinnia);color:#fff}.btn.pink:hover{background:#c22a60}
+.btn.line{border:2px solid currentColor}
+
+/* header */
+header{position:absolute;inset:0 0 auto;z-index:20;color:#fff;padding-top:env(safe-area-inset-top,0px)}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:76px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-family:var(--display);font-weight:800;font-size:1.25rem}
+.brand img{width:44px;height:44px;border-radius:50%;background:#fff;padding:4px}
+.bar nav{display:flex;gap:22px;font-weight:600;font-size:.98rem;text-shadow:0 1px 8px rgba(0,0,0,.4)}
+.bar nav a{text-decoration:none}.bar nav a:hover{text-decoration:underline}
+@media (max-width:860px){.bar nav{display:none}}
+
+/* hero */
+.hero{position:relative;min-height:min(92vh,860px);display:flex;align-items:flex-end;color:#fff;overflow:hidden}
+.hero > img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 40%}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,30,16,.55) 0%,rgba(10,30,16,0) 30%,rgba(10,30,16,.15) 55%,rgba(10,30,16,.85) 100%)}
+.hero .wrap{position:relative;z-index:2;width:100%;display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,.6fr);gap:32px;align-items:end;padding-bottom:clamp(36px,6vw,72px)}
+@media (max-width:860px){.hero .wrap{grid-template-columns:1fr}.hero::after{background:linear-gradient(180deg,rgba(10,30,16,.6) 0%,rgba(10,30,16,.35) 25%,rgba(10,30,16,.82) 55%,rgba(10,30,16,.94) 100%)}.hero{min-height:auto;padding-top:120px}}
+.hero h1{font-family:var(--display);font-weight:900;font-size:clamp(2.6rem,6.6vw,5.4rem);line-height:.98;letter-spacing:-.02em;margin:0 0 16px;max-width:13ch;text-wrap:balance}
+.hero p{font-size:clamp(1.05rem,1.6vw,1.25rem);max-width:44ch;margin:0 0 24px;color:#f1f6f0}
+.hero .actions{display:flex;flex-wrap:wrap;gap:12px}
+.hero .btn.line{color:#fff}
+
+/* the hang-tag */
+.tag{justify-self:end;position:relative;width:min(270px,80vw);background:var(--kraft);color:var(--kraftink);border-radius:10px 10px 12px 12px;padding:34px 22px 22px;transform:rotate(4deg);box-shadow:0 18px 30px rgba(0,0,0,.35);font-family:var(--display)}
+.tag::before{content:"";position:absolute;top:12px;left:50%;width:14px;height:14px;margin-left:-7px;border-radius:50%;background:var(--field);box-shadow:inset 0 0 0 3px #a8835a}
+.tag::after{content:"";position:absolute;top:-70px;left:50%;width:2px;height:84px;background:#e8dcc6;transform:rotate(-4deg);transform-origin:bottom}
+.tag b{display:block;font-weight:900;font-size:1.6rem;line-height:1.05;margin-bottom:8px}
+.tag span{display:block;font-weight:600;font-size:1rem;line-height:1.4}
+@media (max-width:860px){.tag{justify-self:start;transform:rotate(-2deg);margin-top:8px}.tag::after{display:none}}
+
+/* intro */
+.intro{padding-block:clamp(52px,8vw,100px)}
+.intro-grid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:clamp(28px,5vw,72px);align-items:center}
+@media (max-width:860px){.intro-grid{grid-template-columns:1fr}}
+.intro h2{font-family:var(--display);font-weight:900;font-size:clamp(2rem,4.4vw,3.3rem);line-height:1.04;letter-spacing:-.015em;margin:0 0 18px;color:var(--field)}
+.intro p{max-width:56ch;margin:0 0 14px;color:var(--soft)}
+.owned{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.owned span{background:#fff;border:1px solid var(--line);border-radius:999px;padding:5px 13px;font-size:.92rem;font-weight:600;color:var(--field)}
+.couple{border-radius:18px;overflow:hidden;box-shadow:0 20px 40px rgba(23,61,34,.22)}
+.couple img{aspect-ratio:4/3;object-fit:cover;object-position:38% 50%;width:100%}
+
+/* two places */
+.places{background:var(--field);color:#fff;padding-block:clamp(52px,8vw,100px)}
+.places h2{font-family:var(--display);font-weight:900;font-size:clamp(2rem,4.4vw,3.3rem);line-height:1.04;margin:0 0 32px;max-width:18ch}
+.pl-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(20px,3vw,36px)}
+@media (max-width:860px){.pl-grid{grid-template-columns:1fr}}
+.pl{background:#1f4c2b;border-radius:18px;overflow:hidden}
+.pl img{aspect-ratio:3/2;object-fit:cover;width:100%}
+.pl .in{padding:22px 24px 26px}
+.pl h3{font-family:var(--display);font-weight:800;font-size:1.55rem;margin:0 0 4px}
+.pl .addr{color:#cfe3cf;margin:0 0 12px;font-weight:600}
+.pl ul{margin:0 0 16px;padding-left:1.1em;color:#e7f1e7}
+.pl a.btn{color:#fff}
+
+/* what grows */
+.grows{padding-block:clamp(52px,8vw,100px)}
+.grows h2{font-family:var(--display);font-weight:900;font-size:clamp(2rem,4.4vw,3.3rem);line-height:1.04;margin:0 0 8px;color:var(--field)}
+.grows .sub{color:var(--soft);margin:0 0 32px;max-width:56ch}
+.gr{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
+@media (max-width:1000px){.gr{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:560px){.gr{grid-template-columns:1fr}}
+.gr article img{aspect-ratio:1/1;object-fit:cover;width:100%;border-radius:14px}
+.gr h3{font-family:var(--display);font-weight:800;font-size:1.3rem;margin:14px 0 4px;color:var(--field)}
+.gr p{margin:0;color:var(--soft);font-size:1rem}
+.gr article:nth-child(1) h3{color:var(--zinnia)}
+
+/* review */
+.voice{background:var(--zinnia);color:#fff;padding-block:clamp(48px,7vw,88px)}
+.voice blockquote{margin:0;font-family:var(--display);font-weight:800;font-size:clamp(1.6rem,3.6vw,2.6rem);line-height:1.15;max-width:28ch}
+.voice footer{margin-top:18px;font-weight:600;color:#ffe3ee}
+.voice a{font-weight:700}
+
+/* land */
+.land{padding-block:clamp(52px,8vw,100px)}
+.land-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(28px,5vw,72px);align-items:center}
+@media (max-width:860px){.land-grid{grid-template-columns:1fr}}
+.land img{border-radius:18px;aspect-ratio:3/2;object-fit:cover;width:100%}
+.land h2{font-family:var(--display);font-weight:900;font-size:clamp(2rem,4.4vw,3.2rem);line-height:1.04;margin:0 0 16px;color:var(--field)}
+.land p{color:var(--soft);max-width:50ch;margin:0 0 22px}
+.btn.green{background:var(--field);color:#fff}
+
+/* contact */
+.contact{background:#fff;border-top:1px solid var(--line);padding-block:clamp(48px,7vw,80px)}
+.ct{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
+@media (max-width:860px){.ct{grid-template-columns:1fr}}
+.ct h3{font-family:var(--display);font-weight:800;font-size:1.15rem;margin:0 0 6px;color:var(--field)}
+.ct p{margin:0 0 4px}
+.social{display:flex;gap:16px;margin-top:8px;font-weight:700}
+.preview{background:var(--sky);color:var(--soft);font-size:.86rem;text-align:center;padding:14px 20px calc(14px + env(safe-area-inset-bottom,0px))}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap bar">
+    <a class="brand" href="#top"><img src="https://littlefarm-nc.com/wp-content/uploads/2025/12/cropped-lflogonowordscentered.png?w=120" alt="" width="44" height="44">Little Farm</a>
+    <nav aria-label="Sections"><a href="#places">Visit</a><a href="#grows">What grows</a><a href="#land">The land</a><a href="#contact">Contact</a></nav>
+    <a class="btn pink" href="https://instagram.com/littlefarmnc">U-pick times</a>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero" aria-labelledby="h1">
+    <img src="https://littlefarm-nc.com/wp-content/uploads/2026/10/033-littlefarm-2026-csarahtew.jpg?w=2000" alt="Friends walking between tall rows of pink and orange zinnias in the U-pick field" width="2000" height="1333">
+    <div class="wrap">
+      <div>
+        <h1 id="h1">Pick your own flowers in the Swannanoa Valley</h1>
+        <p>A farm oasis nourishing the mind, body and soul. Fill a bucket in the field, grab a bouquet at the honor stand, or bring home spring seedlings.</p>
+        <div class="actions"><a class="btn pink" href="https://instagram.com/littlefarmnc">See this week's U-pick times</a><a class="btn line" href="tel:+16083205025">Call or text (608) 320-5025</a></div>
+      </div>
+      <div class="tag" aria-label="U-pick season"><b>U-pick season</b><span>June to October</span><span>Flowers, herbs and hot peppers</span></div>
+    </div>
+  </section>
+
+  <section class="wrap intro" aria-labelledby="intro-h">
+    <div class="intro-grid">
+      <div>
+        <h2 id="intro-h">A family farm that belongs to the community</h2>
+        <p>Little Farm is a family and community farm stewarding a rich parcel of Swannanoa Valley floodplain farmland, through sustainable, resilient agricultural production and inclusive programming.</p>
+        <p>Run by Mary Bulan and family, on organic practices, with part of what we do going back to community organizations here in the valley.</p>
+        <div class="owned"><span>Women-owned</span><span>Asian-owned</span><span>LGBTQ+ owned</span><span>Appalachian Grown</span></div>
+      </div>
+      <figure class="couple"><img src="https://littlefarm-nc.com/wp-content/uploads/2025/12/233-bulan-dayinthelifefamilydocumentaryportraits-csarahtewphotography.jpg?w=1200" alt="The farmers sharing a kiss in front of the flower beds, one holding an armful of hot peppers" width="1200" height="800"></figure>
+    </div>
+  </section>
+
+  <section class="places" id="places" aria-labelledby="places-h">
+    <div class="wrap">
+      <h2 id="places-h">Two places, one little farm</h2>
+      <div class="pl-grid">
+        <article class="pl"><img src="https://littlefarm-nc.com/wp-content/uploads/2025/12/flowers.jpg?w=1200" alt="A bouquet of zinnias, dahlias and celosia in a recycled glass jar with a kraft tag, on a wooden stand" width="1200" height="1500" style="aspect-ratio:3/2;object-position:50% 45%">
+          <div class="in"><h3>The farm stand</h3><p class="addr">1149 Montreat Road, Black Mountain</p><ul><li>Honor-stand bouquets: buy a bucket and pay at the stand</li><li>Greenhouse and spring seedling sales</li></ul><a class="btn line" href="https://www.google.com/maps/dir/?api=1&destination=1149+Montreat+Rd+Black+Mountain+NC+28711">Directions</a></div></article>
+        <article class="pl"><img src="https://littlefarm-nc.com/wp-content/uploads/2026/10/229-littlefarm-2026-csarahtew.jpg?w=1200" alt="Two people paddling a red canoe on the green river at the farm" width="1200" height="800">
+          <div class="in"><h3>The river field</h3><p class="addr">95 Hidden River Drive, Swannanoa</p><ul><li>U-pick flowers, herbs and hot peppers</li><li>Camping and events by the river</li></ul><a class="btn line" href="https://www.google.com/maps/dir/?api=1&destination=95+Hidden+River+Dr+Swannanoa+NC+28778">Directions</a></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap grows" id="grows" aria-labelledby="grows-h">
+    <h2 id="grows-h">What grows here</h2>
+    <p class="sub">The schedule changes with the weather and the bloom. Check Instagram or Facebook for this week's U-pick days, then register and come out.</p>
+    <div class="gr">
+      <article><img src="https://littlefarm-nc.com/wp-content/uploads/2026/10/015-littlefarm-2026-csarahtew.jpg?w=800" alt="Orange and red zinnias with a black swallowtail butterfly" width="800" height="533"><h3>U-pick</h3><p>Walk the rows and fill your own bucket, June to October.</p></article>
+      <article><img src="https://littlefarm-nc.com/wp-content/uploads/2025/12/flowers.jpg?w=800" alt="A colorful mixed bouquet in a glass jar" width="800" height="1000"><h3>Flower CSA</h3><p>Fresh bouquets through the season. Ask about this year's shares.</p></article>
+      <article><img src="https://littlefarm-nc.com/wp-content/uploads/2026/10/173-littlefarm-2026-csarahtew.jpg?w=800" alt="Rows of plants under white frost cloth in a farm field" width="800" height="533"><h3>Plant starts</h3><p>Spring seedling pre-orders, then sales at the greenhouse.</p></article>
+      <article><img src="https://littlefarm-nc.com/wp-content/uploads/2026/10/065-littlefarm-2026-csarahtew.jpg?w=800" alt="The farm dog trotting down a grassy path between gardens" width="800" height="533"><h3>Camping and events</h3><p>Gather by the river at Hidden River Drive.</p></article>
+    </div>
+  </section>
+
+  <section class="voice" aria-label="A visitor's review">
+    <div class="wrap">
+      <blockquote>“They have flower U-pick at a great price. The setting is gorgeous and the owners are super friendly.”</blockquote>
+      <footer>Carolina L., Google review. <a href="https://www.google.com/maps/place/Little+Farm+-+Swannanoa/@35.6020089,-82.4360083,17z">Read reviews on Google</a></footer>
+    </div>
+  </section>
+
+  <section class="wrap land" id="land" aria-labelledby="land-h">
+    <div class="land-grid">
+      <img src="https://littlefarm-nc.com/wp-content/uploads/2025/12/220-bulan-dayinthelifefamilydocumentaryportraits-csarahtewphotography.jpg?w=1200" alt="The farm meadow in late summer under a wide blue sky" width="1200" height="800">
+      <div>
+        <h2 id="land-h">Help this land become a community farm</h2>
+        <p>We're working to turn this Swannanoa floodplain into a farm that belongs to the whole community. Every bucket, bouquet and seedling helps, and so does sharing the vision.</p>
+        <a class="btn green" href="https://littlefarm-nc.com/land/">Support the land</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact" aria-labelledby="ct-h">
+    <div class="wrap">
+      <h2 id="ct-h" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">Contact</h2>
+      <div class="ct">
+        <div><h3>Call or text</h3><p><a href="tel:+16083205025">(608) 320-5025</a></p></div>
+        <div><h3>Email</h3><p><a href="mailto:littlefarmnc@gmail.com">littlefarmnc@gmail.com</a></p></div>
+        <div><h3>Follow the bloom</h3><div class="social"><a href="https://instagram.com/littlefarmnc">Instagram</a><a href="https://facebook.com/littlefarmnc">Facebook</a></div></div>
+      </div>
+    </div>
+  </section>
+</main>
+<p class="preview">Preview made for Little Farm NC by Wolfgang Joerns, Black Mountain. Not live. Photos by Sarah Tew Photography, from your website.</p>
+</body>
+</html>

@@ -196,8 +196,8 @@ def main(args):
         out = ROOT / f.stem / "index.html"
         if out.exists() and not args and not d.get("rebuild"):
             continue
-        if not d.get("photos"):
-            print("skip (no photos):", f.stem)
+        if not d.get("photos") or not d.get("reviews"):
+            print("skip (needs photos and reviews):", f.stem)
             continue
         page = build(d)
         if page is None:

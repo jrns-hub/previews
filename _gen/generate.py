@@ -85,6 +85,8 @@ def groq_copy(d):
         try:
             out = json.loads(json.loads(urllib.request.urlopen(req, timeout=60).read())["choices"][0]["message"]["content"])
         except Exception as ex:
+            if "401" in str(ex) or "403" in str(ex):
+                sys.exit("Groq rejected the key (401). Fix the GROQ_API_KEY secret; nothing was built with plain copy.")
             print("  groq", model, "failed:", str(ex)[:120])
             continue
         text = json.dumps(out)

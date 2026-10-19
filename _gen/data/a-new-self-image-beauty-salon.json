@@ -1,0 +1,70 @@
+{
+ "id": "S001",
+ "name": "A New Self Image Beauty Salon",
+ "kind": "business",
+ "group": "beauty",
+ "cat": "Beauty salon",
+ "addr": "419 W State St, Black Mountain, NC 28711",
+ "street": "419 W State St",
+ "town": "Black Mountain",
+ "phone": "(828) 669-6286",
+ "hours": "",
+ "rating": "4.7 (57)",
+ "desc": "",
+ "social": [],
+ "photos": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9S8UhLIgeBLRQPcmIC0p6N6rP61MWxQ_PBWFWdBtJCP_jbvZ-1LEo2wmu88NUG4nyYm6ocZbDCUgah_SQp-PFAzE3FTMR_qoWkUB8hp_k8tBX95FD34lZKcv5V7K1vcxDss645W9g"
+ ],
+ "reviews": [
+  {
+   "a": "Peggy Reeves",
+   "s": 5,
+   "t": "My son needed a haircut and even though we didn't have an appointment, the barber said to come on back, he would be happy to take care of it. He did an awesome job on my son's hair and was super reasonably priced. We would definitely recommend them for a great cut and excellent customer service!"
+  },
+  {
+   "a": "Lauren Lagrave",
+   "s": 5,
+   "t": "Danielle is fantastic. Took her time cutting my hair, and gave me a great new 'do. Very supportive of me growing my natural gray out. Love that I have an effortless hairstyle thanks to Danielle."
+  },
+  {
+   "a": "Gracey McMain",
+   "s": 1,
+   "t": "I never leave reviews, but I have also never had an experience quite like this. $35 for a 15 min dry cut. After stating that I wanted a trim with some layers incorporated, the stylist started cutting away multiple inches, without even parting my hair to begin with! After 10 mins she was ready to send me on my way without having me look to make sure I was satisfied. I had to remind her that I wanted layers. No measurements taken at the end, so I left with a super short, uneven haircut. I have never felt this neglected at any type of salon! On the plus side, they did get me in on the same day I called and were ready when I arrived."
+  },
+  {
+   "a": "Marina Brad",
+   "s": 2,
+   "t": "We had a pretty disappointing experience at Self Image today. We were actually out of town visiting and me and my daughter wanted to get haircuts. It took our hairdresser literally no more than 8 minutes per haircut. I asked for two inches off, I think she barely took half an inch off my hair. Before tip our bill for two dry haircuts was a little over $80. It would have been more than fine, but being so rushed and not getting the haircut I wanted ruined it for me."
+  },
+  {
+   "a": "Lacey Jewel",
+   "s": 1,
+   "t": "I have never left a negative review. I made an appt at 11 A.M. When I got there, the hairdresser seemed rushed and was in the middle of doing another person's color. She asked if I wanted my hair washed, which I did, because I was expecting a full service cut, and she straight up told me she didn't have time and I would just have to have a dry cut. Also she had no time to style it she said. Another stylist that was waiting for a client kindly said she'd wash my hair, and did. The woman cut my hair in less than five minutes, added no layers like I asked her to and charged me a full 30 dollars. Insane. Just lopped off the ends and took my money. I feel super ripped off and won't be back."
+  },
+  {
+   "a": "Benjamin Keith",
+   "s": 5,
+   "t": "Our family has been getting our hair done here all of our lives. It's a relaxed atmosphere with plenty of friendly faces that treat you like family. They specialize in services ranging from your run of the mill haircuts and nail treatments to the exotic up dos and formal event preparations. Once you come to Self Image for your beauty needs, you'll never go anywhere else!"
+  },
+  {
+   "a": "Elizabeth BN",
+   "s": 5,
+   "t": "\"Self Image,\" as they call themselves for short, was in need of a recent review. I was in town visiting family and needed to have my hair cut. I was actually referred to them by another salon in town that was booked for the morning that I was told did a good job. I thought, \"Self Image must be good also.\" Well, they were. I had a little bit of trouble finding them since GoogleMaps misled me -- they are on the east side of the CVS, not the west side where the funeral home is. Their sign is with another company that is next door, so be aware of this when looking for it if you've never been. It's easy once you know where they are. Because I was not early as planned I didn't spend much time in their waiting area. It was, however, very open feeling and had several magazines to look through. The gentleman who owns the salon I believe, greeted me and offered to help. He directed me toward my scheduled stylist, Tina, who had just walked into the area. She let me have a minute to flip through the magazines to give her a rough idea of what I'd like my hair to look like -- layers and bangs. Tina did a great job. I was very pleased with how she cut and styled it. I had washed my hair that morning and left it wet, so she didn't wash it. I don't know much about hair, so when deciding how short and whether to trim the bottom or all the layers she was helpful. She told me she has been cutting hair for seventeen years. I like someone with experience like that. This evening a friend saw me and complimented my hair. Thanks Tina!"
+  },
+  {
+   "a": "Penny Williams",
+   "s": 5,
+   "t": "Danielle has been cutting my hair for a few years now. I recently moved 40 minutes from the salon and I still only let her cut my hair! Strangers constantly ask me who cut my hair. Thanks Danielle!"
+  },
+  {
+   "a": "Michele Olsen",
+   "s": 5,
+   "t": "Teresa at New Self Image Salon is a true artist. I love my modern haircut and spending time with this joyful young stylist."
+  },
+  {
+   "a": "keith haynes",
+   "s": 5,
+   "t": "Walked in. Owner was on way out but took time to cut my hair. He did a great job. I was very satisfied. Price was great. Place was clean with ample parking"
+  }
+ ]
+}

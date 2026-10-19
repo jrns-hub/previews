@@ -1,0 +1,76 @@
+{
+ "id": "W004",
+ "name": "Black Mountain Variety",
+ "kind": "business",
+ "group": "retail",
+ "cat": "Shopping mall",
+ "addr": "106 Sutton Ave, Black Mountain, NC 28711",
+ "street": "106 Sutton Ave",
+ "town": "Black Mountain",
+ "phone": "(908) 337-4859",
+ "hours": "Mon 10 AM–5 PM; Tue 10:30 AM–6 PM; Wed 10 AM–6 PM; Thu 10 AM–6 PM; Fri 10 AM–6 PM; Sat 10 AM–6 PM; Sun 10 AM–5 PM",
+ "rating": "5.0 (37)",
+ "desc": "",
+ "social": [
+  "https://www.instagram.com/blackmountainvariety/",
+  "https://www.facebook.com/people/Black-Mountain-Variety/61554314562537/"
+ ],
+ "photos": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9T95IUFQeecN9vU06C4PVlHVT0pz1Bj60eQubVyKjZRamHvlM3ci7xLO-3iJ208xgsQH_t70xf7KtVJAk9owz4lBMSfj9W354h_h8ahG2GffwUT-1nVuRV6LH1MgrpBX0iZn2_6mlc_mRY",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RjY_MP0dsL21cuTj2Gilzgb8c9LA4ihcVHiuCzLr624wcNDElY61lsCgYHBV3_D0w5O9AoA3gTlfdnCxVnMdnTwVETut0Z-17PO2SOWF4c6PCjVO0wwjzwrzHNjAc2Zv-BmWfSn0RxOyA",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SZJYz_ffu8a7d8BuhYi7ivQCTJXhYq82xqYF-Ms6c-AJUKxeh4hC4QmfM2nSeZm72K3GAgYmJEbny7chrfQ7Nms_pZlYftSGcaj1sXjBnqHU3-gVROcqYGPYvJ_t93jEfpmSHO4L2ZDCH1",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QrZlOva6dmcU1Xa1XcrVxPFsTSxssf1tfw4BLq_RtNvn3G36DuT0uXGAa4oPQRPOdDby75_QDItPdefgmHoKAnmeGXuvAt_hBCzY0sYGWGfL4VK82tQdxTnzvBWfQqJJ3eMciCfXpsdGy1"
+ ],
+ "reviews": [
+  {
+   "a": "Susan Volio",
+   "s": 5,
+   "t": "We desperately need needed a shop like this here in Black Mountain. I love all of the clothing, accessories and art… I could spend an hour in here. So unique and definitely a shop that has something for everyone!! LOVE!"
+  },
+  {
+   "a": "Patti Byrd",
+   "s": 5,
+   "t": "What an incredible representation of the fine artisans that WNC hosts! And in a beautiful and easy-to-get-to space! The owners are so welcoming & friendly, as well as some of the artists that I met. Just a wonderful-feeling space to be in! With gorgeous views of the mountains too! Black Mountain Variety is not only packed with treasures that you can bring home with you, but it is a treasure in & of itself."
+  },
+  {
+   "a": "fernanda vidal",
+   "s": 5,
+   "t": "Loved this great store full of a amazing variety of products made by local artists and vintage items. Totally worth stopping here!"
+  },
+  {
+   "a": "Katherine Kepke",
+   "s": 5,
+   "t": "One of the coolest spots in town, hands down! Great collection of vintage clothing and a ton of different vendors, the whole place is really well curated and beautiful!"
+  },
+  {
+   "a": "Madi Bentley",
+   "s": 5,
+   "t": "😍wow!! This is a beautiful space. Loved to see all the vendors, local artists, and vintage items. I found a couple treasures and can’t wait to come back! …"
+  },
+  {
+   "a": "Conner Muir Smith",
+   "s": 5,
+   "t": "This place is the absolute best! One of the best examples of the local energy in WNC around. Lots of amazing vendors and the best vintage clothes in the game. Come see some art!"
+  },
+  {
+   "a": "Appalachian DiviniTEA",
+   "s": 5,
+   "t": "The perfect one stop shop in Downtown Black Mountain! Filled with quality vintage clothing plus a large selection of curated local vendors. Find our organic teas, herbal extracts, and canned teas amongst a plethora of sweet handcrafted wares!"
+  },
+  {
+   "a": "Sophie Paradis",
+   "s": 5,
+   "t": "This is the spot to go in WNC for the cutest local art, thrift finds, clothing, and more!! Insane selection of clothes and goodies"
+  },
+  {
+   "a": "Hal Brindley",
+   "s": 5,
+   "t": "Black Mountain Variety has a beautiful new space in downtown Black Mountain and represents a bunch of local makers and artisans. The staff/owners are super friendly and helpful. Free parking right across the street and a bigger free gravel lot just across the tracks. Love this place!"
+  },
+  {
+   "a": "Mary-Kathleen Hendrix",
+   "s": 5,
+   "t": "This spot freaking rocks. The vintage is on point, but the local artist spaces are amazing. What an eclectic and exciting VARIETY of small businesses and makers! I’d check out the hand painted sunnies if I was you!! 😎🤩"
+  }
+ ]
+}

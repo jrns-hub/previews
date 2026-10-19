@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>Dough House · Vegan donuts in Black Mountain</title>
+<meta name="description" content="100% vegan donuts made to order at 601 W State St, Black Mountain NC. Gluten free donut holes too. Open Thursday to Sunday mornings. 4.8 stars from 251 Google reviews.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Figtree:ital,wght@0,400;0,600;0,800;1,400&display=swap">
+<style>
+/* World: the donut box. Cream cardboard, glaze orange from their logo, chocolate icing, the teal plate in their photos. */
+:root{
+  --box:#fff4e3; --card:#fffaf2; --ink:#2a160c; --soft:#5e4636; --line:#ecd9bd;
+  --glaze:#e07a1f; --glaze-dk:#a8500a; --choc:#3a1f12; --teal:#1f8f9a; --teal-dk:#156b74;
+  --display:"Bagel Fat One",ui-rounded,system-ui,sans-serif;
+  --body:"Figtree",ui-sans-serif,system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+body{margin:0;background:var(--box);color:var(--ink);font:18px/1.6 var(--body);-webkit-font-smoothing:antialiased}
+::selection{background:var(--glaze);color:#fff}
+img{max-width:100%;height:auto;display:block}
+figure{margin:0}
+a{color:var(--teal-dk);text-underline-offset:3px}
+a:focus-visible{outline:3px solid var(--teal);outline-offset:3px;border-radius:6px}
+.wrap{width:min(1160px,100% - 32px);margin-inline:auto}
+h1,h2,h3{font-family:var(--display);font-weight:400;line-height:.98;margin:0;text-wrap:balance}
+h2{font-size:clamp(2.2rem,5vw,3.6rem);margin-bottom:.35em}
+p{margin:0 0 1em;max-width:60ch}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:50px;padding:0 24px;border-radius:999px;font:800 1rem var(--body);text-decoration:none;transition:transform .2s,background .2s}
+.btn:hover{transform:translateY(-2px)}
+.btn-main{background:var(--choc);color:var(--box)}
+.btn-line{border:2px solid var(--choc);color:var(--choc)}
+.btn svg{width:18px;height:18px;flex:none}
+
+.bar{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px 0}
+.logo{font-family:var(--display);font-size:1.7rem;color:var(--glaze);text-decoration:none;letter-spacing:.01em;-webkit-text-stroke:1px var(--glaze-dk)}
+.bar nav{display:flex;gap:22px;font-weight:600}
+.bar nav a{color:var(--soft);text-decoration:none}
+@media (max-width:760px){.bar nav{display:none}}
+
+/* Hero: the open box lid */
+.hero{padding:10px 0 clamp(48px,7vw,90px)}
+.hero .wrap{display:grid;grid-template-columns:1fr 1.05fr;gap:clamp(28px,5vw,64px);align-items:center}
+.hero h1{font-size:clamp(3.2rem,8.4vw,6rem);color:var(--choc)}
+.hero h1 span{color:var(--glaze)}
+.lede{font-size:1.18rem;color:var(--soft);margin:1em 0 1.5em}
+.actions{display:flex;flex-wrap:wrap;gap:12px}
+.lid{position:relative;background:var(--teal);border-radius:28px;padding:18px;box-shadow:0 30px 50px -30px rgba(58,31,18,.6)}
+.lid img{border-radius:16px;aspect-ratio:1;object-fit:cover;width:100%}
+.sticker{position:absolute;right:-14px;top:-18px;width:132px;height:132px;border-radius:50%;background:var(--glaze);color:#fff;display:grid;place-content:center;text-align:center;font:800 .95rem/1.15 var(--body);transform:rotate(9deg);box-shadow:0 10px 22px -10px rgba(0,0,0,.45);animation:pop 1s cubic-bezier(.16,1,.3,1) .35s both}
+.sticker b{font:400 2.1rem/1 var(--display);display:block}
+@keyframes pop{from{transform:rotate(-20deg) scale(.6)}to{transform:rotate(9deg) scale(1)}}
+@media (max-width:860px){.hero .wrap{grid-template-columns:1fr}.lid{order:-1}.sticker{right:6px;width:108px;height:108px;font-size:.82rem}.sticker b{font-size:1.7rem}}
+
+/* Hours strip: tells you right now if the fryer is on */
+.hours{background:var(--choc);color:var(--box);padding:26px 0}
+.hours .wrap{display:flex;flex-wrap:wrap;align-items:center;gap:14px 34px}
+.now{display:inline-flex;align-items:center;gap:10px;font:800 1.1rem var(--body);padding:8px 16px;border-radius:999px;background:#ffffff1a}
+.now i{width:12px;height:12px;border-radius:50%;background:#9aa0a6}
+.now.open i{background:#7fe0c4;box-shadow:0 0 0 4px #7fe0c433}
+.days{display:flex;flex-wrap:wrap;gap:8px 26px;margin:0;padding:0;list-style:none;font-size:1.02rem}
+.days b{color:#ffc78f}
+
+/* Menu as a box of a dozen */
+.dozen{padding:clamp(56px,8vw,100px) 0}
+.dozen .wrap{display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,5vw,64px);align-items:start}
+.flavors{display:grid;grid-template-columns:repeat(2,1fr);gap:0;border:3px solid var(--choc);border-radius:22px;overflow:hidden;background:var(--card)}
+.flavors div{padding:18px 20px;border-right:1.5px dashed var(--line);border-bottom:1.5px dashed var(--line)}
+.flavors div:nth-child(2n){border-right:0}
+.flavors b{font:400 1.35rem/1.1 var(--display);color:var(--choc);display:block;margin-bottom:4px}
+.flavors span{color:var(--soft);font-size:.95rem}
+.note{font-size:.95rem;color:var(--soft);margin-top:14px}
+.pics{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.pics img{border-radius:18px;aspect-ratio:4/5;object-fit:cover;width:100%}
+.pics img:first-child{grid-column:1/-1;aspect-ratio:16/10}
+@media (max-width:860px){.dozen .wrap{grid-template-columns:1fr}}
+
+/* Reviews */
+.reviews{background:var(--teal);color:#fff;padding:clamp(56px,8vw,100px) 0}
+.reviews h2{color:#fff}
+.reviews .sub{color:#e3f6f7}
+.rv{columns:3 290px;column-gap:20px;margin-top:28px}
+.rv figure{break-inside:avoid;background:var(--card);color:var(--ink);border-radius:20px;padding:22px;margin-bottom:20px}
+.rv blockquote{margin:0 0 12px}
+.rv figcaption{font-weight:800;color:var(--soft);font-size:.92rem}
+
+/* Visit */
+.visit{padding:clamp(56px,8vw,100px) 0}
+.visit .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(28px,5vw,64px);align-items:center}
+.visit dl{display:grid;grid-template-columns:auto 1fr;gap:10px 22px;margin:0 0 26px}
+.visit dt{color:var(--soft);font-weight:600}
+.visit dd{margin:0}
+.visit img{border-radius:22px;aspect-ratio:4/3;object-fit:cover;width:100%}
+@media (max-width:860px){.visit .wrap{grid-template-columns:1fr}}
+
+.preview{color:var(--soft);font-size:.86rem;text-align:center;padding:16px 20px calc(84px + env(safe-area-inset-bottom,0px))}
+.dock{display:none}
+@media (max-width:760px){.dock{display:flex;position:fixed;left:12px;right:12px;bottom:calc(12px + env(safe-area-inset-bottom,0px));z-index:20;gap:10px}.dock a{flex:1;box-shadow:0 10px 24px -10px rgba(0,0,0,.5)}.dock .btn-line{background:var(--card)}}
+</style>
+</head>
+<body>
+<div class="wrap bar">
+  <a class="logo" href="#top">Dough House</a>
+  <nav aria-label="Sections"><a href="#menu">Donuts</a><a href="#reviews">Reviews</a><a href="#visit">Visit</a></nav>
+</div>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <h1>Hot, fresh, <span>100% vegan</span> donuts.</h1>
+        <p class="lede">Made to order on West State Street in Black Mountain. Gluten free donut holes too. People drive in from Hendersonville for these.</p>
+        <div class="actions">
+          <a class="btn btn-main" href="https://www.google.com/maps/dir/?api=1&destination=Dough+House,+601+W+State+St+Ste+3,+Black+Mountain,+NC+28711">Get directions</a>
+          <a class="btn btn-line" href="tel:+18282731598">Call (828) 273-1598</a>
+        </div>
+      </div>
+      <figure class="lid">
+        <img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Ssrs0gcyEpg-HkS726CF-JLWzBc6HZbwoCAmo-w41urRKlDkxERx8RBTmiILxKhKWM5Tf33P9vvX4M-9kkossLDZfCaa2EHCrIX9rGMScrW9i5J_86mwh3Rv8ElBUIYm5t8dbA=w900-h900-k-no" alt="Three glazed donuts, one plain glaze, one orange glazed and one chocolate, on a teal plate" width="800" height="800">
+        <div class="sticker" aria-label="4.8 stars from 251 Google reviews"><b>4.8</b>251 Google reviews</div>
+      </figure>
+    </div>
+  </section>
+
+  <section class="hours" aria-label="Hours">
+    <div class="wrap">
+      <span class="now" id="now"><i></i><span>Thursday to Sunday mornings</span></span>
+      <ul class="days">
+        <li><b>Thu, Fri</b> 8 AM to 1 PM</li>
+        <li><b>Sat, Sun</b> 8 AM to 2 PM</li>
+        <li><b>Mon to Wed</b> closed</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="dozen" id="menu">
+    <div class="wrap">
+      <div>
+        <h2>Pick your dozen</h2>
+        <p>Every donut here is vegan, and nothing tastes artificial. Flavors rotate with the seasons, and there is usually a daily special.</p>
+        <div class="flavors">
+          <div><b>Chai</b><span>A regular favorite</span></div>
+          <div><b>Chocolate</b><span>Classic yeast ring</span></div>
+          <div><b>Apple cider</b><span>“My favorite,” says Sasha Q.</span></div>
+          <div><b>Strawberry matcha</b><span>One of the square donuts</span></div>
+          <div><b>Apple fritter</b><span>Big, flaky, generous</span></div>
+          <div><b>Cinnamon bun</b><span>Soft and subtly sweet</span></div>
+          <div><b>Donut holes</b><span>Gluten free, dairy free</span></div>
+          <div><b>Daily special</b><span>Ask at the counter</span></div>
+        </div>
+        <p class="note">Flavors from customer reviews. The case changes, so call ahead if you want something specific.</p>
+      </div>
+      <div class="pics">
+        <img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TVMl9o61iOG5qkyg4emN5iD1N13SEFsOYuI6Ky_zBwJTK6AGPm75PpLwlZ-aFP6f_3C6oL362M50q-YWnJ9wuoLyfdzPis-THFPG0Qsk37vIaC3Q3B6LV8HO3Od0WBtGzhYVpshdP1i157=w1000-h625-k-no" alt="A spread of glazed and chocolate frosted vegan donuts" width="800" height="500" loading="lazy">
+        <img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QesJEeEKc5tyxutyGAJ5U5KOdN28Zw8qdq4y2qX-IgX7jiDualz_AE1gMciTj6SjrpKzcdww8dcJf7m4fhmukvp-spKOODspZ1mGP0shqT_VCUy1ufSg2TMTHito3Wo5vmDc0GxPiMIE8=w600-h750-k-no" alt="A tray piled with sugared donut holes" width="480" height="600" loading="lazy">
+        <img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Sv2p9wzmqH_67mDODqp73WDXN2ihAQxN1Hq0pUQAglMYGp8zXKKaJSMnta1sbQ2M-HqFTJKy1Db1SQgYUYtI0cRi-ALfQgaBek14_UVkwh9_7dz8c-JePhF-GGoJkgQyR1ATDMQw=w600-h750-k-no" alt="Inside the shop, a counter with plants and shelves of goods by the window" width="480" height="600" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <section class="reviews" id="reviews">
+    <div class="wrap">
+      <h2>4.8 stars, 251 reviews</h2>
+      <p class="sub">Here is what people say on Google.</p>
+      <div class="rv">
+        <figure><blockquote>“Run, don’t walk, to Dough House. Best new donuts on the block, hot and made to order, and 100% vegan.”</blockquote><figcaption>Nick Levine</figcaption></figure>
+        <figure><blockquote>“It was well worth the hour trip from Hendersonville. These were the best gluten free dairy free (vegan) donuts I’ve had in a while.”</blockquote><figcaption>Kiera Murphy</figcaption></figure>
+        <figure><blockquote>“We got a dozen doughnuts and they were all fantastic. Like Krispy Kreme but so much better!”</blockquote><figcaption>Clare Curtis</figcaption></figure>
+        <figure><blockquote>“As we were leaving, they gifted us with an additional apple fritter and cinnamon bun! They were as homemade as homemade gets.”</blockquote><figcaption>Brittney Porrini</figcaption></figure>
+        <figure><blockquote>“All vegan donuts, sign me up!! The donut holes (best I have ever had!)”</blockquote><figcaption>Sasha Quinn</figcaption></figure>
+        <figure><blockquote>“If you’re in Black Mountain, this place is a must-stop for fresh, delicious donuts every time!”</blockquote><figcaption>Kevin Patel</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="visit" id="visit">
+    <div class="wrap">
+      <div>
+        <h2>Come get them hot</h2>
+        <dl>
+          <dt>Where</dt><dd>601 W State St, Suite 3, Black Mountain, NC 28711</dd>
+          <dt>Hours</dt><dd>Thu and Fri 8 AM to 1 PM. Sat and Sun 8 AM to 2 PM.</dd>
+          <dt>Call</dt><dd><a href="tel:+18282731598">(828) 273-1598</a></dd>
+          <dt>Follow</dt><dd><a href="https://www.instagram.com/_doughhouse/">Instagram</a> and <a href="https://www.facebook.com/doughhousenc/">Facebook</a></dd>
+        </dl>
+        <div class="actions">
+          <a class="btn btn-main" href="https://www.google.com/maps/dir/?api=1&destination=Dough+House,+601+W+State+St+Ste+3,+Black+Mountain,+NC+28711">Get directions</a>
+          <a class="btn btn-line" href="https://www.instagram.com/_doughhouse/">See today’s donuts</a>
+        </div>
+      </div>
+      <img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RXZP-ECsdm7JQdu_FK7QjwsShQ1DacFIpkFY9cCtg9QfVLsd30PrI12oAKL1PTJmdMYpg157e54g1qwCL70zoWs3Ku2IqGUAo9ioKhLdw6PoeRVF7WIEwvU3BsJPefGKXaLJgB=w900-h675-k-no" style="object-fit:contain;background:#fff;padding:24px" alt="The Dough House logo in chunky orange letters with sprinkles" width="800" height="600" loading="lazy">
+    </div>
+  </section>
+</main>
+
+<p class="preview">Preview made for Dough House by Wolfgang Joerns, Black Mountain. Not live. Photos and reviews come from your Google listing.</p>
+<div class="dock">
+  <a class="btn btn-main" href="https://www.google.com/maps/dir/?api=1&destination=Dough+House,+601+W+State+St+Ste+3,+Black+Mountain,+NC+28711">Directions</a>
+  <a class="btn btn-line" href="tel:+18282731598">Call</a>
+</div>
+<script>
+// Open-now badge in Black Mountain time. Thu-Fri 8-13, Sat-Sun 8-14.
+(function(){
+  var p=new Intl.DateTimeFormat('en-US',{timeZone:'America/New_York',weekday:'short',hour:'numeric',minute:'numeric',hour12:false}).formatToParts(new Date());
+  var g=function(t){return (p.find(function(x){return x.type===t})||{}).value};
+  var d=g('weekday'), h=+g('hour')+(+g('minute'))/60;
+  var close={Thu:13,Fri:13,Sat:14,Sun:14}[d];
+  var el=document.getElementById('now'), open=close&&h>=8&&h<close;
+  el.classList.toggle('open',!!open);
+  el.lastElementChild.textContent=open?'Open now until '+(close-12)+' PM':'Closed now. Open Thursday to Sunday at 8 AM';
+})();
+</script>
+</body>
+</html>

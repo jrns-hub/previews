@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>Easy Painting · Interior, exterior and deck painting by Andrei</title>
+<meta name="description" content="Interior and exterior painting, porch and deck refinishing in Western North Carolina. 4.8 stars on Google. Call or text 828-767-5003 for a quote.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,600..900&family=Hanken+Grotesk:ital,wght@0,400;0,600;1,400&display=swap">
+<style>
+/* World: a room masked for paint. Fresh white walls, painter's-tape blue, drop-cloth gray, the black of the house in his photo. */
+:root{
+  --wall:#fbfbf9; --ink:#151a22; --soft:#4d5562; --line:#e1e3e6;
+  --tape:#2463c9; --tape-hi:#3d7be0; --cloth:#e9ebed; --night:#151a22;
+  --display:"Archivo",ui-sans-serif,system-ui,sans-serif;
+  --body:"Hanken Grotesk",ui-sans-serif,system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+body{margin:0;background:var(--wall);color:var(--ink);font:18px/1.6 var(--body);-webkit-font-smoothing:antialiased}
+::selection{background:var(--tape);color:#fff}
+a{color:inherit;text-underline-offset:.2em;text-decoration-thickness:2px}
+:focus-visible{outline:3px solid var(--tape);outline-offset:3px;border-radius:3px}
+img{max-width:100%;height:auto;display:block}
+figure{margin:0}
+.wrap{max-width:1200px;margin:0 auto;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+.btn{display:inline-flex;align-items:center;gap:8px;font-family:var(--display);font-weight:800;font-stretch:90%;text-decoration:none;padding:14px 22px;border-radius:4px;white-space:nowrap;letter-spacing:.01em}
+.btn.tape{background:var(--tape);color:#fff}.btn.tape:hover{background:#1d54ad}
+.btn.line{border:2px solid currentColor}
+
+header{border-bottom:1px solid var(--line);background:var(--wall);position:sticky;top:0;z-index:20;padding-top:env(safe-area-inset-top,0px)}
+.bar{display:flex;justify-content:space-between;align-items:center;gap:16px;min-height:70px}
+.mark{font-family:var(--display);font-weight:900;font-stretch:80%;font-size:1.5rem;text-decoration:none;letter-spacing:-.01em;position:relative;padding-bottom:4px}
+.mark::after{content:"";position:absolute;left:0;right:-6px;bottom:-2px;height:7px;background:var(--tape);opacity:.9;transform:rotate(-1deg)}
+.bar .call{font-weight:700;text-decoration:none;font-variant-numeric:tabular-nums}
+.bar .call span{color:var(--soft);font-weight:400;margin-right:6px}
+@media (max-width:600px){.bar .call span{display:none}}
+
+/* hero */
+.hero{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:clamp(28px,5vw,64px);align-items:center;padding-block:clamp(40px,6vw,80px)}
+@media (max-width:900px){.hero{grid-template-columns:1fr}}
+.hero h1{font-family:var(--display);font-weight:900;font-stretch:72%;font-size:clamp(3rem,8.4vw,6.6rem);line-height:.9;letter-spacing:-.01em;margin:0 0 12px;text-transform:uppercase}
+.taped{position:relative;display:inline-block;padding:0 .08em;white-space:nowrap;z-index:0}
+.taped::before{content:"";position:absolute;left:-.12em;right:-.12em;top:58%;height:.34em;background:var(--tape);opacity:.88;transform:rotate(-1.2deg);z-index:-1;clip-path:inset(0 0 0 0)}
+@media (prefers-reduced-motion:no-preference){.taped::before{animation:lay 1s cubic-bezier(.2,.8,.2,1) .35s both}}
+@keyframes lay{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0 0 0 0)}}
+.attrib{color:var(--soft);font-size:.98rem;margin:0 0 22px}
+.lede{font-size:clamp(1.1rem,1.7vw,1.3rem);max-width:40ch;margin:0 0 26px}
+.actions{display:flex;flex-wrap:wrap;gap:12px}
+.rating{display:flex;align-items:center;gap:10px;margin-top:22px;color:var(--soft)}
+.rating b{color:var(--ink)}
+.stars{color:#d29a00;letter-spacing:2px}
+.hall{position:relative}
+.hall img{aspect-ratio:3/4;object-fit:cover;width:100%;border-radius:4px;box-shadow:0 22px 44px rgba(21,26,34,.25)}
+.hall figcaption{position:absolute;left:-14px;bottom:28px;background:var(--tape);color:#fff;font-family:var(--display);font-weight:800;font-stretch:85%;padding:8px 14px;transform:rotate(-2deg);box-shadow:0 6px 14px rgba(0,0,0,.2)}
+@media (max-width:900px){.hall img{aspect-ratio:4/3}.hall figcaption{left:12px}}
+
+/* services */
+.work{background:var(--night);color:#fff;padding-block:clamp(52px,8vw,100px)}
+.work h2,.process h2,.voices h2{font-family:var(--display);font-weight:900;font-stretch:78%;text-transform:uppercase;font-size:clamp(2.2rem,5.4vw,4rem);line-height:.95;margin:0 0 34px}
+.sv{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(20px,3vw,36px)}
+@media (max-width:900px){.sv{grid-template-columns:1fr}}
+.sv article{border-top:6px solid var(--tape);padding-top:18px}
+.sv img{aspect-ratio:4/3;object-fit:cover;width:100%;border-radius:3px;margin-bottom:16px}
+.sv h3{font-family:var(--display);font-weight:800;font-stretch:88%;font-size:1.5rem;margin:0 0 6px}
+.sv p{margin:0;color:#cdd3dc}
+.sv .noimg{aspect-ratio:4/3;margin-bottom:16px;border-radius:3px;background:repeating-linear-gradient(-45deg,#212834 0 14px,#1b212b 14px 28px);display:flex;align-items:flex-end;padding:16px;font-family:var(--display);font-weight:800;font-stretch:85%;color:#8fb1ee}
+
+/* process */
+.process{padding-block:clamp(52px,8vw,100px)}
+.steps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;border:2px solid var(--ink)}
+@media (max-width:900px){.steps{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.steps{grid-template-columns:1fr}}
+.steps li{padding:22px;border-right:2px solid var(--ink);counter-increment:s}
+.steps li:last-child{border-right:0}
+@media (max-width:900px){.steps li{border-bottom:2px solid var(--ink)}.steps li:nth-child(2n){border-right:0}}
+.steps li::before{content:counter(s);display:inline-grid;place-items:center;width:34px;height:34px;background:var(--tape);color:#fff;font-family:var(--display);font-weight:900;margin-bottom:12px;border-radius:3px}
+.steps h3{font-family:var(--display);font-weight:800;font-stretch:88%;font-size:1.3rem;margin:0 0 6px}
+.steps p{margin:0;color:var(--soft);font-size:1rem}
+
+/* reviews */
+.voices{background:var(--cloth);padding-block:clamp(52px,8vw,100px)}
+.vhead{display:flex;justify-content:space-between;align-items:end;flex-wrap:wrap;gap:16px;margin-bottom:28px}
+.vhead h2{margin:0}
+.vg{columns:3 300px;column-gap:20px}
+.q{break-inside:avoid;margin:0 0 20px;background:#fff;padding:22px;border-radius:3px;border-left:0;box-shadow:0 1px 0 var(--line)}
+.q blockquote{margin:0 0 12px;font-size:1.05rem}
+.q footer{color:var(--soft);font-size:.92rem}
+
+/* close */
+.close{background:var(--tape);color:#fff;padding-block:clamp(52px,8vw,96px)}
+.close h2{font-family:var(--display);font-weight:900;font-stretch:72%;text-transform:uppercase;font-size:clamp(2.6rem,7vw,5.4rem);line-height:.9;margin:0 0 22px}
+.close .actions .btn.line{color:#fff}
+.close .btn.white{background:#fff;color:var(--tape)}
+.close p{margin:0 0 26px;font-size:1.15rem;max-width:44ch}
+.preview{background:var(--wall);color:var(--soft);font-size:.86rem;text-align:center;padding:14px 20px calc(14px + env(safe-area-inset-bottom,0px))}
+</style>
+</head>
+<body>
+<header><div class="wrap bar"><a class="mark" href="#top">Easy Painting</a><a class="call" href="tel:+18287675003"><span>Call or text</span>828-767-5003</a></div></header>
+
+<main id="top">
+  <section class="wrap hero" aria-labelledby="h1">
+    <div>
+      <h1 id="h1">Not a drop of paint out of <span class="taped">place.</span></h1>
+      <p class="attrib">That's how one customer put it on Google. It's easy when we paint.</p>
+      <p class="lede">Interior and exterior painting, porch and deck refinishing, done carefully by Andrei, start to finish.</p>
+      <div class="actions"><a class="btn tape" href="tel:+18287675003">Call or text for a quote</a><a class="btn line" href="mailto:info@easypainting.co">Email us</a></div>
+      <p class="rating"><span class="stars" aria-hidden="true">★★★★★</span><span><b>4.8 on Google</b> from 24 reviews</span></p>
+    </div>
+    <figure class="hall"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QF-UxU9ZAv7ZSwrvS3udFDvILVl7xVq7Z6wTlxtfhWFyu_icdRBUnEOjXbFz4ZuC3yzjdriy0NqO9qBmVmO5BLQk5JYvHreQ97EJAhBdn6Y8FcowDVDjnyc6QHqHUfMCHQhrZ2ce4gV8Y=s1400-k-no" alt="A hallway fully prepped for painting: floors covered, doors and fixtures wrapped in plastic, every edge lined with blue painter's tape" width="1050" height="1400"><figcaption>Prep is half the job</figcaption></figure>
+  </section>
+
+  <section class="work" aria-labelledby="work-h">
+    <div class="wrap">
+      <h2 id="work-h">What we paint</h2>
+      <div class="sv">
+        <article><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QF-UxU9ZAv7ZSwrvS3udFDvILVl7xVq7Z6wTlxtfhWFyu_icdRBUnEOjXbFz4ZuC3yzjdriy0NqO9qBmVmO5BLQk5JYvHreQ97EJAhBdn6Y8FcowDVDjnyc6QHqHUfMCHQhrZ2ce4gV8Y=s1000-k-no" alt="Interior hallway masked and ready for paint" width="750" height="1000" style="object-position:50% 8%"><h3>Interiors</h3><p>Rooms, hallways, offices. Floors covered, edges taped, and clean, organized work from the first day to the last.</p></article>
+        <article><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TrHWjzsG-4c19ZF4MbGvdADFiWAMVx_MhDnBBAIXOdeCFId5pATNhcXfH-bx5YPlTsRRaVa3uXSgjBnOpIOl8XpVzzzGmxdcmmkaCOR6OCxPUSpLVS47FeRfgy1iZ8Xggq8LD2J9YSCKze=s1000-k-no" alt="Andrei on a tall ladder painting a black two-story modern house" width="750" height="1000" style="object-position:50% 30%"><h3>Exteriors</h3><p>Homes, garages and siding, all the way up to the peak of the roofline.</p></article>
+        <article><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Qzpo7MgJQXjlFKnrDPYVHqYypIVSyAzkW_p8eYa80uMgzf9VuRbbl4lddu1SzKeobE-eELq6yrVR_ZAUIalkIMlUBA8eLsylgKGjk8qLyvxRek-HjQ8O8baADhl7tKN0WjdUlejBYWGswF=s1000-k-no" alt="A wooden deck being cleaned and refinished" width="750" height="1000" style="object-position:50% 60%"><h3>Porches and decks</h3><p>Staining and sealing, damaged boards replaced, extra coats when old wood is thirsty.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap process" aria-labelledby="pr-h">
+    <h2 id="pr-h">How a job goes</h2>
+    <ol class="steps">
+      <li><h3>A quote at your place</h3><p>Andrei comes out, looks at the job, and gives you an honest, up-front price.</p></li>
+      <li><h3>Prep and protect</h3><p>Floors, fixtures and furniture covered. Every edge taped.</p></li>
+      <li><h3>Careful coats</h3><p>On time, every day, with a heads-up before arriving.</p></li>
+      <li><h3>We stand behind it</h3><p>Something peel after a hard winter? Call, and he'll come back and make it right.</p></li>
+    </ol>
+  </section>
+
+  <section class="voices" aria-labelledby="v-h">
+    <div class="wrap">
+      <div class="vhead"><h2 id="v-h">What neighbors say</h2><a href="https://www.google.com/maps/place/Easy+Painting/@35.4578115,-82.4857309,17z">All reviews on Google</a></div>
+      <div class="vg">
+        <figure class="q"><blockquote>“There was not a drop of paint out of place. I highly recommend him as an expert painter.”</blockquote><footer>Mary Ann W.</footer></figure>
+        <figure class="q"><blockquote>“He did an amazing job, replacing damaged boards, addressing everything that needed attention, and applying multiple coats of sealant because the wood was very dry… the finished porch and deck look better than they have in years.”</blockquote><footer>Wendy C., porch and deck</footer></figure>
+        <figure class="q"><blockquote>“This year after winter, I noticed a few spots that were peeling. I contacted him. He came over the next day and redid the whole area for me.”</blockquote><footer>Karen C., back deck</footer></figure>
+        <figure class="q"><blockquote>“An excellent communicator, a perfectionist in his work, shows up on time and completes his work in a timely manner.”</blockquote><footer>Meg R.</footer></figure>
+        <figure class="q"><blockquote>“A beautiful job all around. Andrei was professional and very thorough. And he was great at letting us know when he'd arrive.”</blockquote><footer>Tom H., home and garage</footer></figure>
+        <figure class="q"><blockquote>“On time, honest and up front price process. I would highly recommend.”</blockquote><footer>Chad C.</footer></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="close" aria-labelledby="c-h">
+    <div class="wrap">
+      <h2 id="c-h">It's easy when we paint.</h2>
+      <p>Tell us about the room, the house or the deck. We'll come take a look.</p>
+      <div class="actions"><a class="btn white" href="tel:+18287675003">Call or text 828-767-5003</a><a class="btn line" href="mailto:info@easypainting.co">info@easypainting.co</a></div>
+    </div>
+  </section>
+</main>
+<p class="preview">Preview made for Easy Painting by Wolfgang Joerns, Black Mountain. Not live. Photos and reviews come from your Google listing.</p>
+</body>
+</html>

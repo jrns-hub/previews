@@ -231,7 +231,7 @@ def build(d):
     return TPL.substitute(
         title=e(f"{name} · {d['cat']} in {d['town']}"), meta=e(c["sub"]), fonts=e(world["fonts"]), world_note=world["note"], vars=world["v"],
         name=e(name), nav=nav, headline=head, sub=e(c["sub"]), actions=actions, stars=stars,
-        hero_img=img(photos[0], 900, 1100, f"{name}, {d['street']}", lazy=False) if photos else "",
+        hero_img=img(photos[0], 900, 1100, f"{name}, {d['street']}", lazy=False) if photos else f'<div class="plate"><b>{e(name)}</b><span>{e(d["street"])}, {e(d["town"])}</span><small>Your own photos go here. We take them on a free photo walk.</small></div>',
         badge=badge, today=today, offer=offer, ask=ask_block(d, items, days), gallery=gallery, reviews=reviews,
         visit_h=e(c.get("visit_h") or "Come by"), visit_dl=dl,
         visit_img=img(photos[-1], 900, 675, f"{name} in {d['town']}") if len(photos) > 1 else "", dock=dock, script=script + FORMJS)
@@ -249,7 +249,7 @@ def status_page():
         built = (ROOT / slug / "index.html").exists()
         queued = (DATA / f"{t['slug']}.json").exists()
         n_built += built
-        state = ("built", "Preview ready") if built else ("queued", "Queued for the next build") if queued else ("missing", "Needs photos first")
+        state = ("built", "Preview ready") if built else ("queued", "Queued for the next build") if queued else ("missing", "Not on Google Maps yet")
         name = f'<a href="{e(slug)}/">{e(t["name"])}</a>' if built else e(t["name"])
         rows.append(f'<tr class="{state[0]}"><td>{name}</td><td>{e(t["kind"])}</td><td>{"yes" if t.get("walk") else ""}</td><td>{state[1]}</td></tr>')
     pct = round(100 * n_built / max(1, len(ts)))
@@ -281,7 +281,7 @@ def main(args):
         out = ROOT / f.stem / "index.html"
         if out.exists() and not args and not d.get("rebuild"):
             continue
-        if not d.get("photos") or (not d.get("reviews") and d.get("kind") == "business"):
+        if not d.get("photos") and not d.get("reviews") and d.get("kind") == "business":
             print("skip (needs photos and reviews):", f.stem)
             continue
         page = build(d)

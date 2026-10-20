@@ -98,6 +98,11 @@ p{margin:0 0 1em;max-width:62ch}
 .ask form.sent .done{display:block}
 .times{list-style:none;margin:0 0 18px;padding:0}.times li{padding:10px 0;border-bottom:1px solid var(--line)}
 @media (max-width:860px){.ask .wrap{grid-template-columns:1fr}.ask .row2{grid-template-columns:1fr}}
+
+.plate{aspect-ratio:4/5;display:grid;place-content:center;text-align:center;gap:12px;padding:28px;background:var(--band);color:var(--on-band);border-radius:calc(var(--r-frame) - 6px)}
+.plate b{font:var(--dw) clamp(2rem,4.5vw,3.2rem)/1.05 var(--display);text-transform:var(--dcase);text-wrap:balance}
+.plate span{opacity:.85}.plate small{margin-top:10px;font-size:.85rem;opacity:.75}
+@media (max-width:860px){.plate{aspect-ratio:5/4}}
 </style>
 </head>
 <body>

@@ -1,0 +1,42 @@
+{
+ "id": "S007",
+ "name": "Black Mountain Church Of God",
+ "kind": "church",
+ "group": "church",
+ "cat": "Church",
+ "addr": "116 N Fork Rd, Black Mountain, NC 28711",
+ "street": "116 N Fork Rd",
+ "town": "Black Mountain",
+ "phone": "\n(828) 357-8360",
+ "hours": "",
+ "rating": "5.0 (8)",
+ "desc": "",
+ "social": [],
+ "photos": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TQTjULbUB9pwYyQu9TSCPVR_TI0qdTgHpoVD8X4uFeAnnGxlul3IfB_f0Z9um6m2-OK3uMSd8U9cK5_k4kqAKHg5oBwZ5LNmOvXdTzAWs_BL94JKR26r1cjO-OBjS_uSw9_XWg",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Sj62XuxRn0BVj6Q8H3yDjuqsGCXIRWL2a0xnLx0gLKLstLps6T8F7hjSW9v4XmAE1Tc2Flaq6Cjrbct24PS9AlEVq9L612J8rz8KlZ8Yc4BTYIFRsyba_DZq3oL0CkiqvBOgwApw"
+ ],
+ "reviews": [
+  {
+   "a": "Parker Terrell",
+   "s": 5,
+   "t": "It may be a small church, but the people there couldn’t be any friendlier. They make you feel at home from the moment you walk in. The Pastor and his wife are very friendly. There is Spirit-filled worship and the Pastor preaches an anointed message every week. You won’t be disappointed."
+  },
+  {
+   "a": "Jenny Johnson",
+   "s": 5,
+   "t": "We thoroughly enjoyed ministering in song here this evening! If you're in this area and looking for a church to attend or visit the sweet natured folks here will welcome you!!"
+  },
+  {
+   "a": "ALLEN SHARPE",
+   "s": 5,
+   "t": "Fantastic service and a good loving congregation. A super Pastor and his wife is amazing."
+  },
+  {
+   "a": "S H",
+   "s": 5,
+   "t": "Wonderful, Loving People. Great Location"
+  }
+ ],
+ "score": 38
+}

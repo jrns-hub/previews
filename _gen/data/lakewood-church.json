@@ -1,0 +1,31 @@
+{
+ "id": "S065",
+ "name": "Lakewood Church",
+ "kind": "church",
+ "group": "church",
+ "cat": "Church",
+ "addr": "41 Byrd Rd, Black Mountain, NC 28711",
+ "street": "41 Byrd Rd",
+ "town": "Black Mountain",
+ "phone": "",
+ "hours": "",
+ "rating": "4.9 (8)",
+ "desc": "",
+ "social": [],
+ "photos": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TKn1XHGXKs1bPa61t74fVb8jBxZlpl4mR7eHOZ6IPk502o-e8jgaGzXyqI57p_7wHn63nnf4fME5hhW4ousVoyOOaacy1_2R5Co5VjHy2AciDf2L7A4YJzlLRP1Q5GAG5TQ4nmRQ"
+ ],
+ "reviews": [
+  {
+   "a": "Iva Marie Gutowski",
+   "s": 5,
+   "t": "I grew up in this Church and while I have recently moved away it is still my home Church and I maintain my membership there. The congregation is like a family. I love everyone there!"
+  },
+  {
+   "a": "Caleb Lloyd",
+   "s": 5,
+   "t": "I love the folks here. They're always super nice and the service is awesome. This is a wonderful church body."
+  }
+ ],
+ "score": 32
+}

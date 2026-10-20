@@ -1,0 +1,69 @@
+{
+ "id": "S114",
+ "name": "Village Barber & Style Shop",
+ "kind": "business",
+ "group": "beauty",
+ "cat": "Barber shop",
+ "addr": "2376 US-70, Swannanoa, NC 28778",
+ "street": "2376 US-70",
+ "town": "Swannanoa",
+ "phone": "(828) 686-7002",
+ "hours": "Mon Closed; Tue 8 AM–5:30 PM; Wed 8 AM–5:30 PM; Thu 8 AM–5:30 PM; Fri 8 AM–5:30 PM; Sat 8 AM–1 PM; Sun Closed",
+ "rating": "4.9 (38)",
+ "desc": "",
+ "social": [],
+ "photos": [],
+ "reviews": [
+  {
+   "a": "WNC Driver",
+   "s": 5,
+   "t": "Chuck is the best barber around! He has maintained a hearty customer base and has overcome so many odds, especially after Hurricane Helene. He has a steady routine that he goes by and keeps that rhythm"
+  },
+  {
+   "a": "Carrie Beard",
+   "s": 5,
+   "t": "I take my son here to get his hair cut and the barber ALWAYS does a wonderful job! So kind with my kiddo! I ask for short on all sides, a little longer on top, and for the front to stick up a bit. Support Local Businesses!"
+  },
+  {
+   "a": "Keith",
+   "s": 5,
+   "t": "Best barber in Buncombe county. If you didn't know... A barber has more schooling and skill than a beautition, aka cosmotologist. A barber is the highest you can get at cutting and styling. Chuck and his daughter are great barbers!"
+  },
+  {
+   "a": "Bryan Phillips",
+   "s": 5,
+   "t": "This place is no frills amazing! We full time RV across the country and have tried many different HC places. For the money, hands down the best cut I’ve ever gotten. I took my 6 y/o son with me for a haircut as well. When we got back home the wife absolutely loved the detail, and she is typically very hard to please."
+  },
+  {
+   "a": "Terri Kilpatrick",
+   "s": 5,
+   "t": "Chuck is a great barber. He always listens to how my Grandsons want their haircut. Good price. Clean facility. Can't say enough about this place."
+  },
+  {
+   "a": "Robert Dyer",
+   "s": 5,
+   "t": "Can't beat the price for the service. Fantastic work. Local owned"
+  },
+  {
+   "a": "Ed Mulvaney",
+   "s": 5,
+   "t": "I was referred to this place a year ago by a fellow Veteran. The barber, Chuck really has the gift for cutting hair. Only years of experience can do what he does. His prices are too cheap for the quality he provides.. plus, if you sit around long enough you'll get the local farm report!"
+  },
+  {
+   "a": "Joe Waring",
+   "s": 4,
+   "t": "The Owner gives a great haircut, no questions about it, just wish there were more good Barbers like hime around. Constructive criticism, he needs to update his equipment, but I will definitely go back."
+  },
+  {
+   "a": "Steve Cantrell",
+   "s": 5,
+   "t": "Closest I've ever found to Around Town with Frank Ford .Locals will know that means the GOAT Great place 👌 …"
+  },
+  {
+   "a": "Frank Navarro",
+   "s": 5,
+   "t": "Humble barber shop. Just a regular barber shop. The owner is the one doing haircuts and does a great job doing those. Nice place and it is a friendly atmosphere. Recommended."
+  }
+ ],
+ "score": 54
+}

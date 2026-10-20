@@ -1,0 +1,37 @@
+{
+ "id": "S091",
+ "name": "Slavic Baptist Church of Asheville",
+ "kind": "church",
+ "group": "church",
+ "cat": "Church",
+ "addr": "128 Alexander Pl, Swannanoa, NC 28778",
+ "street": "128 Alexander Pl",
+ "town": "Swannanoa",
+ "phone": "\n(828) 656-3777",
+ "hours": "",
+ "rating": "5.0 (22)",
+ "desc": "",
+ "social": [],
+ "photos": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SzP0aUGi8cLENehaC20UEAU8gl4meBfPCjzE92ielIi0U0oKlmuCiUuIkpCEFeINbuhVdkcXgGRlRrNfPOu9_RvkUCbD_ZahlYLh0rhYlwC4tIrKZ3Z-AmS4B7k9zcJDyEZX8",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TulIVeod-Brl7BqwvZOW9sJzZWLPpsPSGwsO5hE8mn150TD80rsk74H7470mjoB5il_b_Q-DxRy2EwwKURP8SMtyCsxOIZIRS-uKTXy1-YJ2Q6zJ86t_65csY5OlzJ9JxKh62F"
+ ],
+ "reviews": [
+  {
+   "a": "Daniel Stevens",
+   "s": 5,
+   "t": "The Mega Pickles Band formally known as The Brandon and the Babies are amazing especially the drummer. Oh, the guy with the nice abs & the tech crew are pretty cool too."
+  },
+  {
+   "a": "Director of Buyer Experience",
+   "s": 5,
+   "t": "Love this place and these people! A wonderful place to connect and grow spiritually for people of all ages old and young!"
+  },
+  {
+   "a": "Stephanie Cannon",
+   "s": 5,
+   "t": "It's a wonderful, loving church! One Focus Church is always excepting and is doing great things in the community!"
+  }
+ ],
+ "score": 25
+}

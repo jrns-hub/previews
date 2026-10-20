@@ -1,0 +1,44 @@
+{
+ "id": "S037",
+ "name": "Dale Morris Body Shop",
+ "kind": "business",
+ "group": "auto",
+ "cat": "Auto body shop",
+ "addr": "48 Pearl St, Black Mountain, NC 28711",
+ "street": "48 Pearl St",
+ "town": "Black Mountain",
+ "phone": "(828) 669-6213",
+ "hours": "Mon 9 AM–5 PM; Tue 9 AM–5 PM; Wed 9 AM–5 PM; Thu 9 AM–5 PM; Fri 9 AM–5 PM; Sat Closed; Sun Closed",
+ "rating": "5.0 (9)",
+ "desc": "",
+ "social": [],
+ "photos": [],
+ "reviews": [
+  {
+   "a": "Gail Burnette",
+   "s": 5,
+   "t": "Dale is amazing with cars and body work! He has fixed my moms car several times and it looks New! Thank you for your friendliness and compassion for excellent work!"
+  },
+  {
+   "a": "Phil C",
+   "s": 5,
+   "t": "My car looked new. Way, way above and beyond expectation. He managed to buff things away that I thought would be permanent. Thank you so much for your hard work, my car looks amazing!"
+  },
+  {
+   "a": "C.G. Hartwell",
+   "s": 5,
+   "t": "brought my Subaru back to its former glory after pretty bad damage to bumper and quarter panel. paint matched perfectly"
+  },
+  {
+   "a": "Mark Campbell",
+   "s": 5,
+   "t": "great place to get your car fixed but he doesn't do to much body work anymre"
+  },
+  {
+   "a": "kim poe",
+   "s": 5,
+   "t": "He has always done a great job on mine and my dad's cars."
+  }
+ ],
+ "score": 67
+}

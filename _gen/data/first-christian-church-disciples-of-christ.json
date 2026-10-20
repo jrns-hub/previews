@@ -1,0 +1,37 @@
+{
+ "id": "S048",
+ "name": "First Christian Church (Disciples of Christ)",
+ "kind": "church",
+ "group": "church",
+ "cat": "Church",
+ "addr": "201 Blue Ridge Rd, Black Mountain, NC 28711",
+ "street": "201 Blue Ridge Rd",
+ "town": "Black Mountain",
+ "phone": "\n(828) 669-6111",
+ "hours": "",
+ "rating": "5.0 (6)",
+ "desc": "",
+ "social": [],
+ "photos": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9T6qvHXuuKqfhhH4R5mzk-ssTA4OJMzvhB_ZpH22VMU2b6DCUbzn4AuDgkbduptrMLz82-vL6-9gTg6tj1zFj4VY6lNRWPdH_cMeRtA6wO3HRYnCchVUeuyk2ZSqUvUhv4fBSip",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QsVcnviUJmYUJWR0CDVhiG80O5JefXJjagGghmfWIcee4z4It2GPemavwl0uFwa9LzFqc1ALxYTk7rQuFTmLwB-k3mrx_UXHENTI0-z5YJd1DPuTr4NpMqNYY6jV1U8IyNIMw87A"
+ ],
+ "reviews": [
+  {
+   "a": "Carol Kistler-Seymore",
+   "s": 5,
+   "t": "Very friendly and loving folk in a sprit-filled environment! 💜 …"
+  },
+  {
+   "a": "Paul Arney Jr",
+   "s": 5,
+   "t": "I love this church ppl are great.and great day in jesus Amen"
+  },
+  {
+   "a": "Carl Galloway",
+   "s": 5,
+   "t": "WELCOMES FAMILIES WITH CHILDREN WITH SPECIAL NEEDS"
+  }
+ ],
+ "score": 38
+}

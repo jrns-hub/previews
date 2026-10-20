@@ -1,0 +1,37 @@
+{
+ "id": "S101",
+ "name": "Swannanoa Valley Art League",
+ "kind": "nonprofit",
+ "group": "nonprofit",
+ "cat": "Arts organization",
+ "addr": "101 Cherry St, Black Mountain, NC 28711",
+ "street": "101 Cherry St",
+ "town": "Black Mountain",
+ "phone": "\n(828) 669-0351",
+ "hours": "",
+ "rating": "4.5 (4)",
+ "desc": "",
+ "social": [],
+ "photos": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RIfSjmaZsxjt-ypaZjH2BFtx4hzftd2yWWmOabg3tY38BFobvHwPAnVfAbXq6YkUl657fJbXviXGlja2WEAnGpw1SZD8uIzNxjXVs7FhMlrtE06lxN57HaWAsdtKjCZWqjpzNl",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TBmo1KbulZPTJMv5iMczattA6A3YyWTNYHQjbY1H2t5Jl8nBtqL6ISpuwKuOAD4wWfhL-Hesmp4wiF7WbkNtu2OazO7u_YuqnJ4vOyUsh_KWG27xZUDrmx5tYH2pJHHa4eQqY_8g"
+ ],
+ "reviews": [
+  {
+   "a": "Rhanna Nyman",
+   "s": 5,
+   "t": "A great way to see and purchase the work of dozens of regional artists. The League is also a great resource for artists!"
+  },
+  {
+   "a": "Lorelle Bacon",
+   "s": 5,
+   "t": "Wonderful people and artists! Great exhibit. Teachers are top notch."
+  },
+  {
+   "a": "Meryl Meyer",
+   "s": 5,
+   "t": "A wonderful art community to be part of"
+  }
+ ],
+ "score": 37
+}

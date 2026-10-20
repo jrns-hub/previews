@@ -237,7 +237,7 @@
   "walk": true,
   "score": 67,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S072",
@@ -367,7 +367,7 @@
   "walk": true,
   "score": 62,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S032",
@@ -387,7 +387,7 @@
   "walk": true,
   "score": 61,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S108",
@@ -417,7 +417,7 @@
   "walk": false,
   "score": 58,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S073",
@@ -427,7 +427,7 @@
   "walk": true,
   "score": 57,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S038",
@@ -447,7 +447,7 @@
   "walk": true,
   "score": 56,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S080",
@@ -457,7 +457,7 @@
   "walk": true,
   "score": 55,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S053",
@@ -467,7 +467,7 @@
   "walk": false,
   "score": 54,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S106",
@@ -487,7 +487,7 @@
   "walk": false,
   "score": 54,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S036",
@@ -517,7 +517,7 @@
   "walk": true,
   "score": 52,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S026",
@@ -537,7 +537,7 @@
   "walk": false,
   "score": 50,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S054",
@@ -557,7 +557,7 @@
   "walk": true,
   "score": 50,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S030",
@@ -587,7 +587,7 @@
   "walk": true,
   "score": 48,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S044",
@@ -597,7 +597,7 @@
   "walk": true,
   "score": 48,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S063",
@@ -617,7 +617,7 @@
   "walk": true,
   "score": 45,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S029",
@@ -637,7 +637,7 @@
   "walk": true,
   "score": 45,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S045",
@@ -647,7 +647,7 @@
   "walk": true,
   "score": 45,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S046",
@@ -657,7 +657,7 @@
   "walk": true,
   "score": 45,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S051",
@@ -687,7 +687,7 @@
   "walk": true,
   "score": 45,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S094",
@@ -697,7 +697,7 @@
   "walk": true,
   "score": 45,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S095",
@@ -707,7 +707,7 @@
   "walk": true,
   "score": 45,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S110",
@@ -727,7 +727,7 @@
   "walk": true,
   "score": 45,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S025",
@@ -737,7 +737,7 @@
   "walk": true,
   "score": 44,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S059",
@@ -757,7 +757,7 @@
   "walk": true,
   "score": 43,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S089",
@@ -777,7 +777,7 @@
   "walk": false,
   "score": 43,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S012",
@@ -787,7 +787,7 @@
   "walk": true,
   "score": 42,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S052",
@@ -807,7 +807,7 @@
   "walk": true,
   "score": 41,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S112",
@@ -817,7 +817,7 @@
   "walk": true,
   "score": 41,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S033",
@@ -827,7 +827,7 @@
   "walk": false,
   "score": 40,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S070",
@@ -837,7 +837,7 @@
   "walk": false,
   "score": 40,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S104",
@@ -847,7 +847,7 @@
   "walk": false,
   "score": 39,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S007",
@@ -857,7 +857,7 @@
   "walk": true,
   "score": 38,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S048",
@@ -867,7 +867,7 @@
   "walk": true,
   "score": 38,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S119",
@@ -877,7 +877,7 @@
   "walk": false,
   "score": 38,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S023",
@@ -887,7 +887,7 @@
   "walk": true,
   "score": 37,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S055",
@@ -907,7 +907,7 @@
   "walk": true,
   "score": 37,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S109",
@@ -927,7 +927,7 @@
   "walk": true,
   "score": 37,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S077",
@@ -937,7 +937,7 @@
   "walk": false,
   "score": 36,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S079",
@@ -947,7 +947,7 @@
   "walk": false,
   "score": 35,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S049",
@@ -957,7 +957,7 @@
   "walk": true,
   "score": 34,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S092",
@@ -977,7 +977,7 @@
   "walk": false,
   "score": 32,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S065",
@@ -987,7 +987,7 @@
   "walk": true,
   "score": 32,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S003",
@@ -1007,7 +1007,7 @@
   "walk": false,
   "score": 31,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S118",
@@ -1027,7 +1027,7 @@
   "walk": false,
   "score": 29,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S017",
@@ -1037,7 +1037,7 @@
   "walk": true,
   "score": 29,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S075",
@@ -1047,7 +1047,7 @@
   "walk": false,
   "score": 29,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S093",
@@ -1057,7 +1057,7 @@
   "walk": false,
   "score": 29,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S056",
@@ -1067,7 +1067,7 @@
   "walk": false,
   "score": 28,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S103",
@@ -1077,7 +1077,7 @@
   "walk": true,
   "score": 28,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S021",
@@ -1097,7 +1097,7 @@
   "walk": false,
   "score": 27,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S057",
@@ -1107,7 +1107,7 @@
   "walk": true,
   "score": 26,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S074",
@@ -1117,7 +1117,7 @@
   "walk": false,
   "score": 26,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S105",
@@ -1127,7 +1127,7 @@
   "walk": true,
   "score": 26,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S050",
@@ -1137,7 +1137,7 @@
   "walk": false,
   "score": 25,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S068",
@@ -1147,7 +1147,7 @@
   "walk": false,
   "score": 25,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S083",
@@ -1157,7 +1157,7 @@
   "walk": false,
   "score": 25,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S091",
@@ -1167,7 +1167,7 @@
   "walk": false,
   "score": 25,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S097",
@@ -1177,7 +1177,7 @@
   "walk": false,
   "score": 25,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S099",
@@ -1187,7 +1187,7 @@
   "walk": false,
   "score": 25,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S100",
@@ -1207,7 +1207,7 @@
   "walk": false,
   "score": 22,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S047",
@@ -1217,7 +1217,7 @@
   "walk": false,
   "score": 21,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S067",
@@ -1227,7 +1227,7 @@
   "walk": false,
   "score": 19,
   "hand": "",
-  "photos": false
+  "photos": true
  },
  {
   "id": "S014",

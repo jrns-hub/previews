@@ -1,0 +1,24 @@
+{
+ "id": "S080",
+ "name": "Natural Haircare By Kathy",
+ "kind": "business",
+ "group": "beauty",
+ "cat": "Beauty salon",
+ "addr": "718 N Cherokee Ave, Black Mountain, NC 28711",
+ "street": "718 N Cherokee Ave",
+ "town": "Black Mountain",
+ "phone": "(828) 669-6940",
+ "hours": "",
+ "rating": "5.0 (1)",
+ "desc": "",
+ "social": [],
+ "photos": [],
+ "reviews": [
+  {
+   "a": "Suzanne",
+   "s": 5,
+   "t": "Kathy is an incredibly intuitive hair dresser. I trust her completely with my hair care and always emerge feeling beautiful. Her cuts last and grow out naturally and maintain a wonderful shape throughout the growth process. Color looks natural and also grows out very well. I listen to her input for guidance and we work together to create my look."
+  }
+ ],
+ "score": 55
+}

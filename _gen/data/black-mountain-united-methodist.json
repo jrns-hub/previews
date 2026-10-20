@@ -1,0 +1,53 @@
+{
+ "id": "S012",
+ "name": "Black Mountain United Methodist",
+ "kind": "church",
+ "group": "church",
+ "cat": "Methodist church",
+ "addr": "101 Church St, Black Mountain, NC 28711",
+ "street": "101 Church St",
+ "town": "Black Mountain",
+ "phone": "\n(828) 669-8248",
+ "hours": "",
+ "rating": "4.9 (14)",
+ "desc": "",
+ "social": [],
+ "photos": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QHlizerHM2grQzYx88fkPFUrLryAKmk81OkTDw89E8OMSfz-nhUP3MkeDeVWzdMETT3Px8smyP8FMIu78q5SPJE9hHVF2j1uZVHxuc5vcsmz8j5u6DWH5xAo31_cFnfK4Mmwp8Pw",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QTaoJjD8rlYl9nkBHEzZOWaJ1KAXPelaVFrXCByxRTVpadLjf4qu6MakvAy89L4mH2cKov15XX3YDhVFkZYXikPoUOdv_EDVgRAWs-x3fKuQ-G9_cXal93rZDGSDO3KC9zZTLJ",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9S4rhhDDBGg4VI8CY8ULRnr9oODh4OyOnj-KcEhZLO_wjzNNK8kDHSSxsvCY77S9N-X97wxU2b_8XUinZeeoi6nnF8Kb70w9VAR1Up2a9bCJuVzganizWG30gIowxb0d9id8V6r"
+ ],
+ "reviews": [
+  {
+   "a": "Joshua Lloyd",
+   "s": 5,
+   "t": "A lovely community brought together by a young, vibrant pastor with God in his heart & mind."
+  },
+  {
+   "a": "Charlene Taylor",
+   "s": 4,
+   "t": "I have never been inside the church, but they have a very welcoming Open Table on wednesday, afternoons for the community to have a hot meal. Very friendly staff. Good place to do volunteering if you are interested."
+  },
+  {
+   "a": "Judith Jones",
+   "s": 5,
+   "t": "Beautiful Church. Great for Children and families. Clean and clean restrooms. Wheelchair accessible. Great congregation. Great outreach to the community with the Church having several types of functions 7 days a week or evenings. I LOVE being a member of a Church Family such as this. It makes a person feel Loved, Wanted and a Part of Something Huge."
+  },
+  {
+   "a": "J L Phillips",
+   "s": 5,
+   "t": "TRUE CHRISTIAN FELLOWSHIP. They made our First visit feel like we were old friends returning for a visit"
+  },
+  {
+   "a": "Michael Young",
+   "s": 5,
+   "t": "They have an open table. Free food if you're hungry."
+  },
+  {
+   "a": "Amber Bryant",
+   "s": 5,
+   "t": "My mom always hear time bells 🔔🔔🔔 at church. …"
+  }
+ ],
+ "score": 42
+}

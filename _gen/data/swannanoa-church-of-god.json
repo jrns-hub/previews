@@ -1,0 +1,49 @@
+{
+ "id": "S098",
+ "name": "Swannanoa Church of God",
+ "kind": "church",
+ "group": "church",
+ "cat": "Pentecostal church",
+ "addr": "199 Wilson Ave, Swannanoa, NC 28778",
+ "street": "199 Wilson Ave",
+ "town": "Swannanoa",
+ "phone": "(828) 581-0181",
+ "hours": "Mon Closed; Tue Closed; Wed 7–8 PM; Thu Closed; Fri Closed; Sat Closed; Sun 10 AM–12:30 PM5–7 PM",
+ "rating": "5.0 (11)",
+ "desc": "",
+ "social": [],
+ "photos": [],
+ "reviews": [
+  {
+   "a": "Fisha Atkinson",
+   "s": 5,
+   "t": "First time attending services at this church. Felt extremely welcomed. Had a wonderful experience. Highly recommend if you are looking for a friendly congregation."
+  },
+  {
+   "a": "Katrina Calloway",
+   "s": 5,
+   "t": "I love the singing n the pastor is awesome when u walk in u can feel the holy spirit everyone is so sweet . The pastor saved me n I'm very grateful n so is Jeremiah, Noah,Tyaunna we would love to come back best Church god bless everyone of u"
+  },
+  {
+   "a": "Wes-Leigh Hensley",
+   "s": 5,
+   "t": "I love my church! You feel very welcome as soon as you walk in the door. The Holy Spirit hovers over this heavenly place. All are welcome."
+  },
+  {
+   "a": "Loretta Reynolds",
+   "s": 5,
+   "t": "I went for a Christmas program. The children were absolutely adorable and talented! Santa Claus arrived with candy. A perfect evening!"
+  },
+  {
+   "a": "Stan Asher",
+   "s": 5,
+   "t": "great church, friendly people, wonderful pastor"
+  },
+  {
+   "a": "Gerald Bijeau",
+   "s": 5,
+   "t": "Friendly, place , & , friendly staff"
+  }
+ ],
+ "score": 43
+}

@@ -1,0 +1,41 @@
+{
+ "id": "S060",
+ "name": "Kerlee Baptist Church",
+ "kind": "church",
+ "group": "church",
+ "cat": "Baptist church",
+ "addr": "208 Kerlee Heights Rd, Black Mountain, NC 28711",
+ "street": "208 Kerlee Heights Rd",
+ "town": "Black Mountain",
+ "phone": "(828) 669-2277",
+ "hours": "",
+ "rating": "4.8 (11)",
+ "desc": "",
+ "social": [
+  "https://www.facebook.com/pages/Kerlee"
+ ],
+ "photos": [],
+ "reviews": [
+  {
+   "a": "Brandy G",
+   "s": 5,
+   "t": "Great place to be! We visit every year when on vacation in NC. Pastor Ken and his members are inviting and caring. Our hearts go out to the members and the town as they recover from deviation from the hurricane. We hope to be able to communicate with them soon but until then, we pray for God to provide their needs in only the ways he can. -Brandy and Jonathan Gutierrez"
+  },
+  {
+   "a": "Beverly Ann NOWLING",
+   "s": 5,
+   "t": "HAD A Wonderful SERVICE & GREAT TIME, WITH FELLOWSHIP, And Enjoying A Awesome Luncheon!!"
+  },
+  {
+   "a": "Harlene Matthews",
+   "s": 5,
+   "t": "Awesome group of folks who love God!"
+  },
+  {
+   "a": "LaShara Hughes",
+   "s": 5,
+   "t": "Beautiful friendly loving church inside and out"
+  }
+ ],
+ "score": 61
+}

@@ -1,0 +1,31 @@
+{
+ "id": "S105",
+ "name": "Tabernacle United Methodist",
+ "kind": "church",
+ "group": "church",
+ "cat": "United Methodist church",
+ "addr": "385 Tabernacle Rd #2537, Black Mountain, NC 28711",
+ "street": "385 Tabernacle Rd #2537",
+ "town": "Black Mountain",
+ "phone": "\n(304) 544-5304",
+ "hours": "",
+ "rating": "4.8 (4)",
+ "desc": "",
+ "social": [],
+ "photos": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R5vQJxvp7kcdvypaECwbthM9Q87z-ePt3kiBB5dOWHcsoyzzQSs44M6EfexHGQcTwoz5I-v2--nSRS5JYCYYDFZJ2KyEHPhQHI1L2TY2wSopkUJNZWkoPb0Usv6EscmNlZWccS"
+ ],
+ "reviews": [
+  {
+   "a": "Judith Jones",
+   "s": 4,
+   "t": "Beautiful old small Church. Small parking area. Wheelchair accessible. Nice for Children and families. Great congregation."
+  },
+  {
+   "a": "Rest Galaxy",
+   "s": 5,
+   "t": "Went pokemon hunting there. Very open area."
+  }
+ ],
+ "score": 26
+}

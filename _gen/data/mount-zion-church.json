@@ -1,0 +1,24 @@
+{
+ "id": "S076",
+ "name": "Mount Zion Church",
+ "kind": "church",
+ "group": "church",
+ "cat": "Church",
+ "addr": "Black Mountain, NC 28711",
+ "street": "Black Mountain, NC 28711",
+ "town": "Black Mountain",
+ "phone": "",
+ "hours": "",
+ "rating": "4.5 (2)",
+ "desc": "",
+ "social": [],
+ "photos": [],
+ "reviews": [
+  {
+   "a": "Iris Davis",
+   "s": 4,
+   "t": "Love the praise and worship every time I attend here! The pastor and first lady are wonderfully saved human beings! :-) You will enjoy!"
+  }
+ ],
+ "score": 45
+}

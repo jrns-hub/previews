@@ -1,0 +1,62 @@
+{
+ "id": "S011",
+ "name": "Black Mountain Presbyterian",
+ "kind": "church",
+ "group": "church",
+ "cat": "Presbyterian church",
+ "addr": "117 Montreat Rd, Black Mountain, NC 28711",
+ "street": "117 Montreat Rd",
+ "town": "Montreat",
+ "phone": "\n(828) 669-2725",
+ "hours": "",
+ "rating": "4.9 (20)",
+ "desc": "",
+ "social": [],
+ "photos": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QVjb2Vg1jOeKH_t7sXe262jGvwJhYucA5hXrJYi8E2qKkk-w6Yi09XYMoxmDG6pYNrf_PP_ZX1ie8lz-mKFE1zkoTxLj_vpHlwPbmw2sOlYi5mwadyu0wn4Tj9CXiv4OCFz3Ax",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QSs3fr4JcS6E_ugjED3YcX_EyiB_OyZExLgFKX4VlADERhFsThRgY1hkPegUSfIztjd8mSlaK4QO6OsZwKjmd7buxiYq2xsAPlbWxDGO0-D0DdtdwfiVKvyWh0em5k3XnwkcM"
+ ],
+ "reviews": [
+  {
+   "a": "Katie H",
+   "s": 5,
+   "t": "I am beyond thankful we found BMP Weekday School. My children were given exactly what they needed to thrive in ways they never have before. I feel like we had family watching the kids but even better ... they learned social skills, practical skills, and had the best time playing. The clear and consistent information during COVID was priceless and kept our children as safe as possible. We missed a lot of church opportunities during COVID and I am so thankful for the spiritual lessons that were appropriately woven into the classroom so that my kids know the meaning and source of love and service. Thank you, thank you, thank you all. I couldn't ask for a better partner to help raise my children."
+  },
+  {
+   "a": "Phil C",
+   "s": 5,
+   "t": "Nice congregation. Very welcoming and it doesn't feel like you've donated a pint of blood at the end of the service. I always leave feeling energized and given purpose."
+  },
+  {
+   "a": "Maxwell Cogbill",
+   "s": 5,
+   "t": "Five stars they had great services and made me feel welcome their youth program is spectacular."
+  },
+  {
+   "a": "Judith Jones",
+   "s": 4,
+   "t": "Beautiful Church. Wheelchair accessible. Great place for Children and families. Has many community functions."
+  },
+  {
+   "a": "Kellin Watson",
+   "s": 5,
+   "t": "Phenomenal music director and extremely welcoming of all walks of life community"
+  },
+  {
+   "a": "Anna North",
+   "s": 5,
+   "t": "Thank you for letting Bounty n Soul use your space"
+  },
+  {
+   "a": "rufus mcgirt",
+   "s": 4,
+   "t": "Because of the people and the help that they give to others who are in need"
+  },
+  {
+   "a": "Mariela Bastida",
+   "s": 5,
+   "t": "I congratulate you on your good work for the community!"
+  }
+ ],
+ "score": 45
+}

@@ -1,0 +1,41 @@
+{
+ "id": "S073",
+ "name": "Mills Chapel Baptist Church",
+ "kind": "church",
+ "group": "church",
+ "cat": "Baptist church",
+ "addr": "328 Cragmont Rd, Black Mountain, NC 28711",
+ "street": "328 Cragmont Rd",
+ "town": "Black Mountain",
+ "phone": "(828) 669-8577",
+ "hours": "",
+ "rating": "5.0 (11)",
+ "desc": "",
+ "social": [
+  "https://www.facebook.com/people/Mills-Chapel-Baptist-Church"
+ ],
+ "photos": [],
+ "reviews": [
+  {
+   "a": "Beverly Hausley",
+   "s": 5,
+   "t": "Wonderful place of worship true preaching and teaching about the principles of a relationship with the LORD."
+  },
+  {
+   "a": "thumphill247 real247raw",
+   "s": 5,
+   "t": "Good place to worship! Good people!"
+  },
+  {
+   "a": "PEEDEE H.",
+   "s": 5,
+   "t": "Great place to worship!!! Gods house!!!"
+  },
+  {
+   "a": "Tiarra",
+   "s": 5,
+   "t": "Mills Chapel is a wonderful church with a warm and welcoming atmosphere. It’s a place where you can grow in your faith, build meaningful relationships, and feel at home. I’m thankful to be part of a church that welcomes everyone and makes people feel like they belong!"
+  }
+ ],
+ "score": 57
+}

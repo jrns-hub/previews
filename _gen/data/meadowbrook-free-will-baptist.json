@@ -1,0 +1,57 @@
+{
+ "id": "S071",
+ "name": "Meadowbrook Free Will Baptist",
+ "kind": "church",
+ "group": "church",
+ "cat": "Baptist church",
+ "addr": "204 Blue Ridge Rd, Black Mountain, NC 28711",
+ "street": "204 Blue Ridge Rd",
+ "town": "Black Mountain",
+ "phone": "\n(828) 669-9150",
+ "hours": "",
+ "rating": "4.9 (15)",
+ "desc": "",
+ "social": [],
+ "photos": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QZBrO-qXbEg9zL34FfTrD5XOxP1zyuf4mm2qm2uvg0E-orQ5_glxx3YtfKfVwjznWGvTzdInb41B8bhCmPo_VDIrmkfdmsvaWkrynuDM_iYj0TqoFCjBXO45RSVfWfkYeHHZ2Ebw",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R_1rT5dEDXq9is9vvOXEfOf4erj-7wrwvoctEde1d5OcBmU8N-KFPTyemwbpYsq6XiYEPEEjg_LDOebBQHObediIAP6eSPTMmaDBjnIDdFkW2BNk9rD4et7Y9oGlUn3ExMv43xyIyypDeL"
+ ],
+ "reviews": [
+  {
+   "a": "Amelia Ray",
+   "s": 5,
+   "t": "Meadowbrook has such kind people. Everyone feels like family, and they love the Lord. It is an honor to serve the community with the people of Meadowbrook. There are lots of ways to connect. If you're looking for a church, come and visit!"
+  },
+  {
+   "a": "David Cable",
+   "s": 5,
+   "t": "Very welcoming... The pastor is very welcoming and caring/ they have a nice spot to take a dip n cool off"
+  },
+  {
+   "a": "Tom Sharar",
+   "s": 5,
+   "t": "What a great Bible-believing church. Pastor Daryl is a great teacher, preacher, and leader."
+  },
+  {
+   "a": "Ger Run",
+   "s": 5,
+   "t": "Very friendly folks! Preaches the Gospel every Sunday... Come see you won't be disappointed!"
+  },
+  {
+   "a": "Wesley Hollowell",
+   "s": 5,
+   "t": "Great Church to be a member of. They treat each other respectfully and like family."
+  },
+  {
+   "a": "Bud Norton",
+   "s": 4,
+   "t": "I love this church and the wonderful loving people there."
+  },
+  {
+   "a": "Delores Nelon",
+   "s": 5,
+   "t": "Great place to worship friendly people"
+  }
+ ],
+ "score": 41
+}

@@ -1,0 +1,46 @@
+{
+ "id": "S049",
+ "name": "Friendship Presbyterian Church",
+ "kind": "church",
+ "group": "church",
+ "cat": "Presbyterian church",
+ "addr": "1239 Montreat Rd, Black Mountain, NC 28711",
+ "street": "1239 Montreat Rd",
+ "town": "Montreat",
+ "phone": "\n(828) 669-1611",
+ "hours": "",
+ "rating": "4.9 (9)",
+ "desc": "",
+ "social": [],
+ "photos": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RN6olIc1v63C-dDnq3wCGkO5FQ1-XbxpPmzX3L6ndh6t-WgclDceTFqcwEuhV7jWxA6bhlu15_kqZD84rVeSiPQn3A4S6J4gTAdfE4DZqdlESxpKIxdFXOjkTzE8CV2Z6tZxJho9hJ4MvX"
+ ],
+ "reviews": [
+  {
+   "a": "Jack Beilman",
+   "s": 5,
+   "t": "Sincere people, no-fluff preaching and faithful to the Word. Great church to visit! Meets in a sweet little chapel, not the red-brick house as pictured on Google."
+  },
+  {
+   "a": "Charley Markhoff",
+   "s": 5,
+   "t": "Real sincere and loving people. The truth of the Bible is taught so hearers are able to live it in their lives."
+  },
+  {
+   "a": "Yvette Jones",
+   "s": 5,
+   "t": "Come and visit thus church next tim you're in Black Mountain. It's a small church with lots of love and a great preacher."
+  },
+  {
+   "a": "Melton L. Duncan",
+   "s": 5,
+   "t": "A lovely congregation, faithful to the Word of God."
+  },
+  {
+   "a": "Scott Brinkerhoff",
+   "s": 5,
+   "t": "You will not find more biblical and passionate and powerful preaching...anywhere."
+  }
+ ],
+ "score": 34
+}

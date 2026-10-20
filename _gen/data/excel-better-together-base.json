@@ -1,0 +1,34 @@
+{
+ "id": "S044",
+ "name": "Excel- Better Together Base",
+ "kind": "nonprofit",
+ "group": "nonprofit",
+ "cat": "Non-profit organization",
+ "addr": "25 Dunsmore Ave, Black Mountain, NC 28711",
+ "street": "25 Dunsmore Ave",
+ "town": "Black Mountain",
+ "phone": "",
+ "hours": "",
+ "rating": "5.0 (11)",
+ "desc": "",
+ "social": [],
+ "photos": [],
+ "reviews": [
+  {
+   "a": "Sarah Horvath",
+   "s": 5,
+   "t": "A beautiful place where non-profits and individuals who want to serve others come together to make a difference in lives affected by natural disasters!"
+  },
+  {
+   "a": "Adventures Relief",
+   "s": 5,
+   "t": "An honor to work together in the Better Together Coalition to rebuild the Swannanoa Valley to better than before!"
+  },
+  {
+   "a": "David Carlson",
+   "s": 5,
+   "t": "Amazing coalition of non-profits working together to rebuild WNC."
+  }
+ ],
+ "score": 48
+}

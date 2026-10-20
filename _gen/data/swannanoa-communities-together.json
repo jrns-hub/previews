@@ -1,0 +1,37 @@
+{
+ "id": "S099",
+ "name": "Swannanoa Communities Together",
+ "kind": "nonprofit",
+ "group": "nonprofit",
+ "cat": "Non-profit organization",
+ "addr": "2121 US-70, Swannanoa, NC 28778",
+ "street": "2121 US-70",
+ "town": "Swannanoa",
+ "phone": "\n(828) 423-5727",
+ "hours": "",
+ "rating": "5.0 (7)",
+ "desc": "",
+ "social": [],
+ "photos": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QS3I5JUD7Rjf_CHKdVYf2sfzSOeMCXYBvfpY7fNwfLgpGmgla4Zb87x9Qv2DyzRNNt9TLmPVrGyETcfrE4rOxhfTr3p_2eFb8VpHqFbqsqrEE7pioRzFZjGqQ6Wirk6-0PwhFHvEpK5qs",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TwORxCsbIlOARsefnw4ITG_RvC9H6VdOHJFEz2cUlzEvzsfw0bFcOBTR62KHwuus-69duBjQ0BFSBeQcoP3N5GS1gSfLo6j30Rq3U1_vyfRQbXnoy6qGFrROrBd2OVhModYjU-UQ6gzIIS"
+ ],
+ "reviews": [
+  {
+   "a": "dark r",
+   "s": 5,
+   "t": "The wonderful staff really helped a friend of mine when she was down and out living in a hotel. They helped her to be able to stay in the hotel until she got her next social security check. Swannanoa Communities Together staff were super nice!"
+  },
+  {
+   "a": "Country Gal",
+   "s": 5,
+   "t": "This place is amazing and they really care about us...there very polite and have helped me everytime I've been there. They've helped pay my rent and power bill. You'll be happy you went. They also have food for you and toilet supplies etc....♡"
+  },
+  {
+   "a": "Chelsea Ham",
+   "s": 5,
+   "t": "So kind and helpful, from food to Utility assistance to other resources"
+  }
+ ],
+ "score": 25
+}

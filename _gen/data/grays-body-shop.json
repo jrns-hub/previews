@@ -1,0 +1,69 @@
+{
+ "id": "S053",
+ "name": "Gray's Body Shop",
+ "kind": "business",
+ "group": "auto",
+ "cat": "Auto body shop",
+ "addr": "21 Grey Rock Valley RD, Black Mountain, NC 28711",
+ "street": "21 Grey Rock Valley RD",
+ "town": "Black Mountain",
+ "phone": "(828) 669-9458",
+ "hours": "",
+ "rating": "5.0 (16)",
+ "desc": "",
+ "social": [],
+ "photos": [],
+ "reviews": [
+  {
+   "a": "john k",
+   "s": 5,
+   "t": "I strongly recommend Gray 's Body Shop . They are very professional, friendy, and the repair work they have done to my 4 cars over the past 8 years has always been 1st class at a very reasonably priced."
+  },
+  {
+   "a": "Patricia McKeown",
+   "s": 5,
+   "t": "Gray's replaced bumper in record time. They are professional & friendly."
+  },
+  {
+   "a": "Anna Folta",
+   "s": 5,
+   "t": "Mr Whitey Gray is a true professional, he and the folks at Gray's Body Shop do beautiful work. My truck is back to new looking with its completely repaired fender and paint."
+  },
+  {
+   "a": "E. Caroline Lyons",
+   "s": 5,
+   "t": "Great place to get your car fixed right up. They do exquisite work without being terribly expensive. They are honest and give a quick and accurate estimate on the cost. Loved working with them and would recommend them to anyone."
+  },
+  {
+   "a": "Michelle Ingle",
+   "s": 5,
+   "t": "Very professional and honest. My vehicle looks like new again."
+  },
+  {
+   "a": "Dan Hobbs",
+   "s": 5,
+   "t": "Excellent quality work. Kept me informed all the way as they disassembled and rebuilt our car."
+  },
+  {
+   "a": "Miçhael Joñes",
+   "s": 5,
+   "t": "The service was excellent they did what they said they would do at the time they said they would do it.Im very satisfied with their work I would give them a 5 star rating"
+  },
+  {
+   "a": "Benjamin Keith",
+   "s": 5,
+   "t": "Best experience. Quick and perfect match paint job. Would use again!"
+  },
+  {
+   "a": "Eka Wood",
+   "s": 5,
+   "t": "Excellent service, easy to work, with honest, and customer oriented"
+  },
+  {
+   "a": "Jennifer Nehlsen",
+   "s": 5,
+   "t": "Always get great service at Gray's!"
+  }
+ ],
+ "score": 54
+}

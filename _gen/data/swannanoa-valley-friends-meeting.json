@@ -1,0 +1,31 @@
+{
+ "id": "S103",
+ "name": "Swannanoa Valley Friends Meeting",
+ "kind": "church",
+ "group": "church",
+ "cat": "Quaker church",
+ "addr": "137 Center Ave, Black Mountain, NC 28711",
+ "street": "137 Center Ave",
+ "town": "Black Mountain",
+ "phone": "",
+ "hours": "",
+ "rating": "4.0 (3)",
+ "desc": "",
+ "social": [],
+ "photos": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RTB2_3NoQ25omb3v5ZicoTje-rq4r8sragBkgLc2ZRpLlGQbsaQg4c-EZLXEDDyOshJx3r8ZhJkRTeJIZGh4-3Y8w_qbO2fPTZrYzhBak61VrBO12p7Ek4kuM9PdQ4I4dujERj"
+ ],
+ "reviews": [
+  {
+   "a": "Michelle Ernst",
+   "s": 5,
+   "t": "Visited this friends meeting a few years ago. Beautiful surroundings and warm, wonderful friends. We felt extremely welcomed!"
+  },
+  {
+   "a": "Michael Young",
+   "s": 3,
+   "t": "Multi denominational. Nice outside. Good meditation area."
+  }
+ ],
+ "score": 28
+}

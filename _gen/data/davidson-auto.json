@@ -1,0 +1,69 @@
+{
+ "id": "S039",
+ "name": "Davidson Auto",
+ "kind": "business",
+ "group": "auto",
+ "cat": "Auto repair shop",
+ "addr": "480 Buckeye Access Rd, Swannanoa, NC 28778",
+ "street": "480 Buckeye Access Rd",
+ "town": "Swannanoa",
+ "phone": "(828) 298-5125",
+ "hours": "Mon 8 AM–5 PM; Tue 8 AM–5 PM; Wed 8 AM–5 PM; Thu 8 AM–5 PM; Fri 8 AM–5 PM; Sat Closed; Sun Closed",
+ "rating": "4.6 (37)",
+ "desc": "",
+ "social": [],
+ "photos": [],
+ "reviews": [
+  {
+   "a": "Lorien",
+   "s": 5,
+   "t": "Great service, great people. Long story short, these guys did for $80 what Meineke told me would be $1,000. The folks at Davidson were kind, courteous, fast, and above all, HONEST. They're going to get tired of me, because I'll never take my car anywhere else. THANK YOU Davidson!!!"
+  },
+  {
+   "a": "Meg Huggins",
+   "s": 5,
+   "t": "Kenny is a great mechanic. I took my 2011 Subaru for oil change, a headlight that was out & to check my brakes. He did a great job & gave a reasonable quote for my brakes. I was pleased with the work as well as the prices. If your car needs work, call Davidson Auto. They will do you right."
+  },
+  {
+   "a": "bdwatson1965",
+   "s": 5,
+   "t": "Mike and his folks did an excellent job fixing my daughter’s car when her friend wrecked it. It required quite a lot of work. Mike was extremely professional, and very conscientious about making the necessary repairs in the most cost effective manner, and without using cheap knockoff parts. His estimate up front was very thorough and at the end he provided a very detailed write up of all the parts and work that was done. I highly recommend these folks."
+  },
+  {
+   "a": "IAM 1toughact2follow",
+   "s": 1,
+   "t": "Less than happy with this place. they fixed 2 parts starter/ battery and charged me 600.00$ telling me it needed more work done. When my friend called so see how much the rest would be he told her it wasn't even worth fixing . A true mechanic would of just said that to begin with ... Never, ever, again."
+  },
+  {
+   "a": "Karina M.",
+   "s": 5,
+   "t": "You will not find a finer team than at Davidson Automotive. We've taken our cars there for over 20 years and are consistently met with knowledgeable service, honesty, promptness, and excellent communication. We trust these guys 100% and can only offer our enormous thanks for the expert care and advice over the years."
+  },
+  {
+   "a": "Gerri Luther",
+   "s": 5,
+   "t": "The guys working here are polite and professional. I made an appointment with Kenny to have my car inspected, and I was in and out within 15 minutes. I will absolutely bring my car back here for any automotive needs in the future!"
+  },
+  {
+   "a": "Travis Oconnor",
+   "s": 5,
+   "t": "Awesome, fast, efficient. Kenny and they guys are great."
+  },
+  {
+   "a": "Kimberly Hodges",
+   "s": 5,
+   "t": "I have been going to these guys for a long time for my 97 Toyota 4 runner (270,000 miles and counting). Quick to get scheduled, completely honest and excellent pricing, unless you want a fancy waiting room why go anywhere else."
+  },
+  {
+   "a": "Brian Bartlett",
+   "s": 5,
+   "t": "Davidson Automotive is a great place to have your car maintenanced or repaired! Honest, dependable, worry free service! They call with pricing before they begin your repair. Quick turnaround! Highly recommend!"
+  },
+  {
+   "a": "Nadia Alexandra",
+   "s": 5,
+   "t": "Thank you, Davidson Auto, for saving us over $2,000 when we needed to repair our car. The Hyundai dealership in Asheville grossly misquoted us for repairs because they did an incorrect diagnostic test on the car. We're so glad we took the car to Davidson for a second opinion and repairs."
+  }
+ ],
+ "score": 50
+}

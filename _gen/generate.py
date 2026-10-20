@@ -265,6 +265,7 @@ tr.queued td:last-child{{color:var(--warn)}}tr.missing td:last-child{{color:var(
 <p>{pct}% done. New ones build every morning at 8. Sorted by call priority.</p>
 <table><thead><tr><th>Lead</th><th>Kind</th><th>Walkable</th><th>Status</th></tr></thead><tbody>{"".join(rows)}</tbody></table></main></body></html>"""
     (ROOT / "status.html").write_text(page, encoding="utf-8")
+    (ROOT / "index.html").write_text(page, encoding="utf-8")  # the site root shows the same list
     print(f"status: {n_built}/{len(ts)} built")
 
 

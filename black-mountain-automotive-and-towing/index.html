@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="robots" content="noindex,nofollow">
 <title>Black Mountain Automotive &amp; Towing · Auto repair shop in Black Mountain</title>
-<meta name="description" content="A local auto repair shop offering honest, affordable service. Customers return for the fair pricing and friendly, efficient staff.">
+<meta name="description" content="Auto repair and towing in Black Mountain. Customers keep coming back because the shop diagnoses issues accurately and charges fair rates.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,700..900&amp;family=Hanken+Grotesk:wght@400;600;700&amp;display=swap">
@@ -83,31 +83,52 @@ p{margin:0 0 1em;max-width:62ch}
 .preview{color:var(--soft);font-size:.86rem;text-align:center;padding:16px 20px calc(84px + env(safe-area-inset-bottom,0px))}
 .dock{display:none}
 @media (max-width:760px){.dock{display:flex;position:fixed;left:12px;right:12px;bottom:calc(12px + env(safe-area-inset-bottom,0px));z-index:20;gap:10px}.dock a{flex:1;box-shadow:0 10px 24px -10px rgba(0,0,0,.5)}.dock .btn-line{background:var(--card)}}
+
+.ask{padding:clamp(56px,8vw,100px) 0;background:var(--card);border-block:1px solid var(--line)}
+.ask .wrap{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(26px,5vw,64px);align-items:start}
+.ask form{display:grid;gap:14px;background:var(--bg);border:1px solid var(--line);border-radius:var(--r-img);padding:22px}
+.ask label{display:grid;gap:6px;font-weight:600;font-size:.95rem}
+.ask input,.ask select,.ask textarea{font:inherit;padding:12px 14px;border:1.5px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink)}
+.ask input:focus,.ask select:focus,.ask textarea:focus{outline:none;border-color:var(--acc)}
+.ask .row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.ask .chips{display:flex;flex-wrap:wrap;gap:8px}
+.ask .chips label{display:inline-flex;align-items:center;gap:8px;font-weight:500;border:1.5px solid var(--line);border-radius:999px;padding:8px 14px;background:var(--card)}
+.ask .note{font-size:.88rem;color:var(--soft);margin:0}
+.ask .done{display:none;font-weight:700;color:var(--acc-text)}
+.ask form.sent .done{display:block}
+.times{list-style:none;margin:0 0 18px;padding:0}.times li{padding:10px 0;border-bottom:1px solid var(--line)}
+@media (max-width:860px){.ask .wrap{grid-template-columns:1fr}.ask .row2{grid-template-columns:1fr}}
+
+.plate{aspect-ratio:4/5;display:grid;place-content:center;text-align:center;gap:12px;padding:28px;background:var(--band);color:var(--on-band);border-radius:calc(var(--r-frame) - 6px)}
+.plate b{font:var(--dw) clamp(2rem,4.5vw,3.2rem)/1.05 var(--display);text-transform:var(--dcase);text-wrap:balance}
+.plate span{opacity:.85}.plate small{margin-top:10px;font-size:.85rem;opacity:.75}
+@media (max-width:860px){.plate{aspect-ratio:5/4}}
 </style>
 </head>
 <body>
-<div class="wrap bar"><a class="mark" href="#top">Black Mountain Automotive &amp; Towing</a><nav aria-label="Sections"><a href="#offer">What we do</a><a href="#reviews">Reviews</a><a href="#visit">Visit</a></nav></div>
+<div class="wrap bar"><a class="mark" href="#top">Black Mountain Automotive &amp; Towing</a><nav aria-label="Sections"><a href="#offer">What we do</a><a href="#ask">Quote</a><a href="#reviews">Reviews</a><a href="#visit">Visit</a></nav></div>
 <main id="top">
   <section class="hero"><div class="wrap">
     <div>
-      <h1><em>Fair prices</em> that keep you driving</h1>
-      <p class="lede">A local auto repair shop offering honest, affordable service. Customers return for the fair pricing and friendly, efficient staff.</p>
+      <h1><em>Honest</em> prices that save you money</h1>
+      <p class="lede">Auto repair and towing in Black Mountain. Customers keep coming back because the shop diagnoses issues accurately and charges fair rates.</p>
       <div class="actions"><a class="btn btn-main" href="tel:+18283578101">Call (828) 357-8101</a><a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&amp;destination=Black%20Mountain%20Automotive%20%26%20Towing%2C%20111%20WNC%20Shopping%20Center%20Dr%2C%20Black%20Mountain%2C%20NC%2028711">Get directions</a></div>
       <div class="stars"><b>4.3 on Google</b> from 164 reviews</div>
     </div>
     <figure class="frame"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QQpRF1hbvz6U8l1UT7GfhNSTxG4-HxxGyttaN_G1oKtPhh4GJwRCjWtW-57G6kNH5Mm2dbuh1HHn8L4_1ZSx8jkuaREF5giONjNavFGYFF9NsgKf0BZrhk-iZCCjuQXyZo65ho=w900-h1100-p-k-no" alt="Black Mountain Automotive &amp; Towing, 111 WNC Shopping Center Dr" width="900" height="1100"><figcaption class="badge">4.3 stars<small>164 Google reviews</small></figcaption></figure>
   </div></section>
   <section class="today" aria-label="Hours"><div class="wrap"><span class="now" id="now">Hours</span><ul class="days"><li>Mon 8:30 AM–5 PM</li><li>Tue 8:30 AM–5 PM</li><li>Wed 8:30 AM–5 PM</li><li>Thu 8:30 AM–5 PM</li><li>Fri 8:30 AM–5 PM</li><li>Sat Closed</li><li>Sun Closed</li></ul></div></section>
-  <section class="offer" id="offer"><div class="wrap"><div><h2>What We Offer</h2><p>A local auto repair shop offering honest, affordable service. Customers return for the fair pricing and friendly, efficient staff.</p></div><ul class="list"><li><b>Fair repair pricing</b><span>Repair costs that beat other quotes by hundreds</span></li><li><b>Friendly staff</b><span>Staff who greet you with a smile</span></li><li><b>Quick turnaround</b><span>Cars ready the next day after emergency repairs</span></li><li><b>Free tire assistance</b><span>Refused payment for tire issue</span></li></ul></div></section>
+  <section class="offer" id="offer"><div class="wrap"><div><h2>What we fix</h2><p>Auto repair and towing in Black Mountain. Customers keep coming back because the shop diagnoses issues accurately and charges fair rates.</p></div><ul class="list"><li><b>Battery and starter checks</b><span>Accurate diagnosis prevents overcharging for unnecessary parts.</span></li><li><b>Emergency towing and repair</b><span>Fast turnaround for urgent issues like radiator failures.</span></li><li><b>Suspension and tire work</b><span>Competitive pricing on larger repairs and new tires.</span></li><li><b>Engine and oil service</b><span>Quick fixes for issues found while driving mountain roads.</span></li></ul></div></section>
+  <section class="ask" id="ask"><div class="wrap"><div><h2>Get a quote</h2><p>Tell us what is going on. Add a photo if you have one, and we will text you a price.</p></div><form novalidate><label>What do you need?<textarea rows="3" placeholder="Year, make and model, and what is happening"></textarea></label><label>Photo (optional)<input type="file" accept="image/*"></label><div class="row2"><label>Your name<input autocomplete="name" required></label><label>Phone<input type="tel" autocomplete="tel"></label></div><button class="btn btn-main" type="submit">Send for a quote</button><p class="note">Preview: when this goes live, every request reaches you as a text and an email.</p><p class="done">Thanks! This is a preview, so nothing was sent.</p></form></div></section>
   <section class="gallery" aria-label="Photos"><div class="wrap grid"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TAkYnkEpU-apCNafjzVAqROMQmie_B7RA0c3hk8qUfm3qYLddyLK1Z0M8xkLz4vFBTmUIX6hTooc2yk-z-2AB5j5bW6wvkycAgXhGdBLGoKpx3V7vNyLHRdeEZpl5iidBTKe-6=w900-h900-p-k-no" alt="Photo of Black Mountain Automotive &amp; Towing" width="900" height="900" loading="lazy"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SyOCzVrNQfh6fNoAhOW2LQvL-OLrAS_D8rZeq3Zkp2_QDTmpFdgwiM3eeLX7GAyKsD89ufRrO86ufRv90CGIczjDdeuQwKwVUzii4tnVdh2F2nenenuvbo2DrK29nTAmFvqX7eZ4XlyjkA=w500-h500-p-k-no" alt="Photo of Black Mountain Automotive &amp; Towing" width="500" height="500" loading="lazy"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RKu-SArqdegwa3XV8LGoPOm2omYfH4eWOKtdBqbE2DMpeUeNUGHLN7RQLiQOIW9_o2yCdJAp4_Cd9hu0--QpZcyAPWpT_ijXKjLyZSSwVZNuVrted_JkNWpMGrzii_5NG_sZ5ktGWwv6w=w500-h500-p-k-no" alt="Photo of Black Mountain Automotive &amp; Towing" width="500" height="500" loading="lazy"></div></section>
   <section class="reviews" id="reviews"><div class="wrap"><h2>4.3 stars, 164 reviews</h2><div class="rv"><figure><blockquote>“My car wouldn&#x27;t start and we were thinking it was the starter. We called several places and this place had the most reasonable price and when I say reasonable I mean cut in half!!!”</blockquote><figcaption>Samantha Hembree</figcaption></figure><figure><blockquote>“Outstanding shop! My son had an emergency repair needed, towed the car there after a radiator hose failure. They were very fair with the repair cost and had the car ready the next day!”</blockquote><figcaption>Jimmy</figcaption></figure><figure><blockquote>“I recently had a ton of suspension work done here and they really brought next level service and helped me out during a tough time.”</blockquote><figcaption>Logan Galloway</figcaption></figure><figure><blockquote>“Very friendly and knowledgeable. They went above and beyond and were able to get everything taken care of despite my hectic schedule. Thank you guys!”</blockquote><figcaption>Chris Houde</figcaption></figure><figure><blockquote>“Staff was really friendly on my truck purchased. Mechanic was more than helpful. He explained everything that they did to the vehicle and all the history they had with the vehicle. I received an excellent price for the truck.”</blockquote><figcaption>Dave Goforth</figcaption></figure><figure><blockquote>“My family and I had an issue with our engine and its oil driving over the mountain roads. They were able to squeeze us in, check out the engine and the oil, and fix our issue within two hours of getting there.”</blockquote><figcaption>Daniel DiBona</figcaption></figure></div></div></section>
   <section class="visit" id="visit"><div class="wrap">
-    <div><h2>Visit Us Today</h2><dl><dt>Where</dt><dd>111 WNC Shopping Center Dr, Black Mountain, NC 28711</dd><dt>Hours</dt><dd>Mon 8:30 AM–5 PM<br>Tue 8:30 AM–5 PM<br>Wed 8:30 AM–5 PM<br>Thu 8:30 AM–5 PM<br>Fri 8:30 AM–5 PM<br>Sat Closed<br>Sun Closed</dd><dt>Call</dt><dd><a href="tel:+18283578101">(828) 357-8101</a></dd><dt>Follow</dt><dd><a href="https://www.facebook.com/Blackmtnauto">Facebook</a></dd></dl><div class="actions"><a class="btn btn-main" href="tel:+18283578101">Call (828) 357-8101</a><a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&amp;destination=Black%20Mountain%20Automotive%20%26%20Towing%2C%20111%20WNC%20Shopping%20Center%20Dr%2C%20Black%20Mountain%2C%20NC%2028711">Get directions</a></div></div>
+    <div><h2>Shop hours</h2><dl><dt>Where</dt><dd>111 WNC Shopping Center Dr, Black Mountain, NC 28711</dd><dt>Hours</dt><dd>Mon 8:30 AM–5 PM<br>Tue 8:30 AM–5 PM<br>Wed 8:30 AM–5 PM<br>Thu 8:30 AM–5 PM<br>Fri 8:30 AM–5 PM<br>Sat Closed<br>Sun Closed</dd><dt>Call</dt><dd><a href="tel:+18283578101">(828) 357-8101</a></dd><dt>Follow</dt><dd><a href="https://www.facebook.com/Blackmtnauto">Facebook</a></dd></dl><div class="actions"><a class="btn btn-main" href="tel:+18283578101">Call (828) 357-8101</a><a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&amp;destination=Black%20Mountain%20Automotive%20%26%20Towing%2C%20111%20WNC%20Shopping%20Center%20Dr%2C%20Black%20Mountain%2C%20NC%2028711">Get directions</a></div></div>
     <img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RKu-SArqdegwa3XV8LGoPOm2omYfH4eWOKtdBqbE2DMpeUeNUGHLN7RQLiQOIW9_o2yCdJAp4_Cd9hu0--QpZcyAPWpT_ijXKjLyZSSwVZNuVrted_JkNWpMGrzii_5NG_sZ5ktGWwv6w=w900-h675-p-k-no" alt="Black Mountain Automotive &amp; Towing in Black Mountain" width="900" height="675" loading="lazy">
   </div></section>
 </main>
 <p class="preview">Preview made for Black Mountain Automotive &amp; Towing by Wolfgang Joerns, Black Mountain. Not live. Photos and reviews come from your Google listing.</p>
 <div class="dock"><a class="btn btn-main" href="tel:+18283578101">Call</a><a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&amp;destination=Black%20Mountain%20Automotive%20%26%20Towing%2C%20111%20WNC%20Shopping%20Center%20Dr%2C%20Black%20Mountain%2C%20NC%2028711">Directions</a></div>
-<script>(function(){var d=new Date().toLocaleDateString('en-US',{weekday:'short',timeZone:'America/New_York'});var li=[].slice.call(document.querySelectorAll('.days li')).find(function(x){return x.textContent.indexOf(d)===0});if(li){document.getElementById('now').textContent='Today: '+li.textContent.slice(4);li.style.fontWeight='800'}})();</script>
+<script>(function(){var d=new Date().toLocaleDateString('en-US',{weekday:'short',timeZone:'America/New_York'});var li=[].slice.call(document.querySelectorAll('.days li')).find(function(x){return x.textContent.indexOf(d)===0});if(li){document.getElementById('now').textContent='Today: '+li.textContent.slice(4);li.style.fontWeight='800'}})();</script><script>document.querySelectorAll('.ask form').forEach(function(f){f.addEventListener('submit',function(e){e.preventDefault();f.classList.add('sent')})})</script>
 </body>
 </html>

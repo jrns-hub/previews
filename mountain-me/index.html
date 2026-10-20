@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="robots" content="noindex,nofollow">
 <title>Mountain Me · Gift shop in Black Mountain</title>
-<meta name="description" content="A cozy gift shop offering candles, soaps, and quirky pun‑filled gifts. Visitors return for the warm, welcoming staff and personalized service.">
+<meta name="description" content="A gift shop with Christian and inspirational items. Customers return for the welcoming staff and fresh selection.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gloock&amp;family=Instrument+Sans:wght@400;600;700&amp;display=swap">
@@ -83,31 +83,52 @@ p{margin:0 0 1em;max-width:62ch}
 .preview{color:var(--soft);font-size:.86rem;text-align:center;padding:16px 20px calc(84px + env(safe-area-inset-bottom,0px))}
 .dock{display:none}
 @media (max-width:760px){.dock{display:flex;position:fixed;left:12px;right:12px;bottom:calc(12px + env(safe-area-inset-bottom,0px));z-index:20;gap:10px}.dock a{flex:1;box-shadow:0 10px 24px -10px rgba(0,0,0,.5)}.dock .btn-line{background:var(--card)}}
+
+.ask{padding:clamp(56px,8vw,100px) 0;background:var(--card);border-block:1px solid var(--line)}
+.ask .wrap{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(26px,5vw,64px);align-items:start}
+.ask form{display:grid;gap:14px;background:var(--bg);border:1px solid var(--line);border-radius:var(--r-img);padding:22px}
+.ask label{display:grid;gap:6px;font-weight:600;font-size:.95rem}
+.ask input,.ask select,.ask textarea{font:inherit;padding:12px 14px;border:1.5px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink)}
+.ask input:focus,.ask select:focus,.ask textarea:focus{outline:none;border-color:var(--acc)}
+.ask .row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.ask .chips{display:flex;flex-wrap:wrap;gap:8px}
+.ask .chips label{display:inline-flex;align-items:center;gap:8px;font-weight:500;border:1.5px solid var(--line);border-radius:999px;padding:8px 14px;background:var(--card)}
+.ask .note{font-size:.88rem;color:var(--soft);margin:0}
+.ask .done{display:none;font-weight:700;color:var(--acc-text)}
+.ask form.sent .done{display:block}
+.times{list-style:none;margin:0 0 18px;padding:0}.times li{padding:10px 0;border-bottom:1px solid var(--line)}
+@media (max-width:860px){.ask .wrap{grid-template-columns:1fr}.ask .row2{grid-template-columns:1fr}}
+
+.plate{aspect-ratio:4/5;display:grid;place-content:center;text-align:center;gap:12px;padding:28px;background:var(--band);color:var(--on-band);border-radius:calc(var(--r-frame) - 6px)}
+.plate b{font:var(--dw) clamp(2rem,4.5vw,3.2rem)/1.05 var(--display);text-transform:var(--dcase);text-wrap:balance}
+.plate span{opacity:.85}.plate small{margin-top:10px;font-size:.85rem;opacity:.75}
+@media (max-width:860px){.plate{aspect-ratio:5/4}}
 </style>
 </head>
 <body>
-<div class="wrap bar"><a class="mark" href="#top">Mountain Me</a><nav aria-label="Sections"><a href="#offer">What we do</a><a href="#reviews">Reviews</a><a href="#visit">Visit</a></nav></div>
+<div class="wrap bar"><a class="mark" href="#top">Mountain Me</a><nav aria-label="Sections"><a href="#offer">What we do</a><a href="#ask">Updates</a><a href="#reviews">Reviews</a><a href="#visit">Visit</a></nav></div>
 <main id="top">
   <section class="hero"><div class="wrap">
     <div>
-      <h1><em>Friendly</em> faces, unforgettable service</h1>
-      <p class="lede">A cozy gift shop offering candles, soaps, and quirky pun‑filled gifts. Visitors return for the warm, welcoming staff and personalized service.</p>
+      <h1>Friendly, <em>mask‑free</em> shopping</h1>
+      <p class="lede">A gift shop with Christian and inspirational items. Customers return for the welcoming staff and fresh selection.</p>
       <div class="actions"><a class="btn btn-main" href="tel:+18283579044">Call (828) 357-9044</a><a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&amp;destination=Mountain%20Me%2C%20114%20W%20State%20St%2C%20Black%20Mountain%2C%20NC%2028711">Get directions</a></div>
       <div class="stars"><b>4.6 on Google</b> from 22 reviews</div>
     </div>
     <figure class="frame"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Rr6R_Pfbx-Ub-OsnH14tIDAWRVHQk6CMYAI5Pg3ARbZlhCNXku0ad5tsD_FhZMk6lycfc-QpJk4DyGdNnrTEK134o9UZnSU9mlF0r3qSutZw8B4qe9ZBvF2buuFfroTO51rdRV=w900-h1100-p-k-no" alt="Mountain Me, 114 W State St" width="900" height="1100"><figcaption class="badge">4.6 stars<small>22 Google reviews</small></figcaption></figure>
   </div></section>
   <section class="today" aria-label="Hours"><div class="wrap"><span class="now" id="now">Hours</span><ul class="days"><li>Mon 11 AM–5 PM</li><li>Tue 11 AM–5 PM</li><li>Wed 11 AM–5 PM</li><li>Thu 11 AM–5 PM</li><li>Fri 10 AM–5 PM</li><li>Sat 10 AM–5 PM</li><li>Sun 11 AM–5 PM</li></ul></div></section>
-  <section class="offer" id="offer"><div class="wrap"><div><h2>What You&#x27;ll Find</h2><p>A cozy gift shop offering candles, soaps, and quirky pun‑filled gifts. Visitors return for the warm, welcoming staff and personalized service.</p></div><ul class="list"><li><b>Essential oils</b><span>Fragrant oils for relaxation</span></li><li><b>Candles</b><span>Heavenly scented candles</span></li><li><b>Pun‑filled gifts</b><span>Items with puns and jokes</span></li><li><b>Gift wrapping</b><span>Free gift wrapping service</span></li><li><b>Teddy bear</b><span>A sentimental bear for loved ones</span></li></ul></div></section>
+  <section class="offer" id="offer"><div class="wrap"><div><h2>Puns &amp; gifts</h2><p>A gift shop with Christian and inspirational items. Customers return for the welcoming staff and fresh selection.</p></div><ul class="list"><li><b>Essential Oils</b><span>A calming selection of essential oils.</span></li><li><b>Punny Gifts</b><span>Gifts with playful puns and jokes.</span></li><li><b>Gift Wrapping</b><span>Professional gift wrapping service.</span></li><li><b>Christian Inspirational Items</b><span>Inspirational Christian keepsakes.</span></li></ul></div></section>
+  <section class="ask" id="ask"><div class="wrap"><div><h2>Hear about new arrivals</h2><p>Get a text when something new comes in. One message a week at most.</p></div><form novalidate><div class="row2"><label>Your name<input autocomplete="name"></label><label>Phone or email<input required></label></div><label>What are you looking for?<input placeholder="Anything in particular"></label><button class="btn btn-main" type="submit">Keep me posted</button><p class="note">Preview: when this goes live, every request reaches you as a text and an email.</p><p class="done">Thanks! This is a preview, so nothing was sent.</p></form></div></section>
   <section class="gallery" aria-label="Photos"><div class="wrap grid"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RYRRaeU369P3VQAfVEfbk7hUSUzurwWtdBVK_jR83AxpWPPouIKXrbD3lltERAV0AkultrpeMKGYNgLKWVDvhV2z8sq7nv_K72FyTKWt2VDQvOut1BvPQ7Od1amsGSj4_wLytq=w900-h900-p-k-no" alt="Photo of Mountain Me" width="900" height="900" loading="lazy"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9S-NP2npWhLtJ0CaiP_yDhgMas_ik9eCQlARZPp7MnLoP2x7-cfsowP9elQ0IYE-0InM-H0r85ekVs7g3cwuGt8pYPJ8WGqJCl6UM75n9X0jiEKiEttZAALj2B15zaydxhZwh_s=w500-h500-p-k-no" alt="Photo of Mountain Me" width="500" height="500" loading="lazy"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QcXpC_IavbMiAZl-lMg2x2Q9lJbs_wuFk28-rtrIgQlkPC-Bpuum3qjUS3uwqth6XykfOJ8U4HCMy_7NY5JulFdWAQG5-xF9MS13M7x_nELS7tEiDNiSI-y7lEIqL8zeUvl6WgXg=w500-h500-p-k-no" alt="Photo of Mountain Me" width="500" height="500" loading="lazy"></div></section>
   <section class="reviews" id="reviews"><div class="wrap"><h2>4.6 stars, 22 reviews</h2><div class="rv"><figure><blockquote>“Very nice store, very friendly and not rude about not wearing a mask, we bought some essential oils and had a great conversation with the owners. Highly recommend stopping by without your mask, it&#x27;s OK!”</blockquote><figcaption>John Manfred</figcaption></figure><figure><blockquote>“My husband and I happened on this shop tooling around the city, during our anniversary vacation.”</blockquote><figcaption>Ragin Shirley</figcaption></figure><figure><blockquote>“Amazing customer service and gifts! They sell a lot of items that have puns/jokes on it and those are my weakness so of course I bought so many. Each worker I&#x27;ve met is a Christian and they are very welcoming and inviting.”</blockquote><figcaption>Sierra Dos Santos</figcaption></figure><figure><blockquote>“The people that own this shop are AMAZING! The level of service is something I haven&#x27;t seen in a while. From directing you to items you are looking for to gift wrapping, they do it all.”</blockquote><figcaption>Tom Bissett</figcaption></figure><figure><blockquote>“The shop is quaint, well put together and has a nice variety of items. The woman working this past Sunday helped my boyfriend sneakily buy me a bear that meant a lot to us both.”</blockquote><figcaption>Jennifer Rue</figcaption></figure><figure><blockquote>“If you’re ever in Black Mountain, NC, stop in! By far the sweetest lady we met on our entire vacation to Asheville. The world is tough right now. It’s all about Covid, masks and vaccines (especially in Asheville).”</blockquote><figcaption>Jada Martin</figcaption></figure></div></div></section>
   <section class="visit" id="visit"><div class="wrap">
-    <div><h2>Stop By Today</h2><dl><dt>Where</dt><dd>114 W State St, Black Mountain, NC 28711</dd><dt>Hours</dt><dd>Mon 11 AM–5 PM<br>Tue 11 AM–5 PM<br>Wed 11 AM–5 PM<br>Thu 11 AM–5 PM<br>Fri 10 AM–5 PM<br>Sat 10 AM–5 PM<br>Sun 11 AM–5 PM</dd><dt>Call</dt><dd><a href="tel:+18283579044">(828) 357-9044</a></dd></dl><div class="actions"><a class="btn btn-main" href="tel:+18283579044">Call (828) 357-9044</a><a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&amp;destination=Mountain%20Me%2C%20114%20W%20State%20St%2C%20Black%20Mountain%2C%20NC%2028711">Get directions</a></div></div>
+    <div><h2>Stop by today</h2><dl><dt>Where</dt><dd>114 W State St, Black Mountain, NC 28711</dd><dt>Hours</dt><dd>Mon 11 AM–5 PM<br>Tue 11 AM–5 PM<br>Wed 11 AM–5 PM<br>Thu 11 AM–5 PM<br>Fri 10 AM–5 PM<br>Sat 10 AM–5 PM<br>Sun 11 AM–5 PM</dd><dt>Call</dt><dd><a href="tel:+18283579044">(828) 357-9044</a></dd></dl><div class="actions"><a class="btn btn-main" href="tel:+18283579044">Call (828) 357-9044</a><a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&amp;destination=Mountain%20Me%2C%20114%20W%20State%20St%2C%20Black%20Mountain%2C%20NC%2028711">Get directions</a></div></div>
     <img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QcXpC_IavbMiAZl-lMg2x2Q9lJbs_wuFk28-rtrIgQlkPC-Bpuum3qjUS3uwqth6XykfOJ8U4HCMy_7NY5JulFdWAQG5-xF9MS13M7x_nELS7tEiDNiSI-y7lEIqL8zeUvl6WgXg=w900-h675-p-k-no" alt="Mountain Me in Black Mountain" width="900" height="675" loading="lazy">
   </div></section>
 </main>
 <p class="preview">Preview made for Mountain Me by Wolfgang Joerns, Black Mountain. Not live. Photos and reviews come from your Google listing.</p>
 <div class="dock"><a class="btn btn-main" href="tel:+18283579044">Call</a><a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&amp;destination=Mountain%20Me%2C%20114%20W%20State%20St%2C%20Black%20Mountain%2C%20NC%2028711">Directions</a></div>
-<script>(function(){var d=new Date().toLocaleDateString('en-US',{weekday:'short',timeZone:'America/New_York'});var li=[].slice.call(document.querySelectorAll('.days li')).find(function(x){return x.textContent.indexOf(d)===0});if(li){document.getElementById('now').textContent='Today: '+li.textContent.slice(4);li.style.fontWeight='800'}})();</script>
+<script>(function(){var d=new Date().toLocaleDateString('en-US',{weekday:'short',timeZone:'America/New_York'});var li=[].slice.call(document.querySelectorAll('.days li')).find(function(x){return x.textContent.indexOf(d)===0});if(li){document.getElementById('now').textContent='Today: '+li.textContent.slice(4);li.style.fontWeight='800'}})();</script><script>document.querySelectorAll('.ask form').forEach(function(f){f.addEventListener('submit',function(e){e.preventDefault();f.classList.add('sent')})})</script>
 </body>
 </html>

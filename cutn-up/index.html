@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="robots" content="noindex,nofollow">
 <title>Cut&#x27;n Up · Barber shop in Black Mountain</title>
-<meta name="description" content="A classic barber shop that delivers clean, quick cuts. Customers return for the consistent quality and fair pricing.">
+<meta name="description" content="A classic barber shop offering short haircuts and beard trims. Customers return for consistent, fair priced cuts and a welcoming, family like atmosphere.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Young+Serif&amp;family=Albert+Sans:wght@400;600;700&amp;display=swap">
@@ -83,31 +83,52 @@ p{margin:0 0 1em;max-width:62ch}
 .preview{color:var(--soft);font-size:.86rem;text-align:center;padding:16px 20px calc(84px + env(safe-area-inset-bottom,0px))}
 .dock{display:none}
 @media (max-width:760px){.dock{display:flex;position:fixed;left:12px;right:12px;bottom:calc(12px + env(safe-area-inset-bottom,0px));z-index:20;gap:10px}.dock a{flex:1;box-shadow:0 10px 24px -10px rgba(0,0,0,.5)}.dock .btn-line{background:var(--card)}}
+
+.ask{padding:clamp(56px,8vw,100px) 0;background:var(--card);border-block:1px solid var(--line)}
+.ask .wrap{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(26px,5vw,64px);align-items:start}
+.ask form{display:grid;gap:14px;background:var(--bg);border:1px solid var(--line);border-radius:var(--r-img);padding:22px}
+.ask label{display:grid;gap:6px;font-weight:600;font-size:.95rem}
+.ask input,.ask select,.ask textarea{font:inherit;padding:12px 14px;border:1.5px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink)}
+.ask input:focus,.ask select:focus,.ask textarea:focus{outline:none;border-color:var(--acc)}
+.ask .row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.ask .chips{display:flex;flex-wrap:wrap;gap:8px}
+.ask .chips label{display:inline-flex;align-items:center;gap:8px;font-weight:500;border:1.5px solid var(--line);border-radius:999px;padding:8px 14px;background:var(--card)}
+.ask .note{font-size:.88rem;color:var(--soft);margin:0}
+.ask .done{display:none;font-weight:700;color:var(--acc-text)}
+.ask form.sent .done{display:block}
+.times{list-style:none;margin:0 0 18px;padding:0}.times li{padding:10px 0;border-bottom:1px solid var(--line)}
+@media (max-width:860px){.ask .wrap{grid-template-columns:1fr}.ask .row2{grid-template-columns:1fr}}
+
+.plate{aspect-ratio:4/5;display:grid;place-content:center;text-align:center;gap:12px;padding:28px;background:var(--band);color:var(--on-band);border-radius:calc(var(--r-frame) - 6px)}
+.plate b{font:var(--dw) clamp(2rem,4.5vw,3.2rem)/1.05 var(--display);text-transform:var(--dcase);text-wrap:balance}
+.plate span{opacity:.85}.plate small{margin-top:10px;font-size:.85rem;opacity:.75}
+@media (max-width:860px){.plate{aspect-ratio:5/4}}
 </style>
 </head>
 <body>
-<div class="wrap bar"><a class="mark" href="#top">Cut&#x27;n Up</a><nav aria-label="Sections"><a href="#offer">What we do</a><a href="#reviews">Reviews</a><a href="#visit">Visit</a></nav></div>
+<div class="wrap bar"><a class="mark" href="#top">Cut&#x27;n Up</a><nav aria-label="Sections"><a href="#offer">What we do</a><a href="#ask">Book</a><a href="#reviews">Reviews</a><a href="#visit">Visit</a></nav></div>
 <main id="top">
   <section class="hero"><div class="wrap">
     <div>
-      <h1>Great cuts at a <em>fair price</em></h1>
-      <p class="lede">A classic barber shop that delivers clean, quick cuts. Customers return for the consistent quality and fair pricing.</p>
+      <h1>Same cut, <em>fair price</em></h1>
+      <p class="lede">A classic barber shop offering short haircuts and beard trims. Customers return for consistent, fair priced cuts and a welcoming, family like atmosphere.</p>
       <div class="actions"><a class="btn btn-main" href="tel:+18287797300">Call (828) 779-7300</a><a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&amp;destination=Cut%27n%20Up%2C%201086%20Old%20US%20Hwy%2070%2C%20Black%20Mountain%2C%20NC%2028711">Get directions</a></div>
       <div class="stars"><b>4.8 on Google</b> from 105 reviews</div>
     </div>
     <figure class="frame"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RmpxVXMwk-Y0encGiF_77b5z8ubQR6CJutPbi_WGKcFlagFTJ3yhn371_5Wsz8rYrDNzWgLnALPY5yuTHT48hoJ1kVL0v4LRDmeDPE5YJEKflTQy1P0E7sjyhT3-ZK7O7PoJ8=w900-h1100-p-k-no" alt="Cut&#x27;n Up, 1086 Old US Hwy 70" width="900" height="1100"><figcaption class="badge">4.8 stars<small>105 Google reviews</small></figcaption></figure>
   </div></section>
   <section class="today" aria-label="Hours"><div class="wrap"><span class="now" id="now">Hours</span><ul class="days"><li>Mon Closed</li><li>Tue 8 AM–5 PM</li><li>Wed 8 AM–5 PM</li><li>Thu 8 AM–5 PM</li><li>Fri 8 AM–5 PM</li><li>Sat Closed</li><li>Sun Closed</li></ul></div></section>
-  <section class="offer" id="offer"><div class="wrap"><div><h2>What you get</h2><p>A classic barber shop that delivers clean, quick cuts. Customers return for the consistent quality and fair pricing.</p></div><ul class="list"><li><b>Haircut</b><span>Quick, clean haircut</span></li><li><b>Beard trim</b><span>Beard cleaned up with no extra charge</span></li><li><b>Consistent style</b><span>Same cut every time</span></li><li><b>Friendly service</b><span>Treated like family</span></li></ul></div></section>
+  <section class="offer" id="offer"><div class="wrap"><div><h2>Cuts &amp; Trims</h2><p>A classic barber shop offering short haircuts and beard trims. Customers return for consistent, fair priced cuts and a welcoming, family like atmosphere.</p></div><ul class="list"><li><b>Short haircut</b><span>Short haircuts using clippers.</span></li><li><b>Beard trim</b><span>Beard trim and clean up.</span></li><li><b>Free fix</b><span>Free correction for mistakes.</span></li><li><b>Walk‑in friendly</b><span>No appointment needed.</span></li></ul></div></section>
+  <section class="ask" id="ask"><div class="wrap"><div><h2>Book a visit</h2><p>Pick a service and a time. You get a text to confirm.</p></div><form novalidate><label>What would you like done?<input placeholder="Cut, color, trim, a first visit..."></label><div class="row2"><label>Day<input type="date"></label><label>Time<select><option>Morning</option><option>Midday</option><option>Afternoon</option></select></label></div><div class="row2"><label>Your name<input autocomplete="name" required></label><label>Phone<input type="tel" autocomplete="tel"></label></div><button class="btn btn-main" type="submit">Request this time</button><p class="note">Preview: when this goes live, every request reaches you as a text and an email.</p><p class="done">Thanks! This is a preview, so nothing was sent.</p></form></div></section>
   
   <section class="reviews" id="reviews"><div class="wrap"><h2>4.8 stars, 105 reviews</h2><div class="rv"><figure><blockquote>“Brent cuts my 11 year olds hair once a month and does great.”</blockquote><figcaption>Ragan Morrow</figcaption></figure><figure><blockquote>“This is a barber shop, not a salon. They use clippers, and do short haircuts. They accept cash only. I&#x27;ve always had good service. I came back one time, and they fixed my problem free of charge.”</blockquote><figcaption>William Hahn</figcaption></figure><figure><blockquote>“&quot;I’m really impressed with Cut’n Up Barber Shop. The barber was professional, and gave me the perfect haircut. The shop is clean, cozy, and has a great atmosphere. I’ll definitely be coming back for my future cuts!&quot; Thank you Mr.”</blockquote><figcaption>Kevin Patel</figcaption></figure><figure><blockquote>“I was in town for a wedding and came in for a haircut and a beard trim. The barber was pleasant and friendly, but not conversational.”</blockquote><figcaption>Redcole</figcaption></figure><figure><blockquote>“Great barber shop, same cut every time and fair price”</blockquote><figcaption>Benjamin Holland</figcaption></figure><figure><blockquote>“If you are looking for a great haircut at a fair price, then this is the spot. Barbershops like these are getting harder and harder to find. Even got my beard cleaned up with no up charge.”</blockquote><figcaption>Jesse G</figcaption></figure></div></div></section>
   <section class="visit" id="visit"><div class="wrap">
-    <div><h2>Walk in welcome</h2><dl><dt>Where</dt><dd>1086 Old US Hwy 70, Black Mountain, NC 28711</dd><dt>Hours</dt><dd>Mon Closed<br>Tue 8 AM–5 PM<br>Wed 8 AM–5 PM<br>Thu 8 AM–5 PM<br>Fri 8 AM–5 PM<br>Sat Closed<br>Sun Closed</dd><dt>Call</dt><dd><a href="tel:+18287797300">(828) 779-7300</a></dd></dl><div class="actions"><a class="btn btn-main" href="tel:+18287797300">Call (828) 779-7300</a><a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&amp;destination=Cut%27n%20Up%2C%201086%20Old%20US%20Hwy%2070%2C%20Black%20Mountain%2C%20NC%2028711">Get directions</a></div></div>
+    <div><h2>Come in anytime</h2><dl><dt>Where</dt><dd>1086 Old US Hwy 70, Black Mountain, NC 28711</dd><dt>Hours</dt><dd>Mon Closed<br>Tue 8 AM–5 PM<br>Wed 8 AM–5 PM<br>Thu 8 AM–5 PM<br>Fri 8 AM–5 PM<br>Sat Closed<br>Sun Closed</dd><dt>Call</dt><dd><a href="tel:+18287797300">(828) 779-7300</a></dd></dl><div class="actions"><a class="btn btn-main" href="tel:+18287797300">Call (828) 779-7300</a><a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&amp;destination=Cut%27n%20Up%2C%201086%20Old%20US%20Hwy%2070%2C%20Black%20Mountain%2C%20NC%2028711">Get directions</a></div></div>
     <img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RlL-rhQK7wYForvKwvSxqabev0mpiOo6xFDmGquVgmRoxNK7nqHg80pxjNztxSJCL1Uo0WAa9-0NnPwOo6u2rKj38zjTNlvDLSVesxmodzncckZTb39G7JOfroJ1cn7c-P1e2Z=w900-h675-p-k-no" alt="Cut&#x27;n Up in Black Mountain" width="900" height="675" loading="lazy">
   </div></section>
 </main>
 <p class="preview">Preview made for Cut&#x27;n Up by Wolfgang Joerns, Black Mountain. Not live. Photos and reviews come from your Google listing.</p>
 <div class="dock"><a class="btn btn-main" href="tel:+18287797300">Call</a><a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&amp;destination=Cut%27n%20Up%2C%201086%20Old%20US%20Hwy%2070%2C%20Black%20Mountain%2C%20NC%2028711">Directions</a></div>
-<script>(function(){var d=new Date().toLocaleDateString('en-US',{weekday:'short',timeZone:'America/New_York'});var li=[].slice.call(document.querySelectorAll('.days li')).find(function(x){return x.textContent.indexOf(d)===0});if(li){document.getElementById('now').textContent='Today: '+li.textContent.slice(4);li.style.fontWeight='800'}})();</script>
+<script>(function(){var d=new Date().toLocaleDateString('en-US',{weekday:'short',timeZone:'America/New_York'});var li=[].slice.call(document.querySelectorAll('.days li')).find(function(x){return x.textContent.indexOf(d)===0});if(li){document.getElementById('now').textContent='Today: '+li.textContent.slice(4);li.style.fontWeight='800'}})();</script><script>document.querySelectorAll('.ask form').forEach(function(f){f.addEventListener('submit',function(e){e.preventDefault();f.classList.add('sent')})})</script>
 </body>
 </html>

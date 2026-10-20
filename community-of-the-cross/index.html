@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="robots" content="noindex,nofollow">
 <title>Community Of The Cross · Non-profit organization in Black Mountain</title>
-<meta name="description" content="A nonprofit gathering place with beautiful woodland trails and a new Prayer House. Warm, welcoming hospitality keeps people returning for peace and spiritual growth.">
+<meta name="description" content="A community center in Black Mountain where people return for warm hospitality and genuine encounters with faith. The grounds offer a restful space for growth and belonging.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,600&amp;family=Atkinson+Hyperlegible:wght@400;700&amp;display=swap">
@@ -83,31 +83,52 @@ p{margin:0 0 1em;max-width:62ch}
 .preview{color:var(--soft);font-size:.86rem;text-align:center;padding:16px 20px calc(84px + env(safe-area-inset-bottom,0px))}
 .dock{display:none}
 @media (max-width:760px){.dock{display:flex;position:fixed;left:12px;right:12px;bottom:calc(12px + env(safe-area-inset-bottom,0px));z-index:20;gap:10px}.dock a{flex:1;box-shadow:0 10px 24px -10px rgba(0,0,0,.5)}.dock .btn-line{background:var(--card)}}
+
+.ask{padding:clamp(56px,8vw,100px) 0;background:var(--card);border-block:1px solid var(--line)}
+.ask .wrap{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(26px,5vw,64px);align-items:start}
+.ask form{display:grid;gap:14px;background:var(--bg);border:1px solid var(--line);border-radius:var(--r-img);padding:22px}
+.ask label{display:grid;gap:6px;font-weight:600;font-size:.95rem}
+.ask input,.ask select,.ask textarea{font:inherit;padding:12px 14px;border:1.5px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink)}
+.ask input:focus,.ask select:focus,.ask textarea:focus{outline:none;border-color:var(--acc)}
+.ask .row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.ask .chips{display:flex;flex-wrap:wrap;gap:8px}
+.ask .chips label{display:inline-flex;align-items:center;gap:8px;font-weight:500;border:1.5px solid var(--line);border-radius:999px;padding:8px 14px;background:var(--card)}
+.ask .note{font-size:.88rem;color:var(--soft);margin:0}
+.ask .done{display:none;font-weight:700;color:var(--acc-text)}
+.ask form.sent .done{display:block}
+.times{list-style:none;margin:0 0 18px;padding:0}.times li{padding:10px 0;border-bottom:1px solid var(--line)}
+@media (max-width:860px){.ask .wrap{grid-template-columns:1fr}.ask .row2{grid-template-columns:1fr}}
+
+.plate{aspect-ratio:4/5;display:grid;place-content:center;text-align:center;gap:12px;padding:28px;background:var(--band);color:var(--on-band);border-radius:calc(var(--r-frame) - 6px)}
+.plate b{font:var(--dw) clamp(2rem,4.5vw,3.2rem)/1.05 var(--display);text-transform:var(--dcase);text-wrap:balance}
+.plate span{opacity:.85}.plate small{margin-top:10px;font-size:.85rem;opacity:.75}
+@media (max-width:860px){.plate{aspect-ratio:5/4}}
 </style>
 </head>
 <body>
-<div class="wrap bar"><a class="mark" href="#top">Community Of The Cross</a><nav aria-label="Sections"><a href="#offer">What we do</a><a href="#reviews">Reviews</a><a href="#visit">Visit</a></nav></div>
+<div class="wrap bar"><a class="mark" href="#top">Community Of The Cross</a><nav aria-label="Sections"><a href="#offer">What we do</a><a href="#ask">Volunteer</a><a href="#reviews">Reviews</a><a href="#visit">Visit</a></nav></div>
 <main id="top">
   <section class="hero"><div class="wrap">
     <div>
-      <h1><em>Warm hospitality</em>, peaceful trails</h1>
-      <p class="lede">A nonprofit gathering place with beautiful woodland trails and a new Prayer House. Warm, welcoming hospitality keeps people returning for peace and spiritual growth.</p>
+      <h1>Walk the trails. Find <em>deep peace</em>.</h1>
+      <p class="lede">A community center in Black Mountain where people return for warm hospitality and genuine encounters with faith. The grounds offer a restful space for growth and belonging.</p>
       <div class="actions"><a class="btn btn-main" href="tel:+18286697373">Call (828) 669-7373</a><a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&amp;destination=Community%20Of%20The%20Cross%2C%203227%20N%20Fork%20Left%20Fork%2C%20Black%20Mountain%2C%20NC%2028711">Get directions</a></div>
       <div class="stars"><b>4.6 on Google</b> from 18 reviews</div>
     </div>
     <figure class="frame"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Srn4UTb8mFtbsGfkWkt67LmepAuW-gdqjNuzpTpjGT0E5uRcJRqYND34vwRQlbtXkNEcFRTp3aqtrS4y3njEmHCBailDEo4tAhPpOuCkByNrAN57wq8BWM4_Hd-ptusZp6K4RRdA=w900-h1100-p-k-no" alt="Community Of The Cross, 3227 N Fork Left Fork" width="900" height="1100"><figcaption class="badge">4.6 stars<small>18 Google reviews</small></figcaption></figure>
   </div></section>
   
-  <section class="offer" id="offer"><div class="wrap"><div><h2>What You’ll Experience</h2><p>A nonprofit gathering place with beautiful woodland trails and a new Prayer House. Warm, welcoming hospitality keeps people returning for peace and spiritual growth.</p></div><ul class="list"><li><b>Warm welcome</b><span>Warm, welcoming hospitality</span></li><li><b>Prayer House</b><span>Inspiring place for worship and prayer</span></li><li><b>Woodland trails</b><span>Beautiful woodland trails for walking</span></li><li><b>Biblical events</b><span>Practical, biblical events</span></li></ul></div></section>
+  <section class="offer" id="offer"><div class="wrap"><div><h2>What you will find</h2><p>A community center in Black Mountain where people return for warm hospitality and genuine encounters with faith. The grounds offer a restful space for growth and belonging.</p></div><ul class="list"><li><b>Woodland Trails</b><span>Beautiful paths for walking and reflection on the grounds.</span></li><li><b>Prayer House</b><span>An inspiring new space dedicated to worship and teaching.</span></li><li><b>Hospitality</b><span>A warm and welcoming atmosphere for every visitor.</span></li><li><b>Community</b><span>A place of peace, belonging, and authentic connection.</span></li></ul></div></section>
+  <section class="ask" id="ask"><div class="wrap"><div><h2>Volunteer with us</h2><p>Pick when you can help. We will reach out with a first shift.</p><p><a class="btn btn-line" href="#ask">Give online</a></p></div><form novalidate><div class="row2"><label>Your name<input autocomplete="name" required></label><label>Phone<input type="tel" autocomplete="tel"></label></div><label>Email<input type="email" autocomplete="email"></label><div class="chips"><label><input type="checkbox"> Weekday mornings</label><label><input type="checkbox"> Weekday afternoons</label><label><input type="checkbox"> Weekends</label><label><input type="checkbox"> Events</label><label><input type="checkbox"> Behind the scenes</label></div><button class="btn btn-main" type="submit">Sign me up</button><p class="note">Preview: when this goes live, every request reaches you as a text and an email.</p><p class="done">Thanks! This is a preview, so nothing was sent.</p></form></div></section>
   
   <section class="reviews" id="reviews"><div class="wrap"><h2>4.6 stars, 18 reviews</h2><div class="rv"><figure><blockquote>“I&#x27;ve visited the Community of the Cross for more than 20 years, and it has always been such an amazing place. The woodland trails are beautiful. The new Prayer House is an inspiring place for worship, teaching, and prayer.”</blockquote><figcaption>Paul Stokes</figcaption></figure><figure><blockquote>“Hurricane Helene caused major devastation to this area, completely rerouted the river and swept away everything in its path.”</blockquote><figcaption>Mac Fillet</figcaption></figure><figure><blockquote>“Beautiful location, devastated by Hurricane Helene. Beavers used to dam the river, and the banks were green and tree-lined. The river changed course, dropped over 10 feet, &amp; swept away road and trees.”</blockquote><figcaption>Paul Plymstock</figcaption></figure><figure><blockquote>“I visited the Community of the Cross for a 5 day event and the experience was wonderful. The welcome was warm, and I encountered truly authentic people with a love for people and a love for God.”</blockquote><figcaption>Trish Lavine</figcaption></figure><figure><blockquote>“This place has become a for me a place of peace, belonging, and growth in Jesus. I have found true community here, where I am both encouraged and challenged to deepen my faith and walk in biblical truth.”</blockquote><figcaption>Missy Codington</figcaption></figure><figure><blockquote>“I have been to an event here. It was thoroughly Biblical and very practical. It was uplifting and restful to wander in the grounds before and after the event.”</blockquote><figcaption>Elaine Pierpont</figcaption></figure></div></div></section>
   <section class="visit" id="visit"><div class="wrap">
-    <div><h2>Come experience peace</h2><dl><dt>Where</dt><dd>3227 N Fork Left Fork, Black Mountain, NC 28711</dd><dt>Call</dt><dd><a href="tel:+18286697373">(828) 669-7373</a></dd></dl><div class="actions"><a class="btn btn-main" href="tel:+18286697373">Call (828) 669-7373</a><a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&amp;destination=Community%20Of%20The%20Cross%2C%203227%20N%20Fork%20Left%20Fork%2C%20Black%20Mountain%2C%20NC%2028711">Get directions</a></div></div>
+    <div><h2>Plan your visit</h2><dl><dt>Where</dt><dd>3227 N Fork Left Fork, Black Mountain, NC 28711</dd><dt>Call</dt><dd><a href="tel:+18286697373">(828) 669-7373</a></dd></dl><div class="actions"><a class="btn btn-main" href="tel:+18286697373">Call (828) 669-7373</a><a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&amp;destination=Community%20Of%20The%20Cross%2C%203227%20N%20Fork%20Left%20Fork%2C%20Black%20Mountain%2C%20NC%2028711">Get directions</a></div></div>
     <img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RaBoM7SbqEyvmGVKYPAvhaO5dV1xaZNgeq1SqONOfagekf4PcaZDj1oj99-hQZg6E4h5YZTlUfTxBJF66QL_Tk34hnTQhOjh7ZkJKBEMg7HeDzSMZJ_qhzTwxN32TmPDQRtBE=w900-h675-p-k-no" alt="Community Of The Cross in Black Mountain" width="900" height="675" loading="lazy">
   </div></section>
 </main>
 <p class="preview">Preview made for Community Of The Cross by Wolfgang Joerns, Black Mountain. Not live. Photos and reviews come from your Google listing.</p>
 <div class="dock"><a class="btn btn-main" href="tel:+18286697373">Call</a><a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&amp;destination=Community%20Of%20The%20Cross%2C%203227%20N%20Fork%20Left%20Fork%2C%20Black%20Mountain%2C%20NC%2028711">Directions</a></div>
-
+<script>document.querySelectorAll('.ask form').forEach(function(f){f.addEventListener('submit',function(e){e.preventDefault();f.classList.add('sent')})})</script>
 </body>
 </html>

@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="robots" content="noindex,nofollow">
 <title>Broadway Styling Studio · Beauty salon in Black Mountain</title>
-<meta name="description" content="A beauty salon where Monica Gardner offers affordable cuts and color. Customers keep coming back for friendly, high-quality service.">
+<meta name="description" content="A beauty salon where the outside looks like a 1950s curl and chat. Customers stay for years because the talent is real and affordable.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Young+Serif&amp;family=Albert+Sans:wght@400;600;700&amp;display=swap">
@@ -83,31 +83,52 @@ p{margin:0 0 1em;max-width:62ch}
 .preview{color:var(--soft);font-size:.86rem;text-align:center;padding:16px 20px calc(84px + env(safe-area-inset-bottom,0px))}
 .dock{display:none}
 @media (max-width:760px){.dock{display:flex;position:fixed;left:12px;right:12px;bottom:calc(12px + env(safe-area-inset-bottom,0px));z-index:20;gap:10px}.dock a{flex:1;box-shadow:0 10px 24px -10px rgba(0,0,0,.5)}.dock .btn-line{background:var(--card)}}
+
+.ask{padding:clamp(56px,8vw,100px) 0;background:var(--card);border-block:1px solid var(--line)}
+.ask .wrap{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(26px,5vw,64px);align-items:start}
+.ask form{display:grid;gap:14px;background:var(--bg);border:1px solid var(--line);border-radius:var(--r-img);padding:22px}
+.ask label{display:grid;gap:6px;font-weight:600;font-size:.95rem}
+.ask input,.ask select,.ask textarea{font:inherit;padding:12px 14px;border:1.5px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink)}
+.ask input:focus,.ask select:focus,.ask textarea:focus{outline:none;border-color:var(--acc)}
+.ask .row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.ask .chips{display:flex;flex-wrap:wrap;gap:8px}
+.ask .chips label{display:inline-flex;align-items:center;gap:8px;font-weight:500;border:1.5px solid var(--line);border-radius:999px;padding:8px 14px;background:var(--card)}
+.ask .note{font-size:.88rem;color:var(--soft);margin:0}
+.ask .done{display:none;font-weight:700;color:var(--acc-text)}
+.ask form.sent .done{display:block}
+.times{list-style:none;margin:0 0 18px;padding:0}.times li{padding:10px 0;border-bottom:1px solid var(--line)}
+@media (max-width:860px){.ask .wrap{grid-template-columns:1fr}.ask .row2{grid-template-columns:1fr}}
+
+.plate{aspect-ratio:4/5;display:grid;place-content:center;text-align:center;gap:12px;padding:28px;background:var(--band);color:var(--on-band);border-radius:calc(var(--r-frame) - 6px)}
+.plate b{font:var(--dw) clamp(2rem,4.5vw,3.2rem)/1.05 var(--display);text-transform:var(--dcase);text-wrap:balance}
+.plate span{opacity:.85}.plate small{margin-top:10px;font-size:.85rem;opacity:.75}
+@media (max-width:860px){.plate{aspect-ratio:5/4}}
 </style>
 </head>
 <body>
-<div class="wrap bar"><a class="mark" href="#top">Broadway Styling Studio</a><nav aria-label="Sections"><a href="#offer">What we do</a><a href="#reviews">Reviews</a><a href="#visit">Visit</a></nav></div>
+<div class="wrap bar"><a class="mark" href="#top">Broadway Styling Studio</a><nav aria-label="Sections"><a href="#offer">What we do</a><a href="#ask">Book</a><a href="#reviews">Reviews</a><a href="#visit">Visit</a></nav></div>
 <main id="top">
   <section class="hero"><div class="wrap">
     <div>
-      <h1><em>Affordable</em> cuts and color</h1>
-      <p class="lede">A beauty salon where Monica Gardner offers affordable cuts and color. Customers keep coming back for friendly, high-quality service.</p>
+      <h1><em>Ridiculously low price</em>, great cuts</h1>
+      <p class="lede">A beauty salon where the outside looks like a 1950s curl and chat. Customers stay for years because the talent is real and affordable.</p>
       <div class="actions"><a class="btn btn-main" href="tel:+18286698434">Call (828) 669-8434</a><a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&amp;destination=Broadway%20Styling%20Studio%2C%203028%20US-70%2C%20Black%20Mountain%2C%20NC%2028711">Get directions</a></div>
       <div class="stars"><b>4.7 on Google</b> from 28 reviews</div>
     </div>
     <figure class="frame"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9T8Ji04BPltq_8g2i6mkZ1c3aqkp9nqDtE53L3ZFSvIIGfCRaCDNsXm2kaMFaGLsYp_0WUTrDSu0xJPQznensCvmIlcAdf6GduNHxN1RdeuHUzDznLJ6sEroeFaGvqaGurlXO80=w900-h1100-p-k-no" alt="Broadway Styling Studio, 3028 US-70" width="900" height="1100"><figcaption class="badge">4.7 stars<small>28 Google reviews</small></figcaption></figure>
   </div></section>
   
-  <section class="offer" id="offer"><div class="wrap"><div><h2>Our services</h2><p>A beauty salon where Monica Gardner offers affordable cuts and color. Customers keep coming back for friendly, high-quality service.</p></div><ul class="list"><li><b>Haircut</b><span>Great cuts are a ridiculously low price.</span></li><li><b>Color</b><span>Her talent really shines with color.</span></li><li><b>Friendly staff</b><span>Excellent service and friendly staff.</span></li><li><b>Last-minute appointments</b><span>She was able to squeeze us in while some ones hair color was setting.</span></li><li><b>Affordable pricing</b><span>She&#x27;s so affordable it&#x27;s almost absurd.</span></li></ul></div></section>
+  <section class="offer" id="offer"><div class="wrap"><div><h2>What you get</h2><p>A beauty salon where the outside looks like a 1950s curl and chat. Customers stay for years because the talent is real and affordable.</p></div><ul class="list"><li><b>Hair cuts</b><span>Great cuts at a ridiculously low price</span></li><li><b>Hair color</b><span>Monica Gardner shines with color</span></li><li><b>Last minute appointments</b><span>Squeeze you in while others are waiting</span></li></ul></div></section>
+  <section class="ask" id="ask"><div class="wrap"><div><h2>Book a visit</h2><p>Pick a service and a time. You get a text to confirm.</p></div><form novalidate><label>What would you like done?<input placeholder="Cut, color, trim, a first visit..."></label><div class="row2"><label>Day<input type="date"></label><label>Time<select><option>Morning</option><option>Midday</option><option>Afternoon</option></select></label></div><div class="row2"><label>Your name<input autocomplete="name" required></label><label>Phone<input type="tel" autocomplete="tel"></label></div><button class="btn btn-main" type="submit">Request this time</button><p class="note">Preview: when this goes live, every request reaches you as a text and an email.</p><p class="done">Thanks! This is a preview, so nothing was sent.</p></form></div></section>
   
   <section class="reviews" id="reviews"><div class="wrap"><h2>4.7 stars, 28 reviews</h2><div class="rv"><figure><blockquote>“Don&#x27;t let the outside of the building fool you. It looks like a 1950&#x27;s &quot;curl &amp; chat.&quot; There is some real hidden talent inside. Monica Gardner is amazing with hair. She does great cuts, but her talent really shines with color.”</blockquote><figcaption>Sherri Bagwell</figcaption></figure><figure><blockquote>“The stylist did a great job on my daughter&#x27;s hair. It was a last minute appointment and we had called around several places. She was able to squeeze us in while some ones hair color was setting... We will be back”</blockquote><figcaption>James Shook</figcaption></figure><figure><blockquote>“Monica has been my colorist/stylist for several years now. She&#x27;s a genius!”</blockquote><figcaption>Judy Switzer</figcaption></figure><figure><blockquote>“Monica&#x27;s awesome!! I found the one! xxoo I&#x27;m hair happy.”</blockquote><figcaption>Tina Wexler</figcaption></figure><figure><blockquote>“Great cuts are a ridiculously low price. Been a customer for 15 yrs. Ask for Monica or Theresa”</blockquote><figcaption>Britt Taylor</figcaption></figure><figure><blockquote>“Monica does my hair She is great.”</blockquote><figcaption>Wanda roland</figcaption></figure></div></div></section>
   <section class="visit" id="visit"><div class="wrap">
-    <div><h2>Visit us today</h2><dl><dt>Where</dt><dd>3028 US-70, Black Mountain, NC 28711</dd><dt>Call</dt><dd><a href="tel:+18286698434">(828) 669-8434</a></dd></dl><div class="actions"><a class="btn btn-main" href="tel:+18286698434">Call (828) 669-8434</a><a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&amp;destination=Broadway%20Styling%20Studio%2C%203028%20US-70%2C%20Black%20Mountain%2C%20NC%2028711">Get directions</a></div></div>
+    <div><h2>Come by</h2><dl><dt>Where</dt><dd>3028 US-70, Black Mountain, NC 28711</dd><dt>Call</dt><dd><a href="tel:+18286698434">(828) 669-8434</a></dd></dl><div class="actions"><a class="btn btn-main" href="tel:+18286698434">Call (828) 669-8434</a><a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&amp;destination=Broadway%20Styling%20Studio%2C%203028%20US-70%2C%20Black%20Mountain%2C%20NC%2028711">Get directions</a></div></div>
     
   </div></section>
 </main>
 <p class="preview">Preview made for Broadway Styling Studio by Wolfgang Joerns, Black Mountain. Not live. Photos and reviews come from your Google listing.</p>
 <div class="dock"><a class="btn btn-main" href="tel:+18286698434">Call</a><a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&amp;destination=Broadway%20Styling%20Studio%2C%203028%20US-70%2C%20Black%20Mountain%2C%20NC%2028711">Directions</a></div>
-
+<script>document.querySelectorAll('.ask form').forEach(function(f){f.addEventListener('submit',function(e){e.preventDefault();f.classList.add('sent')})})</script>
 </body>
 </html>

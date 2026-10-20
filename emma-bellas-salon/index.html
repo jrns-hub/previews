@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="robots" content="noindex,nofollow">
 <title>Emma Bellas Salon · Beauty salon in Swannanoa</title>
-<meta name="description" content="A welcoming beauty salon where clients keep coming back for amazing haircuts.">
+<meta name="description" content="A Swannanoa beauty salon where stylists listen carefully. Clients return because their hair looks and feels amazing.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Young+Serif&amp;family=Albert+Sans:wght@400;600;700&amp;display=swap">
@@ -83,31 +83,52 @@ p{margin:0 0 1em;max-width:62ch}
 .preview{color:var(--soft);font-size:.86rem;text-align:center;padding:16px 20px calc(84px + env(safe-area-inset-bottom,0px))}
 .dock{display:none}
 @media (max-width:760px){.dock{display:flex;position:fixed;left:12px;right:12px;bottom:calc(12px + env(safe-area-inset-bottom,0px));z-index:20;gap:10px}.dock a{flex:1;box-shadow:0 10px 24px -10px rgba(0,0,0,.5)}.dock .btn-line{background:var(--card)}}
+
+.ask{padding:clamp(56px,8vw,100px) 0;background:var(--card);border-block:1px solid var(--line)}
+.ask .wrap{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(26px,5vw,64px);align-items:start}
+.ask form{display:grid;gap:14px;background:var(--bg);border:1px solid var(--line);border-radius:var(--r-img);padding:22px}
+.ask label{display:grid;gap:6px;font-weight:600;font-size:.95rem}
+.ask input,.ask select,.ask textarea{font:inherit;padding:12px 14px;border:1.5px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink)}
+.ask input:focus,.ask select:focus,.ask textarea:focus{outline:none;border-color:var(--acc)}
+.ask .row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.ask .chips{display:flex;flex-wrap:wrap;gap:8px}
+.ask .chips label{display:inline-flex;align-items:center;gap:8px;font-weight:500;border:1.5px solid var(--line);border-radius:999px;padding:8px 14px;background:var(--card)}
+.ask .note{font-size:.88rem;color:var(--soft);margin:0}
+.ask .done{display:none;font-weight:700;color:var(--acc-text)}
+.ask form.sent .done{display:block}
+.times{list-style:none;margin:0 0 18px;padding:0}.times li{padding:10px 0;border-bottom:1px solid var(--line)}
+@media (max-width:860px){.ask .wrap{grid-template-columns:1fr}.ask .row2{grid-template-columns:1fr}}
+
+.plate{aspect-ratio:4/5;display:grid;place-content:center;text-align:center;gap:12px;padding:28px;background:var(--band);color:var(--on-band);border-radius:calc(var(--r-frame) - 6px)}
+.plate b{font:var(--dw) clamp(2rem,4.5vw,3.2rem)/1.05 var(--display);text-transform:var(--dcase);text-wrap:balance}
+.plate span{opacity:.85}.plate small{margin-top:10px;font-size:.85rem;opacity:.75}
+@media (max-width:860px){.plate{aspect-ratio:5/4}}
 </style>
 </head>
 <body>
-<div class="wrap bar"><a class="mark" href="#top">Emma Bellas Salon</a><nav aria-label="Sections"><a href="#offer">What we do</a><a href="#reviews">Reviews</a><a href="#visit">Visit</a></nav></div>
+<div class="wrap bar"><a class="mark" href="#top">Emma Bellas Salon</a><nav aria-label="Sections"><a href="#offer">What we do</a><a href="#ask">Book</a><a href="#reviews">Reviews</a><a href="#visit">Visit</a></nav></div>
 <main id="top">
   <section class="hero"><div class="wrap">
     <div>
-      <h1><em>Amazing</em> haircut, every time.</h1>
-      <p class="lede">A welcoming beauty salon where clients keep coming back for amazing haircuts.</p>
+      <h1>Hair that <em>feels better</em> after leaving</h1>
+      <p class="lede">A Swannanoa beauty salon where stylists listen carefully. Clients return because their hair looks and feels amazing.</p>
       <div class="actions"><a class="btn btn-main" href="tel:+18284125353">Call (828) 412-5353</a><a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&amp;destination=Emma%20Bellas%20Salon%2C%202296%20US-70%20Unit%203%2C%20Swannanoa%2C%20NC%2028778">Get directions</a></div>
       <div class="stars"><b>4.9 on Google</b> from 41 reviews</div>
     </div>
     <figure class="frame"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TaY_OkDJdWcr5cWQiFf89L8Nk_7cE0OAtI1R0oOCFaOk3xieZNZpPACubDSky-mCND93iYPtBGd010nolQuSp1lcDB0hzGV4v_ypc8fRWw1fhb9mEGzJDWgqe8pbj4d6UBLPl2=w900-h1100-p-k-no" alt="Emma Bellas Salon, 2296 US-70 Unit 3" width="900" height="1100"><figcaption class="badge">4.9 stars<small>41 Google reviews</small></figcaption></figure>
   </div></section>
   <section class="today" aria-label="Hours"><div class="wrap"><span class="now" id="now">Hours</span><ul class="days"><li>Mon 10 AM–9 PM</li><li>Tue 10 AM–9 PM</li><li>Wed 10 AM–9 PM</li><li>Thu 10 AM–6 PM</li><li>Fri 10 AM–9 PM</li><li>Sat 10 AM–5 PM</li><li>Sun Closed</li></ul></div></section>
-  <section class="offer" id="offer"><div class="wrap"><div><h2>Our Services</h2><p>A welcoming beauty salon where clients keep coming back for amazing haircuts.</p></div><ul class="list"><li><b>Haircut</b><span>Expert cuts tailored to your style.</span></li><li><b>Beard Trim</b><span>Precision trims for a polished look.</span></li><li><b>Hair Coloring</b><span>Professional coloring with quality products.</span></li><li><b>Hair Styling</b><span>Personalized styling advice and techniques.</span></li></ul></div></section>
+  <section class="offer" id="offer"><div class="wrap"><div><h2>Stylists you will love</h2><p>A Swannanoa beauty salon where stylists listen carefully. Clients return because their hair looks and feels amazing.</p></div><ul class="list"><li><b>Eva</b><span>Lightening that leaves hair feeling great</span></li><li><b>Grecia</b><span>Cuts tailored to your style</span></li><li><b>Emma</b><span>Expert cuts and beard trims</span></li></ul></div></section>
+  <section class="ask" id="ask"><div class="wrap"><div><h2>Book a visit</h2><p>Pick a service and a time. You get a text to confirm.</p></div><form novalidate><label>What would you like done?<input placeholder="Cut, color, trim, a first visit..."></label><div class="row2"><label>Day<input type="date"></label><label>Time<select><option>Morning</option><option>Midday</option><option>Afternoon</option></select></label></div><div class="row2"><label>Your name<input autocomplete="name" required></label><label>Phone<input type="tel" autocomplete="tel"></label></div><button class="btn btn-main" type="submit">Request this time</button><p class="note">Preview: when this goes live, every request reaches you as a text and an email.</p><p class="done">Thanks! This is a preview, so nothing was sent.</p></form></div></section>
   
   <section class="reviews" id="reviews"><div class="wrap"><h2>4.9 stars, 41 reviews</h2><div class="rv"><figure><blockquote>“The lady with curly hair did a good job on my hair. It’s a good vibe salon. She was very kind and sweet. Very attentive of what I wanted. I would be back.”</blockquote><figcaption>Demi Smith</figcaption></figure><figure><blockquote>“Best haircut &amp; beard trim I&#x27;ve had in 20 years. Emma is at the top of her game.”</blockquote><figcaption>Michael Monk</figcaption></figure><figure><blockquote>“Wonderful haircut by a lovely stylist. The owner is a pillar in the Swannanoa community”</blockquote><figcaption>Alia Dahlan</figcaption></figure><figure><blockquote>“This duo has officially done the hair of every person in my family. We are all so impressed. Eva did such an amazing job on mine and my step moms hair.”</blockquote><figcaption>Sarah Powers</figcaption></figure><figure><blockquote>“Clean and welcoming. Grecia always does an amazing job, I highly recommend this salon!”</blockquote><figcaption>Emily Treadway</figcaption></figure><figure><blockquote>“Just had my hair cut by Grecia for the first time. She was amazing! She took the time to understand what I was looking for and to make suggestions on the cut and how to style it.”</blockquote><figcaption>darknessfalls 4960</figcaption></figure></div></div></section>
   <section class="visit" id="visit"><div class="wrap">
-    <div><h2>Visit Today</h2><dl><dt>Where</dt><dd>2296 US-70 Unit 3, Swannanoa, NC 28778</dd><dt>Hours</dt><dd>Mon 10 AM–9 PM<br>Tue 10 AM–9 PM<br>Wed 10 AM–9 PM<br>Thu 10 AM–6 PM<br>Fri 10 AM–9 PM<br>Sat 10 AM–5 PM<br>Sun Closed</dd><dt>Call</dt><dd><a href="tel:+18284125353">(828) 412-5353</a></dd><dt>Follow</dt><dd><a href="https://www.instagram.com/emma.bellass">Instagram</a></dd><dt>Follow</dt><dd><a href="https://www.facebook.com/emmabellassalon">Facebook</a></dd></dl><div class="actions"><a class="btn btn-main" href="tel:+18284125353">Call (828) 412-5353</a><a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&amp;destination=Emma%20Bellas%20Salon%2C%202296%20US-70%20Unit%203%2C%20Swannanoa%2C%20NC%2028778">Get directions</a></div></div>
+    <div><h2>See you at the salon</h2><dl><dt>Where</dt><dd>2296 US-70 Unit 3, Swannanoa, NC 28778</dd><dt>Hours</dt><dd>Mon 10 AM–9 PM<br>Tue 10 AM–9 PM<br>Wed 10 AM–9 PM<br>Thu 10 AM–6 PM<br>Fri 10 AM–9 PM<br>Sat 10 AM–5 PM<br>Sun Closed</dd><dt>Call</dt><dd><a href="tel:+18284125353">(828) 412-5353</a></dd><dt>Follow</dt><dd><a href="https://www.instagram.com/emma.bellass">Instagram</a></dd><dt>Follow</dt><dd><a href="https://www.facebook.com/emmabellassalon">Facebook</a></dd></dl><div class="actions"><a class="btn btn-main" href="tel:+18284125353">Call (828) 412-5353</a><a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&amp;destination=Emma%20Bellas%20Salon%2C%202296%20US-70%20Unit%203%2C%20Swannanoa%2C%20NC%2028778">Get directions</a></div></div>
     <img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RbHOOQ79XapAXulkYWgGL7gUWStjq2hwU_ThTwUHVmtsl7TXsS2qRNdIC65Cb0xjSGVG2qMCTj_LfJmCo6y4B-DHApu8Q4V-WM4qt7LgwDZ7LYCn6cvIRtFEmymk4BC4kwaN11=w900-h675-p-k-no" alt="Emma Bellas Salon in Swannanoa" width="900" height="675" loading="lazy">
   </div></section>
 </main>
 <p class="preview">Preview made for Emma Bellas Salon by Wolfgang Joerns, Black Mountain. Not live. Photos and reviews come from your Google listing.</p>
 <div class="dock"><a class="btn btn-main" href="tel:+18284125353">Call</a><a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&amp;destination=Emma%20Bellas%20Salon%2C%202296%20US-70%20Unit%203%2C%20Swannanoa%2C%20NC%2028778">Directions</a></div>
-<script>(function(){var d=new Date().toLocaleDateString('en-US',{weekday:'short',timeZone:'America/New_York'});var li=[].slice.call(document.querySelectorAll('.days li')).find(function(x){return x.textContent.indexOf(d)===0});if(li){document.getElementById('now').textContent='Today: '+li.textContent.slice(4);li.style.fontWeight='800'}})();</script>
+<script>(function(){var d=new Date().toLocaleDateString('en-US',{weekday:'short',timeZone:'America/New_York'});var li=[].slice.call(document.querySelectorAll('.days li')).find(function(x){return x.textContent.indexOf(d)===0});if(li){document.getElementById('now').textContent='Today: '+li.textContent.slice(4);li.style.fontWeight='800'}})();</script><script>document.querySelectorAll('.ask form').forEach(function(f){f.addEventListener('submit',function(e){e.preventDefault();f.classList.add('sent')})})</script>
 </body>
 </html>

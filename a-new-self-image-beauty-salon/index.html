@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="robots" content="noindex,nofollow">
 <title>A New Self Image Beauty Salon · Beauty salon in Black Mountain</title>
-<meta name="description" content="A relaxed beauty salon where friendly faces treat you like family. People keep returning for great cuts and excellent customer service.">
+<meta name="description" content="A relaxed Black Mountain beauty salon where friendly faces serve your beauty needs. People keep coming back because the staff treats customers with genuine care.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Young+Serif&amp;family=Albert+Sans:wght@400;600;700&amp;display=swap">
@@ -83,31 +83,52 @@ p{margin:0 0 1em;max-width:62ch}
 .preview{color:var(--soft);font-size:.86rem;text-align:center;padding:16px 20px calc(84px + env(safe-area-inset-bottom,0px))}
 .dock{display:none}
 @media (max-width:760px){.dock{display:flex;position:fixed;left:12px;right:12px;bottom:calc(12px + env(safe-area-inset-bottom,0px));z-index:20;gap:10px}.dock a{flex:1;box-shadow:0 10px 24px -10px rgba(0,0,0,.5)}.dock .btn-line{background:var(--card)}}
+
+.ask{padding:clamp(56px,8vw,100px) 0;background:var(--card);border-block:1px solid var(--line)}
+.ask .wrap{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(26px,5vw,64px);align-items:start}
+.ask form{display:grid;gap:14px;background:var(--bg);border:1px solid var(--line);border-radius:var(--r-img);padding:22px}
+.ask label{display:grid;gap:6px;font-weight:600;font-size:.95rem}
+.ask input,.ask select,.ask textarea{font:inherit;padding:12px 14px;border:1.5px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink)}
+.ask input:focus,.ask select:focus,.ask textarea:focus{outline:none;border-color:var(--acc)}
+.ask .row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.ask .chips{display:flex;flex-wrap:wrap;gap:8px}
+.ask .chips label{display:inline-flex;align-items:center;gap:8px;font-weight:500;border:1.5px solid var(--line);border-radius:999px;padding:8px 14px;background:var(--card)}
+.ask .note{font-size:.88rem;color:var(--soft);margin:0}
+.ask .done{display:none;font-weight:700;color:var(--acc-text)}
+.ask form.sent .done{display:block}
+.times{list-style:none;margin:0 0 18px;padding:0}.times li{padding:10px 0;border-bottom:1px solid var(--line)}
+@media (max-width:860px){.ask .wrap{grid-template-columns:1fr}.ask .row2{grid-template-columns:1fr}}
+
+.plate{aspect-ratio:4/5;display:grid;place-content:center;text-align:center;gap:12px;padding:28px;background:var(--band);color:var(--on-band);border-radius:calc(var(--r-frame) - 6px)}
+.plate b{font:var(--dw) clamp(2rem,4.5vw,3.2rem)/1.05 var(--display);text-transform:var(--dcase);text-wrap:balance}
+.plate span{opacity:.85}.plate small{margin-top:10px;font-size:.85rem;opacity:.75}
+@media (max-width:860px){.plate{aspect-ratio:5/4}}
 </style>
 </head>
 <body>
-<div class="wrap bar"><a class="mark" href="#top">A New Self Image Beauty Salon</a><nav aria-label="Sections"><a href="#offer">What we do</a><a href="#reviews">Reviews</a><a href="#visit">Visit</a></nav></div>
+<div class="wrap bar"><a class="mark" href="#top">A New Self Image Beauty Salon</a><nav aria-label="Sections"><a href="#offer">What we do</a><a href="#ask">Book</a><a href="#reviews">Reviews</a><a href="#visit">Visit</a></nav></div>
 <main id="top">
   <section class="hero"><div class="wrap">
     <div>
-      <h1><em>Friendly faces</em>, family feel</h1>
-      <p class="lede">A relaxed beauty salon where friendly faces treat you like family. People keep returning for great cuts and excellent customer service.</p>
+      <h1>Treat you like <em>family</em> at your salon</h1>
+      <p class="lede">A relaxed Black Mountain beauty salon where friendly faces serve your beauty needs. People keep coming back because the staff treats customers with genuine care.</p>
       <div class="actions"><a class="btn btn-main" href="tel:+18286696286">Call (828) 669-6286</a><a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&amp;destination=A%20New%20Self%20Image%20Beauty%20Salon%2C%20419%20W%20State%20St%2C%20Black%20Mountain%2C%20NC%2028711">Get directions</a></div>
       <div class="stars"><b>4.7 on Google</b> from 57 reviews</div>
     </div>
     <figure class="frame"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9S8UhLIgeBLRQPcmIC0p6N6rP61MWxQ_PBWFWdBtJCP_jbvZ-1LEo2wmu88NUG4nyYm6ocZbDCUgah_SQp-PFAzE3FTMR_qoWkUB8hp_k8tBX95FD34lZKcv5V7K1vcxDss645W9g=w900-h1100-p-k-no" alt="A New Self Image Beauty Salon, 419 W State St" width="900" height="1100"><figcaption class="badge">4.7 stars<small>57 Google reviews</small></figcaption></figure>
   </div></section>
   
-  <section class="offer" id="offer"><div class="wrap"><div><h2>What We Offer</h2><p>A relaxed beauty salon where friendly faces treat you like family. People keep returning for great cuts and excellent customer service.</p></div><ul class="list"><li><b>Haircuts</b><span>Quick, affordable cuts</span></li><li><b>Friendly Atmosphere</b><span>Relaxed, family‑like vibe</span></li><li><b>Personalized Styling</b><span>Support for natural gray, effortless style</span></li></ul></div></section>
+  <section class="offer" id="offer"><div class="wrap"><div><h2>Hair and beauty services</h2><p>A relaxed Black Mountain beauty salon where friendly faces serve your beauty needs. People keep coming back because the staff treats customers with genuine care.</p></div><ul class="list"><li><b>Haircuts</b><span>Get a fresh cut from a stylist who takes time to get it right.</span></li><li><b>Nail treatments</b><span>Keep your nails looking their best with professional care.</span></li><li><b>Updos</b><span>Specialty styling for special occasions.</span></li><li><b>Color</b><span>Supportive guidance for growing out your natural look.</span></li></ul></div></section>
+  <section class="ask" id="ask"><div class="wrap"><div><h2>Book a visit</h2><p>Pick a service and a time. You get a text to confirm.</p></div><form novalidate><label>What would you like done?<input placeholder="Cut, color, trim, a first visit..."></label><div class="row2"><label>Day<input type="date"></label><label>Time<select><option>Morning</option><option>Midday</option><option>Afternoon</option></select></label></div><div class="row2"><label>Your name<input autocomplete="name" required></label><label>Phone<input type="tel" autocomplete="tel"></label></div><button class="btn btn-main" type="submit">Request this time</button><p class="note">Preview: when this goes live, every request reaches you as a text and an email.</p><p class="done">Thanks! This is a preview, so nothing was sent.</p></form></div></section>
   
   <section class="reviews" id="reviews"><div class="wrap"><h2>4.7 stars, 57 reviews</h2><div class="rv"><figure><blockquote>“My son needed a haircut and even though we didn&#x27;t have an appointment, the barber said to come on back, he would be happy to take care of it. He did an awesome job on my son&#x27;s hair and was super reasonably priced.”</blockquote><figcaption>Peggy Reeves</figcaption></figure><figure><blockquote>“Danielle is fantastic. Took her time cutting my hair, and gave me a great new &#x27;do. Very supportive of me growing my natural gray out. Love that I have an effortless hairstyle thanks to Danielle.”</blockquote><figcaption>Lauren Lagrave</figcaption></figure><figure><blockquote>“Our family has been getting our hair done here all of our lives. It&#x27;s a relaxed atmosphere with plenty of friendly faces that treat you like family.”</blockquote><figcaption>Benjamin Keith</figcaption></figure><figure><blockquote>“&quot;Self Image,&quot; as they call themselves for short, was in need of a recent review. I was in town visiting family and needed to have my hair cut.”</blockquote><figcaption>Elizabeth BN</figcaption></figure><figure><blockquote>“Danielle has been cutting my hair for a few years now. I recently moved 40 minutes from the salon and I still only let her cut my hair! Strangers constantly ask me who cut my hair. Thanks Danielle!”</blockquote><figcaption>Penny Williams</figcaption></figure><figure><blockquote>“Teresa at New Self Image Salon is a true artist. I love my modern haircut and spending time with this joyful young stylist.”</blockquote><figcaption>Michele Olsen</figcaption></figure></div></div></section>
   <section class="visit" id="visit"><div class="wrap">
-    <div><h2>Come see us</h2><dl><dt>Where</dt><dd>419 W State St, Black Mountain, NC 28711</dd><dt>Call</dt><dd><a href="tel:+18286696286">(828) 669-6286</a></dd></dl><div class="actions"><a class="btn btn-main" href="tel:+18286696286">Call (828) 669-6286</a><a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&amp;destination=A%20New%20Self%20Image%20Beauty%20Salon%2C%20419%20W%20State%20St%2C%20Black%20Mountain%2C%20NC%2028711">Get directions</a></div></div>
+    <div><h2>Find us in town</h2><dl><dt>Where</dt><dd>419 W State St, Black Mountain, NC 28711</dd><dt>Call</dt><dd><a href="tel:+18286696286">(828) 669-6286</a></dd></dl><div class="actions"><a class="btn btn-main" href="tel:+18286696286">Call (828) 669-6286</a><a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&amp;destination=A%20New%20Self%20Image%20Beauty%20Salon%2C%20419%20W%20State%20St%2C%20Black%20Mountain%2C%20NC%2028711">Get directions</a></div></div>
     
   </div></section>
 </main>
 <p class="preview">Preview made for A New Self Image Beauty Salon by Wolfgang Joerns, Black Mountain. Not live. Photos and reviews come from your Google listing.</p>
 <div class="dock"><a class="btn btn-main" href="tel:+18286696286">Call</a><a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&amp;destination=A%20New%20Self%20Image%20Beauty%20Salon%2C%20419%20W%20State%20St%2C%20Black%20Mountain%2C%20NC%2028711">Directions</a></div>
-
+<script>document.querySelectorAll('.ask form').forEach(function(f){f.addEventListener('submit',function(e){e.preventDefault();f.classList.add('sent')})})</script>
 </body>
 </html>

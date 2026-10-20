@@ -77,7 +77,7 @@ def groq_copy(d):
               "visit_h: 2 to 5 words, sentence case.\n"
               "No em dashes, no exclamation marks, no words like nestled, elevate, hidden gem, one-stop.\n\nFACTS:\n"
               + json.dumps(facts, ensure_ascii=False))
-    for model in ("openai/gpt-oss-120b", "openai/gpt-oss-120b", "openai/gpt-oss-20b", "openai/gpt-oss-120b"):
+    for model in os.environ.get("GEN_MODELS", "openai/gpt-oss-120b,openai/gpt-oss-120b,openai/gpt-oss-20b,openai/gpt-oss-120b").split(","):
         body = json.dumps({"model": model, "messages": [{"role": "user", "content": prompt}],
                            "response_format": {"type": "json_object"}, "temperature": 0.6}).encode()
         req = urllib.request.Request("https://api.groq.com/openai/v1/chat/completions", body,

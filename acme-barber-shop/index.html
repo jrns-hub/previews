@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="robots" content="noindex,nofollow">
 <title>Acme Barber Shop · Barber shop in Black Mountain</title>
-<meta name="description" content="Acme Barber Shop is a small-town barbershop where barbers like Misty, Pam and Alicia give precise cuts. Customers keep coming back for the friendly conversation and family-friendly service.">
+<meta name="description" content="A small town shop where anyone can get a great cut. People drive miles for the friendly conversation and skilled hands.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Young+Serif&amp;family=Albert+Sans:wght@400;600;700&amp;display=swap">
@@ -83,31 +83,52 @@ p{margin:0 0 1em;max-width:62ch}
 .preview{color:var(--soft);font-size:.86rem;text-align:center;padding:16px 20px calc(84px + env(safe-area-inset-bottom,0px))}
 .dock{display:none}
 @media (max-width:760px){.dock{display:flex;position:fixed;left:12px;right:12px;bottom:calc(12px + env(safe-area-inset-bottom,0px));z-index:20;gap:10px}.dock a{flex:1;box-shadow:0 10px 24px -10px rgba(0,0,0,.5)}.dock .btn-line{background:var(--card)}}
+
+.ask{padding:clamp(56px,8vw,100px) 0;background:var(--card);border-block:1px solid var(--line)}
+.ask .wrap{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(26px,5vw,64px);align-items:start}
+.ask form{display:grid;gap:14px;background:var(--bg);border:1px solid var(--line);border-radius:var(--r-img);padding:22px}
+.ask label{display:grid;gap:6px;font-weight:600;font-size:.95rem}
+.ask input,.ask select,.ask textarea{font:inherit;padding:12px 14px;border:1.5px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink)}
+.ask input:focus,.ask select:focus,.ask textarea:focus{outline:none;border-color:var(--acc)}
+.ask .row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.ask .chips{display:flex;flex-wrap:wrap;gap:8px}
+.ask .chips label{display:inline-flex;align-items:center;gap:8px;font-weight:500;border:1.5px solid var(--line);border-radius:999px;padding:8px 14px;background:var(--card)}
+.ask .note{font-size:.88rem;color:var(--soft);margin:0}
+.ask .done{display:none;font-weight:700;color:var(--acc-text)}
+.ask form.sent .done{display:block}
+.times{list-style:none;margin:0 0 18px;padding:0}.times li{padding:10px 0;border-bottom:1px solid var(--line)}
+@media (max-width:860px){.ask .wrap{grid-template-columns:1fr}.ask .row2{grid-template-columns:1fr}}
+
+.plate{aspect-ratio:4/5;display:grid;place-content:center;text-align:center;gap:12px;padding:28px;background:var(--band);color:var(--on-band);border-radius:calc(var(--r-frame) - 6px)}
+.plate b{font:var(--dw) clamp(2rem,4.5vw,3.2rem)/1.05 var(--display);text-transform:var(--dcase);text-wrap:balance}
+.plate span{opacity:.85}.plate small{margin-top:10px;font-size:.85rem;opacity:.75}
+@media (max-width:860px){.plate{aspect-ratio:5/4}}
 </style>
 </head>
 <body>
-<div class="wrap bar"><a class="mark" href="#top">Acme Barber Shop</a><nav aria-label="Sections"><a href="#offer">What we do</a><a href="#reviews">Reviews</a><a href="#visit">Visit</a></nav></div>
+<div class="wrap bar"><a class="mark" href="#top">Acme Barber Shop</a><nav aria-label="Sections"><a href="#offer">What we do</a><a href="#ask">Book</a><a href="#reviews">Reviews</a><a href="#visit">Visit</a></nav></div>
 <main id="top">
   <section class="hero"><div class="wrap">
     <div>
-      <h1><em>Friendly</em> chats, great cuts</h1>
-      <p class="lede">Acme Barber Shop is a small-town barbershop where barbers like Misty, Pam and Alicia give precise cuts. Customers keep coming back for the friendly conversation and family-friendly service.</p>
+      <h1>Barbers who actually <em>listen</em> to what you want</h1>
+      <p class="lede">A small town shop where anyone can get a great cut. People drive miles for the friendly conversation and skilled hands.</p>
       <div class="actions"><a class="btn btn-main" href="tel:+18283575074">Call (828) 357-5074</a><a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&amp;destination=Acme%20Barber%20Shop%2C%20117%20Broadway%20Ave%2C%20Black%20Mountain%2C%20NC%2028711">Get directions</a></div>
       <div class="stars"><b>4.8 on Google</b> from 64 reviews</div>
     </div>
     <figure class="frame"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9ToXv73q3c4dSk4o_G9alSgPIHuL6Vhp-XPLOro9SpTpx7ycI6W28omoXf91We-OlS1VFx_knAfExF6MpK4mCMjD5Wg6VMywGNgpHIAVNdgembzvtnV4HGUBJprH4aPo5RbZnM8bNuev4zD=w900-h1100-p-k-no" alt="Acme Barber Shop, 117 Broadway Ave" width="900" height="1100"><figcaption class="badge">4.8 stars<small>64 Google reviews</small></figcaption></figure>
   </div></section>
   <section class="today" aria-label="Hours"><div class="wrap"><span class="now" id="now">Hours</span><ul class="days"><li>Mon Closed</li><li>Tue 10 AM–6 PM</li><li>Wed 10 AM–6 PM</li><li>Thu 10 AM–6 PM</li><li>Fri 10 AM–6 PM</li><li>Sat Closed</li><li>Sun Closed</li></ul></div></section>
-  <section class="offer" id="offer"><div class="wrap"><div><h2>What you get</h2><p>Acme Barber Shop is a small-town barbershop where barbers like Misty, Pam and Alicia give precise cuts. Customers keep coming back for the friendly conversation and family-friendly service.</p></div><ul class="list"><li><b>Great haircut</b><span>Consistently praised for precise, high-quality cuts</span></li><li><b>Friendly conversation</b><span>Barbers chat like friends, making the visit enjoyable</span></li><li><b>Family-friendly service</b><span>Kids feel heard and get quick, neat cuts</span></li><li><b>Reasonable prices</b><span>Quality cuts without breaking the bank</span></li></ul></div></section>
+  <section class="offer" id="offer"><div class="wrap"><div><h2>Why locals keep coming</h2><p>A small town shop where anyone can get a great cut. People drive miles for the friendly conversation and skilled hands.</p></div><ul class="list"><li><b>Kids&#x27; haircuts</b><span>Patient and quick for littles</span></li><li><b>Women&#x27;s haircuts</b><span>Sharp cuts for all genders</span></li><li><b>Complex men&#x27;s cuts</b><span>They get the tricky details right</span></li><li><b>Local tips</b><span>Area advice during your visit</span></li></ul></div></section>
+  <section class="ask" id="ask"><div class="wrap"><div><h2>Book a visit</h2><p>Pick a service and a time. You get a text to confirm.</p></div><form novalidate><label>What would you like done?<input placeholder="Cut, color, trim, a first visit..."></label><div class="row2"><label>Day<input type="date"></label><label>Time<select><option>Morning</option><option>Midday</option><option>Afternoon</option></select></label></div><div class="row2"><label>Your name<input autocomplete="name" required></label><label>Phone<input type="tel" autocomplete="tel"></label></div><button class="btn btn-main" type="submit">Request this time</button><p class="note">Preview: when this goes live, every request reaches you as a text and an email.</p><p class="done">Thanks! This is a preview, so nothing was sent.</p></form></div></section>
   
   <section class="reviews" id="reviews"><div class="wrap"><h2>4.8 stars, 64 reviews</h2><div class="rv"><figure><blockquote>“Great place to take kids. Alicia was so great, she listened to what he wanted and knocked it out in no time! Highly recommend taking your littles here as well as your self!”</blockquote><figcaption>Cheyenne Bryson</figcaption></figure><figure><blockquote>“I &amp; mom only all times go get haircuts short. Benny owner barber shop can women cut hair matter too. He very sweet person and very good cut short. 💜💇✂ He know me, my mom, aunt and grandma all time here. …”</blockquote><figcaption>Amber Bryant</figcaption></figure><figure><blockquote>“(Mens Haircut) This was my first time going Acme Barber Shop and had a great experience! I got my hair cut by Misty. She did a great job, and I would highly recommend her! She was also very friendly and personable.”</blockquote><figcaption>Chris Karcher</figcaption></figure><figure><blockquote>“It took me quite a while to find a new barber that I liked. I went through several bad ones and many not so good haircuts. Then I finally found Misty and Acme Barber Shop in Black Mountain.”</blockquote><figcaption>Jack Stephens</figcaption></figure><figure><blockquote>“Acme is a small town barbershop. I get my haircuts done by Pam. She does a fantastic job! For a men’s haircut “my cut” is a little complicated.”</blockquote><figcaption>Paul Price</figcaption></figure><figure><blockquote>“Misty is the best barber, anyone could ever ask for! Great conversation, great atmosphere, reasonable prices and she will give you a haircut, that you will love! We drive about 12 miles for the best of the best. Thank you Misty!”</blockquote><figcaption>Marc Mullinax</figcaption></figure></div></div></section>
   <section class="visit" id="visit"><div class="wrap">
-    <div><h2>Come see us</h2><dl><dt>Where</dt><dd>117 Broadway Ave, Black Mountain, NC 28711</dd><dt>Hours</dt><dd>Mon Closed<br>Tue 10 AM–6 PM<br>Wed 10 AM–6 PM<br>Thu 10 AM–6 PM<br>Fri 10 AM–6 PM<br>Sat Closed<br>Sun Closed</dd><dt>Call</dt><dd><a href="tel:+18283575074">(828) 357-5074</a></dd><dt>Follow</dt><dd><a href="https://www.facebook.com/61581425699556/">Facebook</a></dd></dl><div class="actions"><a class="btn btn-main" href="tel:+18283575074">Call (828) 357-5074</a><a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&amp;destination=Acme%20Barber%20Shop%2C%20117%20Broadway%20Ave%2C%20Black%20Mountain%2C%20NC%2028711">Get directions</a></div></div>
+    <div><h2>When we are open</h2><dl><dt>Where</dt><dd>117 Broadway Ave, Black Mountain, NC 28711</dd><dt>Hours</dt><dd>Mon Closed<br>Tue 10 AM–6 PM<br>Wed 10 AM–6 PM<br>Thu 10 AM–6 PM<br>Fri 10 AM–6 PM<br>Sat Closed<br>Sun Closed</dd><dt>Call</dt><dd><a href="tel:+18283575074">(828) 357-5074</a></dd><dt>Follow</dt><dd><a href="https://www.facebook.com/61581425699556/">Facebook</a></dd></dl><div class="actions"><a class="btn btn-main" href="tel:+18283575074">Call (828) 357-5074</a><a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&amp;destination=Acme%20Barber%20Shop%2C%20117%20Broadway%20Ave%2C%20Black%20Mountain%2C%20NC%2028711">Get directions</a></div></div>
     <img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9T950tlM976Kf9JpZj4s_E5PMg1j-Ln1knOH37qUGv_Q-_OoevcDkk0h_IUJPlJ4N3cKhb6XL0D-4xMH_EQzqjbV2a_qKRKmAlPMm_w3siVSjAx_Um-7pEFdH3ozV08o-1REWmV=w900-h675-p-k-no" alt="Acme Barber Shop in Black Mountain" width="900" height="675" loading="lazy">
   </div></section>
 </main>
 <p class="preview">Preview made for Acme Barber Shop by Wolfgang Joerns, Black Mountain. Not live. Photos and reviews come from your Google listing.</p>
 <div class="dock"><a class="btn btn-main" href="tel:+18283575074">Call</a><a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&amp;destination=Acme%20Barber%20Shop%2C%20117%20Broadway%20Ave%2C%20Black%20Mountain%2C%20NC%2028711">Directions</a></div>
-<script>(function(){var d=new Date().toLocaleDateString('en-US',{weekday:'short',timeZone:'America/New_York'});var li=[].slice.call(document.querySelectorAll('.days li')).find(function(x){return x.textContent.indexOf(d)===0});if(li){document.getElementById('now').textContent='Today: '+li.textContent.slice(4);li.style.fontWeight='800'}})();</script>
+<script>(function(){var d=new Date().toLocaleDateString('en-US',{weekday:'short',timeZone:'America/New_York'});var li=[].slice.call(document.querySelectorAll('.days li')).find(function(x){return x.textContent.indexOf(d)===0});if(li){document.getElementById('now').textContent='Today: '+li.textContent.slice(4);li.style.fontWeight='800'}})();</script><script>document.querySelectorAll('.ask form').forEach(function(f){f.addEventListener('submit',function(e){e.preventDefault();f.classList.add('sent')})})</script>
 </body>
 </html>

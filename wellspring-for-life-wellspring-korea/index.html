@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>Wellspring For Life (Wellspring Korea) · Non-profit organization in Black Mountain</title>
+<meta name="description" content="A non-profit organization dedicated to supporting the community.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,600&amp;family=Atkinson+Hyperlegible:wght@400;700&amp;display=swap">
+<style>
+/* World: a community hall: whitewashed wood, forest green, warm light. */
+:root{--bg:#f5f4ee;--card:#ffffff;--ink:#1b2620;--soft:#4c5a52;--line:#dde2da;--acc:#2f6b4f;--acc-text:#2f6b4f;--on-acc:#fff;--link:#2f6b4f;--band:#20372b;--on-band:#eef3ee;--frame:#dfe7dc;--frame-pad:12px;--r-frame:14px;--r-img:12px;--r-btn:10px;--display:'Newsreader',Georgia,serif;--body:'Atkinson Hyperlegible',system-ui,sans-serif;--dw:600;--dt:-.01em;--dcase:none}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+body{margin:0;background:var(--bg);color:var(--ink);font:18px/1.6 var(--body);-webkit-font-smoothing:antialiased}
+::selection{background:var(--acc);color:var(--on-acc)}
+img{max-width:100%;height:auto;display:block}
+figure{margin:0}
+a{color:var(--link);text-underline-offset:3px}
+a:focus-visible{outline:3px solid var(--acc);outline-offset:3px;border-radius:4px}
+.wrap{width:min(1140px,100% - 32px);margin-inline:auto}
+h1,h2,h3{font-family:var(--display);font-weight:var(--dw);line-height:1.02;margin:0;text-wrap:balance;letter-spacing:var(--dt);text-transform:var(--dcase)}
+h2{font-size:clamp(2rem,4.8vw,3.3rem);margin-bottom:.4em}
+p{margin:0 0 1em;max-width:62ch}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:0 24px;border-radius:var(--r-btn);font:700 1rem var(--body);text-decoration:none;transition:transform .2s,background .2s}
+.btn:hover{transform:translateY(-2px)}
+.btn-main{background:var(--acc);color:var(--on-acc)}
+.btn-line{border:2px solid currentColor;color:var(--ink)}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px 0}
+.mark{font:var(--dw) 1.45rem var(--display);color:var(--ink);text-decoration:none;text-transform:var(--dcase)}
+.bar nav{display:flex;gap:22px;font-weight:600}.bar nav a{color:var(--soft);text-decoration:none}
+@media (max-width:760px){.bar nav{display:none}}
+
+.hero{padding:8px 0 clamp(44px,7vw,88px)}
+.hero .wrap{display:grid;grid-template-columns:1fr 1.05fr;gap:clamp(26px,5vw,64px);align-items:center}
+.hero h1{font-size:clamp(2.7rem,7vw,5.2rem)}
+.hero h1 em{font-style:normal;color:var(--acc-text)}
+.lede{font-size:1.15rem;color:var(--soft);margin:1em 0 1.5em}
+.actions{display:flex;flex-wrap:wrap;gap:12px}
+.stars{margin-top:22px;color:var(--soft);font-size:.98rem}.stars b{color:var(--ink)}
+.frame{position:relative;background:var(--frame);padding:var(--frame-pad);border-radius:var(--r-frame);box-shadow:0 30px 50px -30px rgba(0,0,0,.55)}
+.frame img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:calc(var(--r-frame) - 6px)}
+.badge{position:absolute;left:-14px;bottom:26px;background:var(--card);color:var(--ink);border:1px solid var(--line);padding:12px 16px;border-radius:var(--r-btn);box-shadow:0 14px 28px -14px rgba(0,0,0,.45);font-weight:700;transform:rotate(-2deg);animation:settle 1s cubic-bezier(.16,1,.3,1) .3s both}
+.badge small{display:block;font-weight:400;color:var(--soft);font-size:.8rem}
+@keyframes settle{from{transform:rotate(-8deg) translateY(-10px);opacity:.3}to{transform:rotate(-2deg)}}
+@media (max-width:860px){.hero .wrap{grid-template-columns:1fr}.frame{order:-1}.frame img{aspect-ratio:5/4}.badge{left:10px;bottom:-18px}.hero h1{margin-top:22px}}
+
+.today{background:var(--band);color:var(--on-band);padding:22px 0}
+.today .wrap{display:flex;flex-wrap:wrap;gap:10px 30px;align-items:center}
+.now{font-weight:800;padding:7px 14px;border-radius:999px;background:#ffffff1f}
+.days{display:flex;flex-wrap:wrap;gap:6px 22px;list-style:none;margin:0;padding:0;font-size:.98rem}
+
+.offer{padding:clamp(56px,8vw,100px) 0}
+.offer .wrap{display:grid;grid-template-columns:.85fr 1.15fr;gap:clamp(26px,5vw,64px)}
+.list{list-style:none;margin:0;padding:0;border-top:2px solid var(--ink)}
+.list li{padding:18px 0;border-bottom:1px solid var(--line)}
+.list b{display:block;font:var(--dw) 1.35rem/1.15 var(--display);text-transform:var(--dcase)}
+.list span{color:var(--soft)}
+@media (max-width:860px){.offer .wrap{grid-template-columns:1fr}}
+
+.gallery{padding:0 0 clamp(56px,8vw,100px)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.grid img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:var(--r-img)}
+.grid img:first-child{grid-column:span 2;grid-row:span 2;aspect-ratio:auto;height:100%}
+@media (max-width:700px){.grid{grid-template-columns:1fr 1fr}.grid img:first-child{grid-column:1/-1;grid-row:auto;aspect-ratio:16/10}}
+
+.reviews{background:var(--band);color:var(--on-band);padding:clamp(56px,8vw,100px) 0}
+.reviews h2{color:var(--on-band)}
+.rv{columns:3 280px;column-gap:20px;margin-top:26px}
+.rv figure{break-inside:avoid;background:var(--card);color:var(--ink);border-radius:var(--r-img);padding:22px;margin-bottom:20px}
+.rv blockquote{margin:0 0 12px}.rv figcaption{font-weight:700;color:var(--soft);font-size:.92rem}
+
+.visit{padding:clamp(56px,8vw,100px) 0}
+.visit .wrap{display:grid;grid-template-columns:1fr 1fr;gap:clamp(26px,5vw,64px);align-items:center}
+.visit dl{display:grid;grid-template-columns:auto 1fr;gap:10px 22px;margin:0 0 26px}
+.visit dt{color:var(--soft);font-weight:600}.visit dd{margin:0}
+.visit img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:var(--r-img)}
+@media (max-width:860px){.visit .wrap{grid-template-columns:1fr}}
+
+.preview{color:var(--soft);font-size:.86rem;text-align:center;padding:16px 20px calc(84px + env(safe-area-inset-bottom,0px))}
+.dock{display:none}
+@media (max-width:760px){.dock{display:flex;position:fixed;left:12px;right:12px;bottom:calc(12px + env(safe-area-inset-bottom,0px));z-index:20;gap:10px}.dock a{flex:1;box-shadow:0 10px 24px -10px rgba(0,0,0,.5)}.dock .btn-line{background:var(--card)}}
+
+.ask{padding:clamp(56px,8vw,100px) 0;background:var(--card);border-block:1px solid var(--line)}
+.ask .wrap{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(26px,5vw,64px);align-items:start}
+.ask form{display:grid;gap:14px;background:var(--bg);border:1px solid var(--line);border-radius:var(--r-img);padding:22px}
+.ask label{display:grid;gap:6px;font-weight:600;font-size:.95rem}
+.ask input,.ask select,.ask textarea{font:inherit;padding:12px 14px;border:1.5px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink)}
+.ask input:focus,.ask select:focus,.ask textarea:focus{outline:none;border-color:var(--acc)}
+.ask .row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.ask .chips{display:flex;flex-wrap:wrap;gap:8px}
+.ask .chips label{display:inline-flex;align-items:center;gap:8px;font-weight:500;border:1.5px solid var(--line);border-radius:999px;padding:8px 14px;background:var(--card)}
+.ask .note{font-size:.88rem;color:var(--soft);margin:0}
+.ask .done{display:none;font-weight:700;color:var(--acc-text)}
+.ask form.sent .done{display:block}
+.times{list-style:none;margin:0 0 18px;padding:0}.times li{padding:10px 0;border-bottom:1px solid var(--line)}
+@media (max-width:860px){.ask .wrap{grid-template-columns:1fr}.ask .row2{grid-template-columns:1fr}}
+
+.plate{aspect-ratio:4/5;display:grid;place-content:center;text-align:center;gap:12px;padding:28px;background:var(--band);color:var(--on-band);border-radius:calc(var(--r-frame) - 6px)}
+.plate b{font:var(--dw) clamp(2rem,4.5vw,3.2rem)/1.05 var(--display);text-transform:var(--dcase);text-wrap:balance}
+.plate span{opacity:.85}.plate small{margin-top:10px;font-size:.85rem;opacity:.75}
+@media (max-width:860px){.plate{aspect-ratio:5/4}}
+</style>
+</head>
+<body>
+<div class="wrap bar"><a class="mark" href="#top">Wellspring For Life (Wellspring Korea)</a><nav aria-label="Sections"><a href="#ask">Volunteer</a><a href="#visit">Visit</a></nav></div>
+<main id="top">
+  <section class="hero"><div class="wrap">
+    <div>
+      <h1>A <em>wellspring</em> for life in Black Mountain</h1>
+      <p class="lede">A non-profit organization dedicated to supporting the community.</p>
+      <div class="actions"><a class="btn btn-main" href="tel:+18287779637">Call (828) 777-9637</a><a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&amp;destination=Wellspring%20For%20Life%20%28Wellspring%20Korea%29%2C%20123%20Althea%20Rd%2C%20Black%20Mountain%2C%20NC%2028711">Get directions</a></div>
+      <div class="stars"><b>5.0 on Google</b> from 1 reviews</div>
+    </div>
+    <figure class="frame"><div class="plate"><b>Wellspring For Life (Wellspring Korea)</b><span>123 Althea Rd, Black Mountain</span><small>Your own photos go here. We take them on a free photo walk.</small></div><figcaption class="badge">5.0 stars<small>1 Google reviews</small></figcaption></figure>
+  </div></section>
+  <section class="today" aria-label="Hours"><div class="wrap"><span class="now" id="now">Hours</span><ul class="days"><li>Mon 8 AM–8 PM</li><li>Tue 8 AM–8 PM</li><li>Wed 8 AM–8 PM</li><li>Thu 8 AM–8 PM</li><li>Fri 8 AM–8 PM</li><li>Sat 8 AM–8 PM</li><li>Sun Closed</li></ul></div></section>
+  
+  <section class="ask" id="ask"><div class="wrap"><div><h2>Volunteer with us</h2><p>Pick when you can help. We will reach out with a first shift.</p><p><a class="btn btn-line" href="#ask">Give online</a></p></div><form novalidate><div class="row2"><label>Your name<input autocomplete="name" required></label><label>Phone<input type="tel" autocomplete="tel"></label></div><label>Email<input type="email" autocomplete="email"></label><div class="chips"><label><input type="checkbox"> Weekday mornings</label><label><input type="checkbox"> Weekday afternoons</label><label><input type="checkbox"> Weekends</label><label><input type="checkbox"> Events</label><label><input type="checkbox"> Behind the scenes</label></div><button class="btn btn-main" type="submit">Sign me up</button><p class="note">Preview: when this goes live, every request reaches you as a text and an email.</p><p class="done">Thanks! This is a preview, so nothing was sent.</p></form></div></section>
+  
+  
+  <section class="visit" id="visit"><div class="wrap">
+    <div><h2>Visit hours</h2><dl><dt>Where</dt><dd>123 Althea Rd, Black Mountain, NC 28711</dd><dt>Hours</dt><dd>Mon 8 AM–8 PM<br>Tue 8 AM–8 PM<br>Wed 8 AM–8 PM<br>Thu 8 AM–8 PM<br>Fri 8 AM–8 PM<br>Sat 8 AM–8 PM<br>Sun Closed</dd><dt>Call</dt><dd><a href="tel:+18287779637">(828) 777-9637</a></dd></dl><div class="actions"><a class="btn btn-main" href="tel:+18287779637">Call (828) 777-9637</a><a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&amp;destination=Wellspring%20For%20Life%20%28Wellspring%20Korea%29%2C%20123%20Althea%20Rd%2C%20Black%20Mountain%2C%20NC%2028711">Get directions</a></div></div>
+    
+  </div></section>
+</main>
+<p class="preview">Preview made for Wellspring For Life (Wellspring Korea) by Wolfgang Joerns, Black Mountain. Not live. Photos and reviews come from your Google listing.</p>
+<div class="dock"><a class="btn btn-main" href="tel:+18287779637">Call</a><a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&amp;destination=Wellspring%20For%20Life%20%28Wellspring%20Korea%29%2C%20123%20Althea%20Rd%2C%20Black%20Mountain%2C%20NC%2028711">Directions</a></div>
+<script>(function(){var d=new Date().toLocaleDateString('en-US',{weekday:'short',timeZone:'America/New_York'});var li=[].slice.call(document.querySelectorAll('.days li')).find(function(x){return x.textContent.indexOf(d)===0});if(li){document.getElementById('now').textContent='Today: '+li.textContent.slice(4);li.style.fontWeight='800'}})();</script><script>document.querySelectorAll('.ask form').forEach(function(f){f.addEventListener('submit',function(e){e.preventDefault();f.classList.add('sent')})})</script>
+</body>
+</html>

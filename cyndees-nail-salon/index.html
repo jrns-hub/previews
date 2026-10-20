@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="robots" content="noindex,nofollow">
 <title>Cyndee&#x27;s Nail Salon · Nail salon in Black Mountain</title>
-<meta name="description" content="Cyndee&#x27;s Nail Salon offers a clean, friendly environment where the team makes you feel welcome. Guests return for the comfortable massage chair and the highly praised pedicures.">
+<meta name="description" content="Cyndee&#x27;s Nail Salon offers friendly service and a massage chair. Customers love the variety of nail styles.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Young+Serif&amp;family=Albert+Sans:wght@400;600;700&amp;display=swap">
@@ -83,31 +83,52 @@ p{margin:0 0 1em;max-width:62ch}
 .preview{color:var(--soft);font-size:.86rem;text-align:center;padding:16px 20px calc(84px + env(safe-area-inset-bottom,0px))}
 .dock{display:none}
 @media (max-width:760px){.dock{display:flex;position:fixed;left:12px;right:12px;bottom:calc(12px + env(safe-area-inset-bottom,0px));z-index:20;gap:10px}.dock a{flex:1;box-shadow:0 10px 24px -10px rgba(0,0,0,.5)}.dock .btn-line{background:var(--card)}}
+
+.ask{padding:clamp(56px,8vw,100px) 0;background:var(--card);border-block:1px solid var(--line)}
+.ask .wrap{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(26px,5vw,64px);align-items:start}
+.ask form{display:grid;gap:14px;background:var(--bg);border:1px solid var(--line);border-radius:var(--r-img);padding:22px}
+.ask label{display:grid;gap:6px;font-weight:600;font-size:.95rem}
+.ask input,.ask select,.ask textarea{font:inherit;padding:12px 14px;border:1.5px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink)}
+.ask input:focus,.ask select:focus,.ask textarea:focus{outline:none;border-color:var(--acc)}
+.ask .row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.ask .chips{display:flex;flex-wrap:wrap;gap:8px}
+.ask .chips label{display:inline-flex;align-items:center;gap:8px;font-weight:500;border:1.5px solid var(--line);border-radius:999px;padding:8px 14px;background:var(--card)}
+.ask .note{font-size:.88rem;color:var(--soft);margin:0}
+.ask .done{display:none;font-weight:700;color:var(--acc-text)}
+.ask form.sent .done{display:block}
+.times{list-style:none;margin:0 0 18px;padding:0}.times li{padding:10px 0;border-bottom:1px solid var(--line)}
+@media (max-width:860px){.ask .wrap{grid-template-columns:1fr}.ask .row2{grid-template-columns:1fr}}
+
+.plate{aspect-ratio:4/5;display:grid;place-content:center;text-align:center;gap:12px;padding:28px;background:var(--band);color:var(--on-band);border-radius:calc(var(--r-frame) - 6px)}
+.plate b{font:var(--dw) clamp(2rem,4.5vw,3.2rem)/1.05 var(--display);text-transform:var(--dcase);text-wrap:balance}
+.plate span{opacity:.85}.plate small{margin-top:10px;font-size:.85rem;opacity:.75}
+@media (max-width:860px){.plate{aspect-ratio:5/4}}
 </style>
 </head>
 <body>
-<div class="wrap bar"><a class="mark" href="#top">Cyndee&#x27;s Nail Salon</a><nav aria-label="Sections"><a href="#offer">What we do</a><a href="#reviews">Reviews</a><a href="#visit">Visit</a></nav></div>
+<div class="wrap bar"><a class="mark" href="#top">Cyndee&#x27;s Nail Salon</a><nav aria-label="Sections"><a href="#offer">What we do</a><a href="#ask">Book</a><a href="#reviews">Reviews</a><a href="#visit">Visit</a></nav></div>
 <main id="top">
   <section class="hero"><div class="wrap">
     <div>
-      <h1><em>Friendly</em> staff, best pedicures</h1>
-      <p class="lede">Cyndee&#x27;s Nail Salon offers a clean, friendly environment where the team makes you feel welcome. Guests return for the comfortable massage chair and the highly praised pedicures.</p>
+      <h1><em>Holographic</em> nails that stay on</h1>
+      <p class="lede">Cyndee&#x27;s Nail Salon offers friendly service and a massage chair. Customers love the variety of nail styles.</p>
       <div class="actions"><a class="btn btn-main" href="tel:+18283575448">Call (828) 357-5448</a><a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&amp;destination=Cyndee%27s%20Nail%20Salon%2C%20115%20Broadway%20Ave%2C%20Black%20Mountain%2C%20NC%2028711">Get directions</a></div>
       <div class="stars"><b>4.3 on Google</b> from 81 reviews</div>
     </div>
     <figure class="frame"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9S68fb5J5vhUmQ3jx1VBVdH0YT6OLjK-iZekl6-up9R-sAvCwuEh3QxkLn9t2KLUWImYR780pxegijK54rB07C4nNn8eGncawLhAW09u97vPkW8A6Li3nv8P1hRI5JHCztlO7mT=w900-h1100-p-k-no" alt="Cyndee&#x27;s Nail Salon, 115 Broadway Ave" width="900" height="1100"><figcaption class="badge">4.3 stars<small>81 Google reviews</small></figcaption></figure>
   </div></section>
   <section class="today" aria-label="Hours"><div class="wrap"><span class="now" id="now">Hours</span><ul class="days"><li>Mon 9:30 AM–5 PM</li><li>Tue 9:30 AM–5 PM</li><li>Wed 9:30 AM–5:30 PM</li><li>Thu 9:30 AM–5:30 PM</li><li>Fri 9:30 AM–5:30 PM</li><li>Sat 9:30 AM–5 PM</li><li>Sun Closed</li></ul></div></section>
-  <section class="offer" id="offer"><div class="wrap"><div><h2>What you get</h2><p>Cyndee&#x27;s Nail Salon offers a clean, friendly environment where the team makes you feel welcome. Guests return for the comfortable massage chair and the highly praised pedicures.</p></div><ul class="list"><li><b>Friendly staff</b><span>The team is very nice and welcoming</span></li><li><b>Massage chair</b><span>Relax in a built-in massage chair during your visit</span></li><li><b>Pedicures</b><span>Best pedicure many customers have experienced</span></li><li><b>Holographic nails</b><span>Eye-catching holographic nail designs that last</span></li></ul></div></section>
+  <section class="offer" id="offer"><div class="wrap"><div><h2>Nail services</h2><p>Cyndee&#x27;s Nail Salon offers friendly service and a massage chair. Customers love the variety of nail styles.</p></div><ul class="list"><li><b>Holographic nails</b><span>Long-lasting color</span></li><li><b>Massage chair</b><span>Relaxing experience</span></li><li><b>Pedicure</b><span>Highly rated treatment</span></li><li><b>Acrylics</b><span>Standard option</span></li></ul></div></section>
+  <section class="ask" id="ask"><div class="wrap"><div><h2>Book a visit</h2><p>Pick a service and a time. You get a text to confirm.</p></div><form novalidate><label>What would you like done?<input placeholder="Cut, color, trim, a first visit..."></label><div class="row2"><label>Day<input type="date"></label><label>Time<select><option>Morning</option><option>Midday</option><option>Afternoon</option></select></label></div><div class="row2"><label>Your name<input autocomplete="name" required></label><label>Phone<input type="tel" autocomplete="tel"></label></div><button class="btn btn-main" type="submit">Request this time</button><p class="note">Preview: when this goes live, every request reaches you as a text and an email.</p><p class="done">Thanks! This is a preview, so nothing was sent.</p></form></div></section>
   <section class="gallery" aria-label="Photos"><div class="wrap grid"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SUQH4o80p4-cy0lSBHRVPM7eMEjVQU9A3o_cDq7S7UlCUp2UiKlzx7LCh4p_iz2UZH9__uf5optUuSvOD2FsKUrOlDSxg_pMmhQMH559yPfiG5SZRfdNk9YHiJFau13Tq2l2do=w900-h900-p-k-no" alt="Photo of Cyndee&#x27;s Nail Salon" width="900" height="900" loading="lazy"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SLpRh3j6k1qbf-m-VQpClx3HeFIzXRduM81RW-1S1sv3kx1Ib3iKTzBIZbR9QUkK1pZgc0Kk9NI5rm-MD5IdkRhkZstUjFEp7W4mZu1cHT5zjazYLq11kZCaAa-mxUJI-mhvWnzg=w500-h500-p-k-no" alt="Photo of Cyndee&#x27;s Nail Salon" width="500" height="500" loading="lazy"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9T_LeFg_zWLooWf2jSBIbfk0Fvvp7NZVIhuuYbbQZ1GjJKzTDSKCdppUQZewWr_K7xfjgYbuTZUTNPQXsPU5wi7BA1QtpfKnDXgRNX3OGYuVXpttkSuYpcKR-X9Kg8r6AM8iPxfUm0RpTnC=w500-h500-p-k-no" alt="Photo of Cyndee&#x27;s Nail Salon" width="500" height="500" loading="lazy"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9ReJGBf6uNm7uFY5MQfjHGGHLcZafH3AIbkzdn8Y9rH7jbew873gw3FPAu11bBfh-yOfD5TNlCglvWt7feBGhdOMa3jPQcyfL3ZbVdZnMj_DcdwDQGpZvCd2xZ5n29-38hJ6jPF=w500-h500-p-k-no" alt="Photo of Cyndee&#x27;s Nail Salon" width="500" height="500" loading="lazy"></div></section>
   <section class="reviews" id="reviews"><div class="wrap"><h2>4.3 stars, 81 reviews</h2><div class="rv"><figure><blockquote>“The ladies that work here are so very nice and it’s such a clean space. They however, do not do eyebrow waxing which I was a little disappointed in, but they definitely make up with it with their prices.”</blockquote><figcaption>Jeanne Johnson</figcaption></figure><figure><blockquote>“The girls were very friendly. Loved the massage chair. Best pedicure I’ve had in a long time!”</blockquote><figcaption>Michelle Litaker</figcaption></figure><figure><blockquote>“Ask for Terry - best pedicure I’ve ever had.”</blockquote><figcaption>Adam M</figcaption></figure><figure><blockquote>“I got my nails done there a few weeks ago. They did an amazing job and they where so nice. I got the holographic nails and I still have the holo on. They also do lots of other types that look AMAZING.”</blockquote><figcaption>ashlyn is here</figcaption></figure><figure><blockquote>“The team here is so kind and talented! My friends and I came in about an hour before closing, they wanted pedicures and I needed a fill-in.”</blockquote><figcaption>Bethany Vance</figcaption></figure></div></div></section>
   <section class="visit" id="visit"><div class="wrap">
-    <div><h2>Come see us</h2><dl><dt>Where</dt><dd>115 Broadway Ave, Black Mountain, NC 28711</dd><dt>Hours</dt><dd>Mon 9:30 AM–5 PM<br>Tue 9:30 AM–5 PM<br>Wed 9:30 AM–5:30 PM<br>Thu 9:30 AM–5:30 PM<br>Fri 9:30 AM–5:30 PM<br>Sat 9:30 AM–5 PM<br>Sun Closed</dd><dt>Call</dt><dd><a href="tel:+18283575448">(828) 357-5448</a></dd><dt>Follow</dt><dd><a href="https://www.facebook.com/CyndeesNailSalon">Facebook</a></dd><dt>Follow</dt><dd><a href="https://www.facebook.com/CyndeesNailSalon/">Facebook</a></dd></dl><div class="actions"><a class="btn btn-main" href="tel:+18283575448">Call (828) 357-5448</a><a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&amp;destination=Cyndee%27s%20Nail%20Salon%2C%20115%20Broadway%20Ave%2C%20Black%20Mountain%2C%20NC%2028711">Get directions</a></div></div>
+    <div><h2>Hours and location</h2><dl><dt>Where</dt><dd>115 Broadway Ave, Black Mountain, NC 28711</dd><dt>Hours</dt><dd>Mon 9:30 AM–5 PM<br>Tue 9:30 AM–5 PM<br>Wed 9:30 AM–5:30 PM<br>Thu 9:30 AM–5:30 PM<br>Fri 9:30 AM–5:30 PM<br>Sat 9:30 AM–5 PM<br>Sun Closed</dd><dt>Call</dt><dd><a href="tel:+18283575448">(828) 357-5448</a></dd><dt>Follow</dt><dd><a href="https://www.facebook.com/CyndeesNailSalon">Facebook</a></dd><dt>Follow</dt><dd><a href="https://www.facebook.com/CyndeesNailSalon/">Facebook</a></dd></dl><div class="actions"><a class="btn btn-main" href="tel:+18283575448">Call (828) 357-5448</a><a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&amp;destination=Cyndee%27s%20Nail%20Salon%2C%20115%20Broadway%20Ave%2C%20Black%20Mountain%2C%20NC%2028711">Get directions</a></div></div>
     <img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9ReJGBf6uNm7uFY5MQfjHGGHLcZafH3AIbkzdn8Y9rH7jbew873gw3FPAu11bBfh-yOfD5TNlCglvWt7feBGhdOMa3jPQcyfL3ZbVdZnMj_DcdwDQGpZvCd2xZ5n29-38hJ6jPF=w900-h675-p-k-no" alt="Cyndee&#x27;s Nail Salon in Black Mountain" width="900" height="675" loading="lazy">
   </div></section>
 </main>
 <p class="preview">Preview made for Cyndee&#x27;s Nail Salon by Wolfgang Joerns, Black Mountain. Not live. Photos and reviews come from your Google listing.</p>
 <div class="dock"><a class="btn btn-main" href="tel:+18283575448">Call</a><a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&amp;destination=Cyndee%27s%20Nail%20Salon%2C%20115%20Broadway%20Ave%2C%20Black%20Mountain%2C%20NC%2028711">Directions</a></div>
-<script>(function(){var d=new Date().toLocaleDateString('en-US',{weekday:'short',timeZone:'America/New_York'});var li=[].slice.call(document.querySelectorAll('.days li')).find(function(x){return x.textContent.indexOf(d)===0});if(li){document.getElementById('now').textContent='Today: '+li.textContent.slice(4);li.style.fontWeight='800'}})();</script>
+<script>(function(){var d=new Date().toLocaleDateString('en-US',{weekday:'short',timeZone:'America/New_York'});var li=[].slice.call(document.querySelectorAll('.days li')).find(function(x){return x.textContent.indexOf(d)===0});if(li){document.getElementById('now').textContent='Today: '+li.textContent.slice(4);li.style.fontWeight='800'}})();</script><script>document.querySelectorAll('.ask form').forEach(function(f){f.addEventListener('submit',function(e){e.preventDefault();f.classList.add('sent')})})</script>
 </body>
 </html>

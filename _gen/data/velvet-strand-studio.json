@@ -1,0 +1,33 @@
+{
+ "id": "S113",
+ "name": "Velvet Strand Studio",
+ "kind": "business",
+ "group": "beauty",
+ "cat": "Hair salon",
+ "addr": "133 Old Hwy 70 E, Black Mountain, NC 28711",
+ "street": "133 Old Hwy 70 E",
+ "town": "Black Mountain",
+ "phone": "(828) 357-5000",
+ "hours": "Mon Closed; Tue 9 AM–5 PM; Wed 9 AM–5 PM; Thu 9 AM–5 PM; Fri 9 AM–5 PM; Sat 9 AM–5 PM; Sun Closed",
+ "rating": "5.0 (2)",
+ "desc": "",
+ "social": [
+  "https://www.facebook.com/profile.php"
+ ],
+ "photos": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SbR6NiFoAX5ox3-Faklc0NiPmEiWZuL2bO_uzg5TbayR9RPYdLc-E56bF_DM8EbrC6-MkB3msBWKmKTJP_iwBzcuMSQg-Me26JIAbVx4EDcrr6qgKqlndCKvjpK-xamcrmovaRMaKMRsIj"
+ ],
+ "reviews": [
+  {
+   "a": "J. W.",
+   "s": 5,
+   "t": "My wife's looking smokin hot, great hairstyle! Thanks for taking care of her Grecia!"
+  },
+  {
+   "a": "Yuliya C",
+   "s": 5,
+   "t": "Amazing hair salon! I’ve been going to Grecia for years for color and cut and she is the best. Everyone at the salon is super welcoming 😍 highly recommend!"
+  }
+ ],
+ "score": 69
+}

@@ -115,6 +115,60 @@ def plain_copy(d):
             "visit_h": "Come by" if d["kind"] == "business" else "Visit us"}
 
 
+FORMJS = "<script>document.querySelectorAll('.ask form').forEach(function(f){f.addEventListener('submit',function(e){e.preventDefault();f.classList.add('sent')})})</script>"
+ASK_NAV = {"nonprofit": "Volunteer", "church": "Visit us"}
+
+
+def ask_label(d):
+    return ASK_NAV.get(d["kind"]) or {"beauty": "Book", "wellness": "Book", "pets": "Book", "auto": "Quote", "trades": "Quote", "food": "Order"}.get(d["group"], "Updates")
+
+
+def ask_block(d, items, days):
+    """The service being pitched, shown working: volunteer sign-up, visit planning, booking, quote, order. Preview forms send nothing."""
+    g, k = d["group"], d["kind"]
+    names = [clean(i["name"]) for i in items][:6]
+    opts = "".join(f"<option>{e(x)}</option>" for x in names) or "<option>Tell us what you need</option>"
+    who = '<div class="row2"><label>Your name<input autocomplete="name" required></label><label>Phone<input type="tel" autocomplete="tel"></label></div>'
+    note = ('<p class="note">Preview: when this goes live, every request reaches you as a text and an email.</p>'
+            '<p class="done">Thanks! This is a preview, so nothing was sent.</p>')
+    extra = ""
+    if k == "nonprofit":
+        h, sub = "Volunteer with us", "Pick when you can help. We will reach out with a first shift."
+        form = (who + '<label>Email<input type="email" autocomplete="email"></label><div class="chips">'
+                + "".join(f'<label><input type="checkbox"> {x}</label>' for x in ["Weekday mornings", "Weekday afternoons", "Weekends", "Events", "Behind the scenes"])
+                + '</div><button class="btn btn-main" type="submit">Sign me up</button>')
+        extra = '<p><a class="btn btn-line" href="#ask">Give online</a></p>'
+    elif k == "church":
+        h, sub = "Join us this week", "New here? Tell us you are coming and someone will say hello at the door."
+        times = "".join(f"<li>{e(x)}</li>" for x in days if "Closed" not in x)
+        extra = (f'<ul class="times">{times}</ul>' if times else "") + '<p><a class="btn btn-line" href="#ask">Give online</a></p>'
+        form = ('<label>Your name<input autocomplete="name" required></label><label>Email for the weekly note<input type="email" autocomplete="email"></label>'
+                '<label>How many are coming<select><option>Just me</option><option>2</option><option>3 to 4</option><option>5 or more</option></select></label>'
+                '<button class="btn btn-main" type="submit">Plan my visit</button>')
+    elif g in ("beauty", "wellness", "pets"):
+        h, sub = "Book a visit", "Pick a service and a time. You get a text to confirm."
+        form = ('<label>What would you like done?<input placeholder="Cut, color, trim, a first visit..."></label><div class="row2"><label>Day<input type="date"></label>'
+                '<label>Time<select><option>Morning</option><option>Midday</option><option>Afternoon</option></select></label></div>'
+                + who + '<button class="btn btn-main" type="submit">Request this time</button>')
+    elif g in ("auto", "trades"):
+        h, sub = "Get a quote", "Tell us what is going on. Add a photo if you have one, and we will text you a price."
+        form = ('<label>What do you need?<textarea rows="3" placeholder="Year, make and model, and what is happening"></textarea></label>'
+                '<label>Photo (optional)<input type="file" accept="image/*"></label>' + who
+                + '<button class="btn btn-main" type="submit">Send for a quote</button>')
+    elif g == "food":
+        h, sub = "Order ahead", "Send your order here and it will be ready when you walk in."
+        form = ('<label>What would you like?<textarea rows="2" placeholder="Your order"></textarea></label>'
+                '<div class="row2"><label>Your name<input autocomplete="name" required></label><label>Pickup time<input type="time"></label></div>'
+                '<button class="btn btn-main" type="submit">Send my order</button>')
+    else:
+        h, sub = "Hear about new arrivals", "Get a text when something new comes in. One message a week at most."
+        form = ('<div class="row2"><label>Your name<input autocomplete="name"></label><label>Phone or email<input required></label></div>'
+                + '<label>What are you looking for?<input placeholder="Anything in particular"></label>'
+                + '<button class="btn btn-main" type="submit">Keep me posted</button>')
+    return (f'<section class="ask" id="ask"><div class="wrap"><div><h2>{e(h)}</h2><p>{e(sub)}</p>{extra}</div>'
+            f'<form novalidate>{form}{note}</form></div></section>')
+
+
 def build(d):
     world = WORLDS[WORLD_FOR.get(d["group"], "cabinet")]
     c = groq_copy(d)
@@ -168,7 +222,7 @@ def build(d):
         dl += f'<dt>Call</dt><dd><a href="tel:+1{tel}">{e(phone)}</a></dd>'
     for s in d.get("social", []):
         dl += f'<dt>Follow</dt><dd><a href="{e(s)}">{"Instagram" if "instagram" in s else "Facebook"}</a></dd>'
-    nav = "".join(f'<a href="#{a}">{t}</a>' for a, t, ok in [("offer", "What we do", items), ("reviews", "Reviews", revs), ("visit", "Visit", True)] if ok)
+    nav = "".join(f'<a href="#{a}">{t}</a>' for a, t, ok in [("offer", "What we do", items), ("ask", ask_label(d), True), ("reviews", "Reviews", revs), ("visit", "Visit", True)] if ok)
     script = ""
     if days:
         script = ("<script>(function(){var d=new Date().toLocaleDateString('en-US',{weekday:'short',timeZone:'America/New_York'});"
@@ -178,9 +232,40 @@ def build(d):
         title=e(f"{name} · {d['cat']} in {d['town']}"), meta=e(c["sub"]), fonts=e(world["fonts"]), world_note=world["note"], vars=world["v"],
         name=e(name), nav=nav, headline=head, sub=e(c["sub"]), actions=actions, stars=stars,
         hero_img=img(photos[0], 900, 1100, f"{name}, {d['street']}", lazy=False) if photos else "",
-        badge=badge, today=today, offer=offer, gallery=gallery, reviews=reviews,
+        badge=badge, today=today, offer=offer, ask=ask_block(d, items, days), gallery=gallery, reviews=reviews,
         visit_h=e(c.get("visit_h") or "Come by"), visit_dl=dl,
-        visit_img=img(photos[-1], 900, 675, f"{name} in {d['town']}") if len(photos) > 1 else "", dock=dock, script=script)
+        visit_img=img(photos[-1], 900, 675, f"{name} in {d['town']}") if len(photos) > 1 else "", dock=dock, script=script + FORMJS)
+
+
+def status_page():
+    """status.html: one progress bar over every lead, plus where each one stands. Rebuilt on every run."""
+    tf = ROOT / "_gen" / "targets.json"
+    if not tf.exists():
+        return
+    ts = sorted(json.loads(tf.read_text(encoding="utf-8")), key=lambda t: -t.get("score", 0))
+    rows, n_built = [], 0
+    for t in ts:
+        slug = t.get("hand") or t["slug"]
+        built = (ROOT / slug / "index.html").exists()
+        queued = (DATA / f"{t['slug']}.json").exists()
+        n_built += built
+        state = ("built", "Preview ready") if built else ("queued", "Queued for the next build") if queued else ("missing", "Needs photos first")
+        name = f'<a href="{e(slug)}/">{e(t["name"])}</a>' if built else e(t["name"])
+        rows.append(f'<tr class="{state[0]}"><td>{name}</td><td>{e(t["kind"])}</td><td>{"yes" if t.get("walk") else ""}</td><td>{state[1]}</td></tr>')
+    pct = round(100 * n_built / max(1, len(ts)))
+    page = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><title>Preview progress</title><style>
+:root{{--bg:#f5f4ee;--card:#fff;--ink:#1b2620;--soft:#4c5a52;--line:#dde2da;--acc:#2f6b4f;--warn:#9a5b00}}
+@media (prefers-color-scheme:dark){{:root{{--bg:#141916;--card:#1d2420;--ink:#e6ebe7;--soft:#9ba69f;--line:#323b36;--acc:#72c39a;--warn:#e2b45b}}}}
+body{{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,sans-serif}}main{{max-width:900px;margin:0 auto;padding:20px 16px 60px}}
+h1{{margin:.2em 0}}.bar{{height:22px;background:var(--line);border-radius:99px;overflow:hidden;margin:12px 0 6px}}.bar i{{display:block;height:100%;width:{pct}%;background:var(--acc)}}
+table{{width:100%;border-collapse:collapse;margin-top:18px;background:var(--card)}}td,th{{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);font-size:.95rem}}
+tr.queued td:last-child{{color:var(--warn)}}tr.missing td:last-child{{color:var(--soft)}}a{{color:var(--acc)}}</style></head><body><main>
+<h1>Preview sites: {n_built} of {len(ts)} built</h1><div class="bar" role="progressbar" aria-valuenow="{pct}" aria-valuemin="0" aria-valuemax="100"><i></i></div>
+<p>{pct}% done. New ones build every morning at 8. Sorted by call priority.</p>
+<table><thead><tr><th>Lead</th><th>Kind</th><th>Walkable</th><th>Status</th></tr></thead><tbody>{"".join(rows)}</tbody></table></main></body></html>"""
+    (ROOT / "status.html").write_text(page, encoding="utf-8")
+    print(f"status: {n_built}/{len(ts)} built")
 
 
 def main(args):
@@ -196,7 +281,7 @@ def main(args):
         out = ROOT / f.stem / "index.html"
         if out.exists() and not args and not d.get("rebuild"):
             continue
-        if not d.get("photos") or not d.get("reviews"):
+        if not d.get("photos") or (not d.get("reviews") and d.get("kind") == "business"):
             print("skip (needs photos and reviews):", f.stem)
             continue
         page = build(d)
@@ -211,6 +296,7 @@ def main(args):
     # manifest the call list reads, so new previews show up there without a rebuild
     man = {json.loads(f.read_text(encoding="utf-8"))["id"]: f.stem for f in DATA.glob("*.json") if (ROOT / f.stem / "index.html").exists()}
     (ROOT / "manifest.json").write_text(json.dumps(man, indent=1), encoding="utf-8")
+    status_page()
 
 
 if __name__ == "__main__":

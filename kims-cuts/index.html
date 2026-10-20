@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="robots" content="noindex,nofollow">
 <title>Kim&#x27;s Cuts · Beauty salon in Black Mountain</title>
-<meta name="description" content="A friendly, professional salon that delivers quality haircuts at a great price. People keep coming back because they feel heard and never have to wait.">
+<meta name="description" content="Kim&#x27;s Cuts is a friendly neighborhood salon where the staff takes the time to hear exactly what you want. Customers keep coming back for the professional service, affordable prices and the feeling that they’re truly listened to.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Young+Serif&amp;family=Albert+Sans:wght@400;600;700&amp;display=swap">
@@ -83,22 +83,38 @@ p{margin:0 0 1em;max-width:62ch}
 .preview{color:var(--soft);font-size:.86rem;text-align:center;padding:16px 20px calc(84px + env(safe-area-inset-bottom,0px))}
 .dock{display:none}
 @media (max-width:760px){.dock{display:flex;position:fixed;left:12px;right:12px;bottom:calc(12px + env(safe-area-inset-bottom,0px));z-index:20;gap:10px}.dock a{flex:1;box-shadow:0 10px 24px -10px rgba(0,0,0,.5)}.dock .btn-line{background:var(--card)}}
+
+.ask{padding:clamp(56px,8vw,100px) 0;background:var(--card);border-block:1px solid var(--line)}
+.ask .wrap{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(26px,5vw,64px);align-items:start}
+.ask form{display:grid;gap:14px;background:var(--bg);border:1px solid var(--line);border-radius:var(--r-img);padding:22px}
+.ask label{display:grid;gap:6px;font-weight:600;font-size:.95rem}
+.ask input,.ask select,.ask textarea{font:inherit;padding:12px 14px;border:1.5px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink)}
+.ask input:focus,.ask select:focus,.ask textarea:focus{outline:none;border-color:var(--acc)}
+.ask .row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.ask .chips{display:flex;flex-wrap:wrap;gap:8px}
+.ask .chips label{display:inline-flex;align-items:center;gap:8px;font-weight:500;border:1.5px solid var(--line);border-radius:999px;padding:8px 14px;background:var(--card)}
+.ask .note{font-size:.88rem;color:var(--soft);margin:0}
+.ask .done{display:none;font-weight:700;color:var(--acc-text)}
+.ask form.sent .done{display:block}
+.times{list-style:none;margin:0 0 18px;padding:0}.times li{padding:10px 0;border-bottom:1px solid var(--line)}
+@media (max-width:860px){.ask .wrap{grid-template-columns:1fr}.ask .row2{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
-<div class="wrap bar"><a class="mark" href="#top">Kim&#x27;s Cuts</a><nav aria-label="Sections"><a href="#offer">What we do</a><a href="#reviews">Reviews</a><a href="#visit">Visit</a></nav></div>
+<div class="wrap bar"><a class="mark" href="#top">Kim&#x27;s Cuts</a><nav aria-label="Sections"><a href="#offer">What we do</a><a href="#ask">Book</a><a href="#reviews">Reviews</a><a href="#visit">Visit</a></nav></div>
 <main id="top">
   <section class="hero"><div class="wrap">
     <div>
-      <h1><em>Great price</em>, great style</h1>
-      <p class="lede">A friendly, professional salon that delivers quality haircuts at a great price. People keep coming back because they feel heard and never have to wait.</p>
+      <h1>Haircuts that actually <em>listen</em></h1>
+      <p class="lede">Kim&#x27;s Cuts is a friendly neighborhood salon where the staff takes the time to hear exactly what you want. Customers keep coming back for the professional service, affordable prices and the feeling that they’re truly listened to.</p>
       <div class="actions"><a class="btn btn-main" href="tel:+18282305197">Call (828) 230-5197</a><a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&amp;destination=Kim%27s%20Cuts%2C%20191%20Old%20Us%20Hwy%2070%20E%2C%20Black%20Mountain%2C%20NC%2028711">Get directions</a></div>
       <div class="stars"><b>4.9 on Google</b> from 46 reviews</div>
     </div>
     <figure class="frame"><img src="https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TMmbKWP736_tmkBKtnSIvSMJ4E07KzcyBXZ94yhYwP0pu-ODERslEKt1fu-QPc-Idf8KzptI_M5xKuI6YYpNSPa1eXXCGk50e6cCCS6xoiTc_FGxvkr-naipr8V6SwEQrAgq40=w900-h1100-p-k-no" alt="Kim&#x27;s Cuts, 191 Old Us Hwy 70 E" width="900" height="1100"><figcaption class="badge">4.9 stars<small>46 Google reviews</small></figcaption></figure>
   </div></section>
   <section class="today" aria-label="Hours"><div class="wrap"><span class="now" id="now">Hours</span><ul class="days"><li>Mon 9 AM–5 PM</li><li>Tue 9 AM–5 PM</li><li>Wed 9 AM–5 PM</li><li>Thu 9 AM–5 PM</li><li>Fri 9 AM–5 PM</li><li>Sat 9 AM–4 PM</li><li>Sun Closed</li></ul></div></section>
-  <section class="offer" id="offer"><div class="wrap"><div><h2>What You Get</h2><p>A friendly, professional salon that delivers quality haircuts at a great price. People keep coming back because they feel heard and never have to wait.</p></div><ul class="list"><li><b>Affordable haircut</b><span>Quality cut at a great price</span></li><li><b>Friendly staff</b><span>Staff are friendly and professional</span></li><li><b>No‑wait appointments</b><span>Get in without waiting</span></li><li><b>Listening stylist</b><span>Stylist listens to your wishes</span></li></ul></div></section>
+  <section class="offer" id="offer"><div class="wrap"><div><h2>What You Get</h2><p>Kim&#x27;s Cuts is a friendly neighborhood salon where the staff takes the time to hear exactly what you want. Customers keep coming back for the professional service, affordable prices and the feeling that they’re truly listened to.</p></div><ul class="list"><li><b>Friendly, professional service</b><span>Staff are super polite and professional from the first call</span></li><li><b>No wait appointments</b><span>You can be seen even on busy days without a long wait</span></li><li><b>Hairdresser who listens</b><span>Your ideas are heard and turned into the perfect style</span></li><li><b>Great price</b><span>Excellent cuts that fit your budget</span></li></ul></div></section>
+  <section class="ask" id="ask"><div class="wrap"><div><h2>Book a visit</h2><p>Pick a service and a time. You get a text to confirm.</p></div><form novalidate><label>Service<select><option>Friendly, professional service</option><option>No wait appointments</option><option>Hairdresser who listens</option><option>Great price</option></select></label><div class="row2"><label>Day<input type="date"></label><label>Time<select><option>Morning</option><option>Midday</option><option>Afternoon</option></select></label></div><div class="row2"><label>Your name<input autocomplete="name" required></label><label>Phone<input type="tel" autocomplete="tel"></label></div><button class="btn btn-main" type="submit">Request this time</button><p class="note">Preview: when this goes live, every request reaches you as a text and an email.</p><p class="done">Thanks! This is a preview, so nothing was sent.</p></form></div></section>
   
   <section class="reviews" id="reviews"><div class="wrap"><h2>4.9 stars, 46 reviews</h2><div class="rv"><figure><blockquote>“They were friendly and professional on the phone, able to work me in on a busy Saturday. Kim was great--very nice, knowledgeable on what cuts would work best for me and easy to talk to, I didn&#x27;t have to wait at all.”</blockquote><figcaption>Karen Miller</figcaption></figure><figure><blockquote>“Gabriella :New Salon Hair Designer at Kim&#x27;s Cuts. This has been my go to Salon for many many years.”</blockquote><figcaption>Pamela Stikeleather</figcaption></figure><figure><blockquote>“Kim is a great beautician I have lots of friends that go to her. She can do your hair anyway you want an she is real sociable she does a great job on my hair also. She is friendly an out going.”</blockquote><figcaption>Teresa Lunsford</figcaption></figure><figure><blockquote>“They are always super polite, professional, and willing to work you in for an appointment. I have never had a bad hair cut nor have I been disappointed with the final results. Give them a call!”</blockquote><figcaption>Teresa Conard</figcaption></figure><figure><blockquote>“Great place. Kim always trys her best to give u great service. Clean establishment. Good hair stylist etc.”</blockquote><figcaption>Terri Kilpatrick</figcaption></figure><figure><blockquote>“Stopped in for a quick cut and not only was she able to fit me in but did a fantastic job. Make sure to call ahead, highly recommend”</blockquote><figcaption>Matt Henson</figcaption></figure></div></div></section>
   <section class="visit" id="visit"><div class="wrap">
@@ -108,6 +124,6 @@ p{margin:0 0 1em;max-width:62ch}
 </main>
 <p class="preview">Preview made for Kim&#x27;s Cuts by Wolfgang Joerns, Black Mountain. Not live. Photos and reviews come from your Google listing.</p>
 <div class="dock"><a class="btn btn-main" href="tel:+18282305197">Call</a><a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&amp;destination=Kim%27s%20Cuts%2C%20191%20Old%20Us%20Hwy%2070%20E%2C%20Black%20Mountain%2C%20NC%2028711">Directions</a></div>
-<script>(function(){var d=new Date().toLocaleDateString('en-US',{weekday:'short',timeZone:'America/New_York'});var li=[].slice.call(document.querySelectorAll('.days li')).find(function(x){return x.textContent.indexOf(d)===0});if(li){document.getElementById('now').textContent='Today: '+li.textContent.slice(4);li.style.fontWeight='800'}})();</script>
+<script>(function(){var d=new Date().toLocaleDateString('en-US',{weekday:'short',timeZone:'America/New_York'});var li=[].slice.call(document.querySelectorAll('.days li')).find(function(x){return x.textContent.indexOf(d)===0});if(li){document.getElementById('now').textContent='Today: '+li.textContent.slice(4);li.style.fontWeight='800'}})();</script><script>document.querySelectorAll('.ask form').forEach(function(f){f.addEventListener('submit',function(e){e.preventDefault();f.classList.add('sent')})})</script>
 </body>
 </html>

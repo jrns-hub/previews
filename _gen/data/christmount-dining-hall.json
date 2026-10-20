@@ -1,0 +1,32 @@
+{
+ "id": "S026",
+ "name": "Christmount Dining Hall",
+ "kind": "nonprofit",
+ "group": "nonprofit",
+ "cat": "Religious organization",
+ "addr": "900 Holly Rd, Black Mountain, NC 28711",
+ "street": "900 Holly Rd",
+ "town": "Black Mountain",
+ "phone": "(828) 669-0447",
+ "hours": "Mon 8 AM–7 PM; Tue 8 AM–7 PM; Wed 8 AM–7 PM; Thu 8 AM–7 PM; Fri 8 AM–7 PM; Sat 8 AM–7 PM; Sun 8 AM–7 PM",
+ "rating": "4.7 (3)",
+ "desc": "",
+ "social": [],
+ "photos": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SV_XAYNjpteMXoZG9o3FBK5zgRVfkwc-GPosjtOlpnhZzyJUOFrQwFEGMS1R0r989I_idE-oEJmLLG_pZwCLyHlSIdd0iFTjH6yT2N9s67QH2O5HTKIutXonzZtEAWF5nS-V3f",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SBDccoDbw-N_q882mTJPhrsxzO6lmnqZNXJnRBFX0r5G0zN9LVgPAso3_TZbK6Q28F9vanqlLn2CwNae9IW19oEYApX5Z6eS-t9UMDhTroAneapdAJyxEvv069AEzYoLWAWEo"
+ ],
+ "reviews": [
+  {
+   "a": "keith haynes",
+   "s": 5,
+   "t": "Christmount does a fantastic job with food and hospitality. Organizations can use facilities for meetings or retreats. Families can hold reunions and retreats. Walking trails and pool on property"
+  },
+  {
+   "a": "Judith Jones",
+   "s": 4,
+   "t": "Clean, friendly staff, reasonable fee ( donations), delicious and reasonable proportions of food. Wheelchair accessible."
+  }
+ ],
+ "score": 50
+}

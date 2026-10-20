@@ -1,0 +1,1262 @@
+[
+ {
+  "id": "W003",
+  "name": "The Station",
+  "slug": "the-station",
+  "kind": "business",
+  "walk": true,
+  "score": 103,
+  "hand": "the-station",
+  "photos": true
+ },
+ {
+  "id": "W002",
+  "name": "Dough House",
+  "slug": "dough-house",
+  "kind": "business",
+  "walk": true,
+  "score": 99,
+  "hand": "dough-house",
+  "photos": true
+ },
+ {
+  "id": "W005",
+  "name": "Acme Barber Shop",
+  "slug": "acme-barber-shop",
+  "kind": "business",
+  "walk": true,
+  "score": 84,
+  "hand": "",
+  "photos": true
+ },
+ {
+  "id": "W004",
+  "name": "Black Mountain Variety",
+  "slug": "black-mountain-variety",
+  "kind": "business",
+  "walk": true,
+  "score": 80,
+  "hand": "",
+  "photos": true
+ },
+ {
+  "id": "W006",
+  "name": "Cyndee's Nail Salon",
+  "slug": "cyndees-nail-salon",
+  "kind": "business",
+  "walk": true,
+  "score": 80,
+  "hand": "",
+  "photos": true
+ },
+ {
+  "id": "S004",
+  "name": "Black Mountain 10 Minute Oil",
+  "slug": "black-mountain-10-minute-oil",
+  "kind": "business",
+  "walk": true,
+  "score": 78,
+  "hand": "",
+  "photos": true
+ },
+ {
+  "id": "S062",
+  "name": "Kim's Cuts",
+  "slug": "kims-cuts",
+  "kind": "business",
+  "walk": true,
+  "score": 78,
+  "hand": "",
+  "photos": true
+ },
+ {
+  "id": "S086",
+  "name": "PRO-MAX TOBACCO &VAPE",
+  "slug": "pro-max-tobacco-and-vape",
+  "kind": "business",
+  "walk": true,
+  "score": 78,
+  "hand": "",
+  "photos": true
+ },
+ {
+  "id": "W001",
+  "name": "The Gem Drop Shop",
+  "slug": "the-gem-drop-shop",
+  "kind": "business",
+  "walk": true,
+  "score": 78,
+  "hand": "gem-drop-shop",
+  "photos": true
+ },
+ {
+  "id": "S019",
+  "name": "Bubble & Bliss",
+  "slug": "bubble-and-bliss",
+  "kind": "business",
+  "walk": true,
+  "score": 77,
+  "hand": "",
+  "photos": true
+ },
+ {
+  "id": "S005",
+  "name": "Black Mountain Automotive & Towing",
+  "slug": "black-mountain-automotive-and-towing",
+  "kind": "business",
+  "walk": true,
+  "score": 76,
+  "hand": "",
+  "photos": true
+ },
+ {
+  "id": "S008",
+  "name": "Black Mountain Home & Accents",
+  "slug": "black-mountain-home-and-accents",
+  "kind": "business",
+  "walk": true,
+  "score": 76,
+  "hand": "",
+  "photos": true
+ },
+ {
+  "id": "S001",
+  "name": "A New Self Image Beauty Salon",
+  "slug": "a-new-self-image-beauty-salon",
+  "kind": "business",
+  "walk": true,
+  "score": 74,
+  "hand": "",
+  "photos": true
+ },
+ {
+  "id": "S035",
+  "name": "Cut'n Up",
+  "slug": "cutn-up",
+  "kind": "business",
+  "walk": true,
+  "score": 74,
+  "hand": "",
+  "photos": true
+ },
+ {
+  "id": "S087",
+  "name": "Randall's Auto Upholstery",
+  "slug": "randalls-auto-upholstery",
+  "kind": "business",
+  "walk": true,
+  "score": 74,
+  "hand": "",
+  "photos": true
+ },
+ {
+  "id": "W007",
+  "name": "Kiwanis Thrift Shop",
+  "slug": "kiwanis-thrift-shop",
+  "kind": "nonprofit",
+  "walk": true,
+  "score": 71,
+  "hand": "",
+  "photos": true
+ },
+ {
+  "id": "S040",
+  "name": "Dog Oasis Grooming Salon",
+  "slug": "dog-oasis-grooming-salon",
+  "kind": "business",
+  "walk": true,
+  "score": 70,
+  "hand": "",
+  "photos": true
+ },
+ {
+  "id": "S058",
+  "name": "Hunters & Treasures",
+  "slug": "hunters-and-treasures",
+  "kind": "business",
+  "walk": true,
+  "score": 70,
+  "hand": "",
+  "photos": true
+ },
+ {
+  "id": "S078",
+  "name": "Mountain Me",
+  "slug": "mountain-me",
+  "kind": "business",
+  "walk": true,
+  "score": 70,
+  "hand": "",
+  "photos": true
+ },
+ {
+  "id": "S013",
+  "name": "BLUE HILL Essentials",
+  "slug": "blue-hill-essentials",
+  "kind": "business",
+  "walk": true,
+  "score": 69,
+  "hand": "",
+  "photos": true
+ },
+ {
+  "id": "S022",
+  "name": "Cherry Street Gallery",
+  "slug": "cherry-street-gallery",
+  "kind": "business",
+  "walk": true,
+  "score": 69,
+  "hand": "",
+  "photos": true
+ },
+ {
+  "id": "S113",
+  "name": "Velvet Strand Studio",
+  "slug": "velvet-strand-studio",
+  "kind": "business",
+  "walk": true,
+  "score": 69,
+  "hand": "",
+  "photos": true
+ },
+ {
+  "id": "S088",
+  "name": "RT Auto And Service",
+  "slug": "rt-auto-and-service",
+  "kind": "business",
+  "walk": false,
+  "score": 68,
+  "hand": "",
+  "photos": true
+ },
+ {
+  "id": "S037",
+  "name": "Dale Morris Body Shop",
+  "slug": "dale-morris-body-shop",
+  "kind": "business",
+  "walk": true,
+  "score": 67,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S072",
+  "name": "Merry Wine Market",
+  "slug": "merry-wine-market",
+  "kind": "business",
+  "walk": true,
+  "score": 67,
+  "hand": "",
+  "photos": true
+ },
+ {
+  "id": "S084",
+  "name": "Periwinkles On Cherry St",
+  "slug": "periwinkles-on-cherry-st",
+  "kind": "business",
+  "walk": true,
+  "score": 67,
+  "hand": "",
+  "photos": true
+ },
+ {
+  "id": "S024",
+  "name": "Christine's Creative Cuts",
+  "slug": "christines-creative-cuts",
+  "kind": "business",
+  "walk": true,
+  "score": 66,
+  "hand": "",
+  "photos": true
+ },
+ {
+  "id": "S027",
+  "name": "Church of the Incarnation",
+  "slug": "church-of-the-incarnation",
+  "kind": "church",
+  "walk": true,
+  "score": 65,
+  "hand": "",
+  "photos": true
+ },
+ {
+  "id": "S061",
+  "name": "Kidane Mediterranean food truck",
+  "slug": "kidane-mediterranean-food-truck",
+  "kind": "business",
+  "walk": true,
+  "score": 65,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S043",
+  "name": "Emma Bellas Salon",
+  "slug": "emma-bellas-salon",
+  "kind": "business",
+  "walk": false,
+  "score": 64,
+  "hand": "",
+  "photos": true
+ },
+ {
+  "id": "S081",
+  "name": "New Hope Community Church of Asheville",
+  "slug": "new-hope-community-church-of-asheville",
+  "kind": "church",
+  "walk": true,
+  "score": 64,
+  "hand": "",
+  "photos": true
+ },
+ {
+  "id": "S010",
+  "name": "Black Mountain Iron Works",
+  "slug": "black-mountain-iron-works",
+  "kind": "business",
+  "walk": true,
+  "score": 63,
+  "hand": "",
+  "photos": true
+ },
+ {
+  "id": "S020",
+  "name": "Camp Dorothy Walls AME Zion",
+  "slug": "camp-dorothy-walls-ame-zion",
+  "kind": "nonprofit",
+  "walk": true,
+  "score": 63,
+  "hand": "",
+  "photos": true
+ },
+ {
+  "id": "S028",
+  "name": "Clements Automotive",
+  "slug": "clements-automotive",
+  "kind": "business",
+  "walk": true,
+  "score": 63,
+  "hand": "",
+  "photos": true
+ },
+ {
+  "id": "S018",
+  "name": "Broadway Styling Studio",
+  "slug": "broadway-styling-studio",
+  "kind": "business",
+  "walk": true,
+  "score": 62,
+  "hand": "",
+  "photos": true
+ },
+ {
+  "id": "S090",
+  "name": "Shifty's Transmissions",
+  "slug": "shiftys-transmissions",
+  "kind": "business",
+  "walk": true,
+  "score": 62,
+  "hand": "",
+  "photos": true
+ },
+ {
+  "id": "S102",
+  "name": "Swannanoa Valley Christian Ministry",
+  "slug": "swannanoa-valley-christian-ministry",
+  "kind": "nonprofit",
+  "walk": true,
+  "score": 62,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S032",
+  "name": "Courtyard Gallery",
+  "slug": "courtyard-gallery",
+  "kind": "business",
+  "walk": true,
+  "score": 61,
+  "hand": "",
+  "photos": true
+ },
+ {
+  "id": "S060",
+  "name": "Kerlee Baptist Church",
+  "slug": "kerlee-baptist-church",
+  "kind": "church",
+  "walk": true,
+  "score": 61,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S108",
+  "name": "The Tack Room",
+  "slug": "the-tack-room",
+  "kind": "nonprofit",
+  "walk": true,
+  "score": 60,
+  "hand": "",
+  "photos": true
+ },
+ {
+  "id": "S069",
+  "name": "Maria's Consingment Boutique",
+  "slug": "marias-consingment-boutique",
+  "kind": "business",
+  "walk": true,
+  "score": 59,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S031",
+  "name": "Corte And Cut Beauty Salon",
+  "slug": "corte-and-cut-beauty-salon",
+  "kind": "business",
+  "walk": false,
+  "score": 58,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S073",
+  "name": "Mills Chapel Baptist Church",
+  "slug": "mills-chapel-baptist-church",
+  "kind": "church",
+  "walk": true,
+  "score": 57,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S038",
+  "name": "Dark city customs",
+  "slug": "dark-city-customs",
+  "kind": "business",
+  "walk": false,
+  "score": 56,
+  "hand": "",
+  "photos": true
+ },
+ {
+  "id": "S042",
+  "name": "Eco-Chaplaincy Initiative",
+  "slug": "eco-chaplaincy-initiative",
+  "kind": "nonprofit",
+  "walk": true,
+  "score": 56,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S080",
+  "name": "Natural Haircare By Kathy",
+  "slug": "natural-haircare-by-kathy",
+  "kind": "business",
+  "walk": true,
+  "score": 55,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S053",
+  "name": "Gray's Body Shop",
+  "slug": "grays-body-shop",
+  "kind": "business",
+  "walk": false,
+  "score": 54,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S106",
+  "name": "Tan & Curl",
+  "slug": "tan-and-curl",
+  "kind": "business",
+  "walk": false,
+  "score": 54,
+  "hand": "",
+  "photos": true
+ },
+ {
+  "id": "S114",
+  "name": "Village Barber & Style Shop",
+  "slug": "village-barber-and-style-shop",
+  "kind": "business",
+  "walk": false,
+  "score": 54,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S036",
+  "name": "Cutting Crew",
+  "slug": "cutting-crew",
+  "kind": "business",
+  "walk": true,
+  "score": 53,
+  "hand": "",
+  "photos": true
+ },
+ {
+  "id": "S064",
+  "name": "Kyoto",
+  "slug": "kyoto",
+  "kind": "business",
+  "walk": true,
+  "score": 53,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S015",
+  "name": "Bounty & Soul Business Offices",
+  "slug": "bounty-and-soul-business-offices",
+  "kind": "nonprofit",
+  "walk": true,
+  "score": 52,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S026",
+  "name": "Christmount Dining Hall",
+  "slug": "christmount-dining-hall",
+  "kind": "nonprofit",
+  "walk": true,
+  "score": 50,
+  "hand": "",
+  "photos": true
+ },
+ {
+  "id": "S039",
+  "name": "Davidson Auto",
+  "slug": "davidson-auto",
+  "kind": "business",
+  "walk": false,
+  "score": 50,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S054",
+  "name": "Grove Stone Baptist Church",
+  "slug": "grove-stone-baptist-church",
+  "kind": "church",
+  "walk": false,
+  "score": 50,
+  "hand": "",
+  "photos": true
+ },
+ {
+  "id": "S117",
+  "name": "Wellspring For Life (Wellspring Korea)",
+  "slug": "wellspring-for-life-wellspring-korea",
+  "kind": "nonprofit",
+  "walk": true,
+  "score": 50,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S030",
+  "name": "Corner Cafe",
+  "slug": "corner-cafe",
+  "kind": "business",
+  "walk": true,
+  "score": 49,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S096",
+  "name": "Stasi Body Therapy",
+  "slug": "stasi-body-therapy",
+  "kind": "business",
+  "walk": false,
+  "score": 49,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S006",
+  "name": "Black Mountain Center for the Arts",
+  "slug": "black-mountain-center-for-the-arts",
+  "kind": "nonprofit",
+  "walk": true,
+  "score": 48,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S044",
+  "name": "Excel- Better Together Base",
+  "slug": "excel-better-together-base",
+  "kind": "nonprofit",
+  "walk": true,
+  "score": 48,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S063",
+  "name": "King of Glory Christian Church",
+  "slug": "king-of-glory-christian-church",
+  "kind": "church",
+  "walk": false,
+  "score": 46,
+  "hand": "",
+  "photos": true
+ },
+ {
+  "id": "S011",
+  "name": "Black Mountain Presbyterian",
+  "slug": "black-mountain-presbyterian",
+  "kind": "church",
+  "walk": true,
+  "score": 45,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S029",
+  "name": "Community Of The Cross",
+  "slug": "community-of-the-cross",
+  "kind": "nonprofit",
+  "walk": false,
+  "score": 45,
+  "hand": "",
+  "photos": true
+ },
+ {
+  "id": "S034",
+  "name": "Curteys Chapel",
+  "slug": "curteys-chapel",
+  "kind": "church",
+  "walk": true,
+  "score": 45,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S045",
+  "name": "Faith Church",
+  "slug": "faith-church",
+  "kind": "church",
+  "walk": true,
+  "score": 45,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S046",
+  "name": "First Baptist Church of Black Mountain",
+  "slug": "first-baptist-church-of-black-mountain",
+  "kind": "church",
+  "walk": true,
+  "score": 45,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S051",
+  "name": "German Motor Performance",
+  "slug": "german-motor-performance",
+  "kind": "business",
+  "walk": true,
+  "score": 45,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S066",
+  "name": "Lakey Gap Chapel",
+  "slug": "lakey-gap-chapel",
+  "kind": "church",
+  "walk": true,
+  "score": 45,
+  "hand": "",
+  "photos": true
+ },
+ {
+  "id": "S076",
+  "name": "Mount Zion Church",
+  "slug": "mount-zion-church",
+  "kind": "church",
+  "walk": true,
+  "score": 45,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S094",
+  "name": "St. James Episcopal Church",
+  "slug": "st-james-episcopal-church",
+  "kind": "church",
+  "walk": true,
+  "score": 45,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S095",
+  "name": "Star watch -Tabernacle Church",
+  "slug": "star-watch-tabernacle-church",
+  "kind": "church",
+  "walk": true,
+  "score": 45,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S110",
+  "name": "Tribes Of All Nations, Indigenous Art \\ Globally Inspired",
+  "slug": "tribes-of-all-nations-indigenous-art-globally-inspired",
+  "kind": "business",
+  "walk": false,
+  "score": 45,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S111",
+  "name": "UU Congregation of the Swannanoa Valley",
+  "slug": "uu-congregation-of-the-swannanoa-valley",
+  "kind": "church",
+  "walk": true,
+  "score": 45,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S025",
+  "name": "Christmount Christian Assembly",
+  "slug": "christmount-christian-assembly",
+  "kind": "nonprofit",
+  "walk": true,
+  "score": 44,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S059",
+  "name": "Imagine That ! Creations, llc",
+  "slug": "imagine-that-creations-llc",
+  "kind": "business",
+  "walk": false,
+  "score": 43,
+  "hand": "",
+  "photos": true
+ },
+ {
+  "id": "S082",
+  "name": "New Life Ministries",
+  "slug": "new-life-ministries",
+  "kind": "church",
+  "walk": true,
+  "score": 43,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S089",
+  "name": "Sarah’s Place at Roy Cove",
+  "slug": "sarah-s-place-at-roy-cove",
+  "kind": "business",
+  "walk": false,
+  "score": 43,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S098",
+  "name": "Swannanoa Church of God",
+  "slug": "swannanoa-church-of-god",
+  "kind": "church",
+  "walk": false,
+  "score": 43,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S012",
+  "name": "Black Mountain United Methodist",
+  "slug": "black-mountain-united-methodist",
+  "kind": "church",
+  "walk": true,
+  "score": 42,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S052",
+  "name": "God's Way Baptist Church",
+  "slug": "gods-way-baptist-church",
+  "kind": "church",
+  "walk": false,
+  "score": 42,
+  "hand": "",
+  "photos": true
+ },
+ {
+  "id": "S071",
+  "name": "Meadowbrook Free Will Baptist",
+  "slug": "meadowbrook-free-will-baptist",
+  "kind": "church",
+  "walk": true,
+  "score": 41,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S112",
+  "name": "Valley Hope church",
+  "slug": "valley-hope-church",
+  "kind": "church",
+  "walk": true,
+  "score": 41,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S033",
+  "name": "Cragmont Assembly",
+  "slug": "cragmont-assembly",
+  "kind": "nonprofit",
+  "walk": false,
+  "score": 40,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S070",
+  "name": "Marjorie Mccune Center - Food Distribution Center",
+  "slug": "marjorie-mccune-center-food-distribution-center",
+  "kind": "nonprofit",
+  "walk": false,
+  "score": 40,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S104",
+  "name": "Swannanoa Valley Independent Missionary Baptist Church",
+  "slug": "swannanoa-valley-independent-missionary-baptist-church",
+  "kind": "church",
+  "walk": false,
+  "score": 39,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S007",
+  "name": "Black Mountain Church Of God",
+  "slug": "black-mountain-church-of-god",
+  "kind": "church",
+  "walk": true,
+  "score": 38,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S048",
+  "name": "First Christian Church (Disciples of Christ)",
+  "slug": "first-christian-church-disciples-of-christ",
+  "kind": "church",
+  "walk": true,
+  "score": 38,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S119",
+  "name": "YMCA Blue Ridge Assembly",
+  "slug": "ymca-blue-ridge-assembly",
+  "kind": "nonprofit",
+  "walk": false,
+  "score": 38,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S023",
+  "name": "Christian Friends of Korea",
+  "slug": "christian-friends-of-korea",
+  "kind": "nonprofit",
+  "walk": true,
+  "score": 37,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S055",
+  "name": "Hammer & Heart Workshop",
+  "slug": "hammer-and-heart-workshop",
+  "kind": "nonprofit",
+  "walk": true,
+  "score": 37,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S101",
+  "name": "Swannanoa Valley Art League",
+  "slug": "swannanoa-valley-art-league",
+  "kind": "nonprofit",
+  "walk": true,
+  "score": 37,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S109",
+  "name": "Thomas Chapel A.M.E. Zion Church",
+  "slug": "thomas-chapel-a-m-e-zion-church",
+  "kind": "church",
+  "walk": true,
+  "score": 37,
+  "hand": "",
+  "photos": true
+ },
+ {
+  "id": "S116",
+  "name": "Waypoint Adventure",
+  "slug": "waypoint-adventure",
+  "kind": "nonprofit",
+  "walk": true,
+  "score": 37,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S077",
+  "name": "Mountain Home Thrift Store: Cheryl's Place",
+  "slug": "mountain-home-thrift-store-cheryls-place",
+  "kind": "nonprofit",
+  "walk": false,
+  "score": 36,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S079",
+  "name": "Mountain View Baptist Church",
+  "slug": "mountain-view-baptist-church",
+  "kind": "church",
+  "walk": false,
+  "score": 35,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S049",
+  "name": "Friendship Presbyterian Church",
+  "slug": "friendship-presbyterian-church",
+  "kind": "church",
+  "walk": true,
+  "score": 34,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S092",
+  "name": "Spirit in Action",
+  "slug": "spirit-in-action",
+  "kind": "nonprofit",
+  "walk": true,
+  "score": 33,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S009",
+  "name": "Black Mountain Home for Children, Youth & Families",
+  "slug": "black-mountain-home-for-children-youth-and-families",
+  "kind": "nonprofit",
+  "walk": false,
+  "score": 32,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S065",
+  "name": "Lakewood Church",
+  "slug": "lakewood-church",
+  "kind": "church",
+  "walk": true,
+  "score": 32,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S003",
+  "name": "Bee Tree Christian Church",
+  "slug": "bee-tree-christian-church",
+  "kind": "church",
+  "walk": false,
+  "score": 31,
+  "hand": "",
+  "photos": true
+ },
+ {
+  "id": "S085",
+  "name": "Presbyterian-Reformed Ministries International",
+  "slug": "presbyterian-reformed-ministries-international",
+  "kind": "church",
+  "walk": false,
+  "score": 31,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S118",
+  "name": "White Horse Community Hub",
+  "slug": "white-horse-community-hub",
+  "kind": "nonprofit",
+  "walk": true,
+  "score": 31,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S002",
+  "name": "Appalachian Community Relief",
+  "slug": "appalachian-community-relief",
+  "kind": "nonprofit",
+  "walk": false,
+  "score": 29,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S017",
+  "name": "Bounty & Soul Food, Education and Volunteer Hub",
+  "slug": "bounty-and-soul-food-education-and-volunteer-hub",
+  "kind": "nonprofit",
+  "walk": true,
+  "score": 29,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S075",
+  "name": "Mount View Church",
+  "slug": "mount-view-church",
+  "kind": "church",
+  "walk": false,
+  "score": 29,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S093",
+  "name": "St Margaret Mary Catholic Church",
+  "slug": "st-margaret-mary-catholic-church",
+  "kind": "church",
+  "walk": false,
+  "score": 29,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S056",
+  "name": "Hearts With Hands",
+  "slug": "hearts-with-hands",
+  "kind": "nonprofit",
+  "walk": false,
+  "score": 28,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S103",
+  "name": "Swannanoa Valley Friends Meeting",
+  "slug": "swannanoa-valley-friends-meeting",
+  "kind": "church",
+  "walk": true,
+  "score": 28,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S021",
+  "name": "CARVER COMMUNITY CENTER",
+  "slug": "carver-community-center",
+  "kind": "nonprofit",
+  "walk": true,
+  "score": 27,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S115",
+  "name": "Warren Wilson Presbyterian Church",
+  "slug": "warren-wilson-presbyterian-church",
+  "kind": "church",
+  "walk": false,
+  "score": 27,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S057",
+  "name": "Homer's Chapel Free Will Baptist Church",
+  "slug": "homers-chapel-free-will-baptist-church",
+  "kind": "church",
+  "walk": true,
+  "score": 26,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S074",
+  "name": "Montreat Presbyterian Church (PCUSA)",
+  "slug": "montreat-presbyterian-church-pcusa",
+  "kind": "church",
+  "walk": false,
+  "score": 26,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S105",
+  "name": "Tabernacle United Methodist",
+  "slug": "tabernacle-united-methodist",
+  "kind": "church",
+  "walk": true,
+  "score": 26,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S050",
+  "name": "Generation Church",
+  "slug": "generation-church",
+  "kind": "church",
+  "walk": false,
+  "score": 25,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S068",
+  "name": "Macedonia Church",
+  "slug": "macedonia-church",
+  "kind": "church",
+  "walk": false,
+  "score": 25,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S083",
+  "name": "One Focus Church",
+  "slug": "one-focus-church",
+  "kind": "church",
+  "walk": false,
+  "score": 25,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S091",
+  "name": "Slavic Baptist Church of Asheville",
+  "slug": "slavic-baptist-church-of-asheville",
+  "kind": "church",
+  "walk": false,
+  "score": 25,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S097",
+  "name": "Swannanoa Christian Church",
+  "slug": "swannanoa-christian-church",
+  "kind": "church",
+  "walk": false,
+  "score": 25,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S099",
+  "name": "Swannanoa Communities Together",
+  "slug": "swannanoa-communities-together",
+  "kind": "nonprofit",
+  "walk": false,
+  "score": 25,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S100",
+  "name": "Swannanoa Heights Baptist Church",
+  "slug": "swannanoa-heights-baptist-church",
+  "kind": "church",
+  "walk": false,
+  "score": 22,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S107",
+  "name": "The Blessing Barn",
+  "slug": "the-blessing-barn",
+  "kind": "nonprofit",
+  "walk": false,
+  "score": 22,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S047",
+  "name": "First Baptist Church Swannanoa",
+  "slug": "first-baptist-church-swannanoa",
+  "kind": "church",
+  "walk": false,
+  "score": 21,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S067",
+  "name": "Landmark Missionary Baptist Church",
+  "slug": "landmark-missionary-baptist-church",
+  "kind": "church",
+  "walk": false,
+  "score": 19,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S014",
+  "name": "BlueWest Opportunities - Swannanoa",
+  "slug": "bluewest-opportunities-swannanoa",
+  "kind": "nonprofit",
+  "walk": false,
+  "score": 17,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S016",
+  "name": "Bounty & Soul Community Center",
+  "slug": "bounty-and-soul-community-center",
+  "kind": "nonprofit",
+  "walk": false,
+  "score": 17,
+  "hand": "",
+  "photos": false
+ },
+ {
+  "id": "S041",
+  "name": "Eagle Rock Church",
+  "slug": "eagle-rock-church",
+  "kind": "church",
+  "walk": false,
+  "score": 16,
+  "hand": "",
+  "photos": false
+ }
+]

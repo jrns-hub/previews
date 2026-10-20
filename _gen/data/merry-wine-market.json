@@ -1,0 +1,76 @@
+{
+ "id": "S072",
+ "name": "Merry Wine Market",
+ "kind": "business",
+ "group": "food",
+ "cat": "Wine store",
+ "addr": "108 W State St, Black Mountain, NC 28711",
+ "street": "108 W State St",
+ "town": "Black Mountain",
+ "phone": "(828) 669-9050",
+ "hours": "Mon 12–6 PM; Tue 12–6 PM; Wed 12–6 PM; Thu 12–6 PM; Fri 12–6 PM; Sat 12–6 PM; Sun 1–5 PM",
+ "rating": "4.8 (51)",
+ "desc": "",
+ "social": [
+  "https://www.facebook.com/TheMerryWineMarket"
+ ],
+ "photos": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QNB7sPh9ZrBmWzjBEP1s93cuDQyKF-dCp24PLaPC5KJT1Tvo1ioXtbkB4nexq0nJk0zVx1sfF3s2XHdNF9GMv287pjUbm2PIhCkuGSrRiGlfoo9J5_D3D_voMlS89hVw2mEy4",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SP15oHgDEVzLHeChj9ZZ4g6eZUuWc4rtrPBCtoCXv5pi8IklY_pydE-pa9wBtywpCT9TEdvvSbKLPX6-wdiJuD8liZHpCs56GFF_K9ltzsCnMIblSEDZWv7xGYZlHRPHRN6i6t",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Th-U4UZDVzwDOoiJNYoJI8pvoSEV5utQ746H__wR-ylKIiNnX0YvdIkYEYH7JGvZ_xg7c5FNAU2LafoVfv6hFLekuzm_NFrZBMnQARfk4-tCZKO0yCMO2mYU1vhNDN4U27pOrRhWcOF9X1",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SCXxFVRwwK4tklXm-nLGitYPsWPt9SuTED_q515T2QD8g9a6nZLa-yDMFLCepIlVoM77IvEtkvuAvUWW5HMIgwhWSMAO6Mf_PDp2aBdNyEgCQQhUkcMHduEn1hwx2kdeVbaeZt"
+ ],
+ "reviews": [
+  {
+   "a": "T.F.F.",
+   "s": 5,
+   "t": "Small, cozy wine shop with a well-curated selection and very friendly, knowledgeable staff. Great spot for finding a good bottle with help from locals who know their stuff."
+  },
+  {
+   "a": "David Lurie",
+   "s": 5,
+   "t": "I recently got married in the Asheville area and was so glad to be pointed to the Merry Wine Market to bulk purchase wine for our reception. I’m no wine connoisseur, but their service was incredible, providing me clear good/better/best options based on just a few simple preferences. Our guests loved the selections, and the whole process was one of the easiest parts of planning our wedding. Whether you’re picking up a single bottle for a night in or stocking up for a big event, the team at Merry Wine Market has you covered!"
+  },
+  {
+   "a": "Jacqueline Sides",
+   "s": 5,
+   "t": "This is an awesome wine store with a great variety and reasonable prices! We live in Georgia and I would almost drive 3 1/2 hours to get the wine there LOl! Not to mention how beautiful the area is! We bought a tasty Barbera for 9.99!!"
+  },
+  {
+   "a": "Chiara Gustafson",
+   "s": 5,
+   "t": "Lovely shop with many very reasonably priced bottles (I’m sure they’re all reasonably priced, but many are $22ish and really smooth). The staff / owner was so helpful and the vibe and energy in there is awesome. just a lovely little wine shop :)"
+  },
+  {
+   "a": "Deutsch Mermaid",
+   "s": 5,
+   "t": "Fabulous and reasonable. Not only did I discover some tasty libations , but also had fun banter and some wine knowledge at the shop. Go to broaden your taste buds and discover some other fun items."
+  },
+  {
+   "a": "Matt",
+   "s": 5,
+   "t": "Went in and asked for a specific taste profile. After follow up clarifications, I was advised about a particular vintage. It was excellent! Perfect 7/5, would wine shop again."
+  },
+  {
+   "a": "Jeff Adams",
+   "s": 5,
+   "t": "We came in for a quick browse and to warm up as we were walking around downtown. We walked out with a case of wine and a bag of goodies. Fair warning. In all seriousness, I've never met another shop owner who is so jovial, friendly, personable, and committed to making the best impression on every visitor. If they don't have the answer, they'll find it. As for the selection, there were so many options I could've stayed here all day. So far we've opened 3 of the bottles (all recommended by them!) and they did not disappoint. My only regret is we don't have a shop like this closer to home."
+  },
+  {
+   "a": "Amanda Gentry",
+   "s": 5,
+   "t": "Stopped by just to pick up some wine for dinner and came out with an assortment of bevs. This shop is delightful - every single bottle has a description with helpful notes and things were all so reasonably priced. The owner was also delightful and very knowledgeable about wines and the area. 10/10 would visit and shop again!"
+  },
+  {
+   "a": "Rachel Noel",
+   "s": 5,
+   "t": "So many wine options, but the best part was meeting Scott! Not only did he help us pick out a good wine but he was the nicest person in Black Mountain and gave us so many suggestions of where to visit and where to eat! Definitely recommend stopping in!!"
+  },
+  {
+   "a": "Daniel Cohen",
+   "s": 5,
+   "t": "A must stop on the Black Mountain strip. Not only do they have a great and affordable wine selection, the Merry Wine Market also offers local gifts and treats! Stop by here if you are looking for anything from a bottle of wine to a unique local gift. (I recommend taking a look at their Lusty Monk Mustard, Black mountain chocolate, and local cheese assortment)"
+  }
+ ],
+ "score": 67
+}

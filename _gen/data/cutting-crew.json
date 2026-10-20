@@ -1,0 +1,72 @@
+{
+ "id": "S036",
+ "name": "Cutting Crew",
+ "kind": "business",
+ "group": "beauty",
+ "cat": "Beauty salon",
+ "addr": "221 W State St, Black Mountain, NC 28711",
+ "street": "221 W State St",
+ "town": "Black Mountain",
+ "phone": "(828) 669-7116",
+ "hours": "",
+ "rating": "4.9 (22)",
+ "desc": "",
+ "social": [],
+ "photos": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RdL73HyyaoetcmgpNgOduyHzGWSuzxnxExFCKcTZXZrAuzmn_9OkMpeC27_os6H1upkLYRqFUSIqcmnECsKA3PN2nnVVZH8dSX9W84004A9RMwWmMj6OidNophTsmt8V1thUGJ",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QB0sViBtR2mirGC5B13paLRe9XQkNXzg_kV-Wwqvkb5Kns6DZq_R2RFKMbOKAF-ciEeNbaakpyjHoFJL3v4hli6IPE0509iNvPwFIQqYPzUx0KzCQPvk_DOkV6ErfYSVZWSj9p"
+ ],
+ "reviews": [
+  {
+   "a": "Barbara Wilson",
+   "s": 5,
+   "t": "Will my husband has been going to Joe for a while now. He has been very happy. I went with him today for a cut and color. I now have a new place to get my hair done. Also very nice and sweet and easy to talk to."
+  },
+  {
+   "a": "Chloe Williams",
+   "s": 5,
+   "t": "Joe is an amazing hair stylist! My family has been coming to see him for years. Joe has literally seen my sister and me grow up. I am a Black Mountain native, but have lived in the Beverly Hills, Los Angeles area for a few years now, and I would argue that Joe is better than any hair stylist I've seen in LA. He's very talented in what he does. The Cutting Crew is very reasonably priced and it's great to support local business. Black Mountain is definitely lucky to have Joe and his business as an integral part of the community."
+  },
+  {
+   "a": "Leah Williams",
+   "s": 5,
+   "t": "cannot say enough wonderful things about Joe! Super attentive, a great conversationalist, and always does the absolute best job with my hair!"
+  },
+  {
+   "a": "Linda Beltran",
+   "s": 5,
+   "t": "I have really THICK hair and Joe can style my hair cut so I looked good for the six plus months he was closed for Covid-19! He is indeed the best at what he does!"
+  },
+  {
+   "a": "Brian Hanley",
+   "s": 5,
+   "t": "Casual friendly atmosphere. Been going to Cutting Crew for >20 years. Both my wife and myself are very satisfied with the services provided at the Cutting Crew. Reasonable prices for services."
+  },
+  {
+   "a": "Donna Chainas",
+   "s": 5,
+   "t": "Joe is a pro and service oriented. Makes everyone feel comfortable. Very good haircuts!"
+  },
+  {
+   "a": "Donna Fields",
+   "s": 5,
+   "t": "Joe is so very nice and made me feel right at home. Great cut also."
+  },
+  {
+   "a": "l g.",
+   "s": 5,
+   "t": "I've been going to Joe since he delivered our first baby. He's great!"
+  },
+  {
+   "a": "Jane Childress",
+   "s": 5,
+   "t": "If you like a small-town studio “where everyone knows your name,” this is your place!"
+  },
+  {
+   "a": "James Georgeson",
+   "s": 5,
+   "t": "Love Joe! Great location, service, and conversation!"
+  }
+ ],
+ "score": 53
+}

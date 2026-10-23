@@ -42,6 +42,19 @@ BANNED = re.compile(r"nestled|elevate|unleash|discover the|look no further|your 
 e = lambda s: html.escape(str(s or ""), quote=True)
 
 
+
+def log_usage(resp, app):
+    """Append this Groq call's token counts for the Token Dashboard (~/tokenlog/tokens.py)."""
+    u = resp.get("usage") or {}
+    try:
+        p = Path(os.environ.get("TOKENLOG") or Path.home() / "tokenlog" / "groq.jsonl")
+        p.parent.mkdir(parents=True, exist_ok=True)
+        with open(p, "a", encoding="utf-8") as f:
+            f.write(json.dumps({"t": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()), "app": app, "model": resp.get("model"),
+                                "in": u.get("prompt_tokens", 0), "out": u.get("completion_tokens", 0)}) + "\n")
+    except OSError:
+        pass
+
 def clean(s):
     s = re.sub(r"\s*[—–]\s*", ", ", str(s or "")).replace(" ,", ",")
     return re.sub(r"\s+", " ", s).strip()
@@ -83,7 +96,9 @@ def groq_copy(d):
         req = urllib.request.Request("https://api.groq.com/openai/v1/chat/completions", body,
                                      {"Authorization": f"Bearer {key}", "Content-Type": "application/json", "User-Agent": "previews-gen/1.0"})
         try:
-            out = json.loads(json.loads(urllib.request.urlopen(req, timeout=60).read())["choices"][0]["message"]["content"])
+            resp = json.loads(urllib.request.urlopen(req, timeout=60).read())
+            log_usage(resp, "preview builds (cloud)" if os.environ.get("TOKENLOG") else "preview builds (laptop)")
+            out = json.loads(resp["choices"][0]["message"]["content"])
         except urllib.error.HTTPError as ex:
             if ex.code in (401, 403):
                 sys.exit("Groq rejected the key. Fix the GROQ_API_KEY secret; nothing was built with plain copy.")

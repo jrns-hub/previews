@@ -24,6 +24,7 @@ jobs:
       - run: python _gen/generate.py ${{ github.event.inputs.slugs || '--limit 8' }}
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          TOKENLOG: _gen/usage.jsonl   # token counts for the Token Dashboard
       - run: |
           git config user.name "preview-bot"
           git config user.email "preview-bot@users.noreply.github.com"

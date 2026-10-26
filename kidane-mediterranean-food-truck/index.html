@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kidane's Mediterranean Food Truck · Falafel and gyros in Black Mountain, NC</title>
+<meta name="description" content="Falafel, gyros, meatball subs and Belgian fries from Kidane's Mediterranean Food Truck, by Old Town District in Black Mountain, NC. Open Tuesday to Saturday from 4 PM.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Figtree:wght@400;600;800&display=swap">
+<style>
+:root{--bg:#fbf3e6;--card:#fffaf2;--ink:#2a1a10;--soft:#5e4a3b;--line:#ead8bf;--acc:#c2410c;--on-acc:#fff;--olive:#3f5a2a;--band:#1f3a2e;--on-band:#f4efe4;
+--display:'Bagel Fat One',system-ui,sans-serif;--body:'Figtree',system-ui,sans-serif}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 var(--body)}
+.wrap{max-width:1040px;margin:0 auto;padding:0 max(18px,env(safe-area-inset-left))}
+.preview{background:var(--ink);color:var(--bg);font-size:13px;text-align:center;padding:7px 12px}
+.preview a{color:#ffd9b8}
+header{padding:18px 0;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.brand{font-family:var(--display);font-size:24px;line-height:1.05}
+.brand small{display:block;font-family:var(--body);font-weight:600;font-size:13px;color:var(--soft);letter-spacing:.06em;text-transform:uppercase}
+.btn{display:inline-flex;align-items:center;gap:8px;background:var(--acc);color:var(--on-acc);text-decoration:none;font-weight:800;padding:13px 22px;border-radius:999px}
+.btn.ghost{background:transparent;color:var(--ink);border:2px solid var(--ink)}
+.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:34px;align-items:center;padding:28px 0 46px}
+@media(max-width:780px){.hero{grid-template-columns:1fr}}
+h1{font-family:var(--display);font-weight:400;font-size:clamp(42px,7vw,76px);line-height:.98;margin:0 0 16px;text-wrap:balance}
+h1 em{font-style:normal;color:var(--acc)}
+.lede{font-size:20px;color:var(--soft);max-width:34ch;margin:0 0 24px}
+.acts{display:flex;gap:10px;flex-wrap:wrap}
+.open{margin-top:18px;font-weight:600}
+.open b{color:var(--olive)}
+/* truck illustration, drawn in CSS so the page needs no photos yet */
+.truck{position:relative;aspect-ratio:5/4;max-width:100%;background:var(--band);border-radius:28px;overflow:hidden;padding:22px}
+.truck .sun{position:absolute;right:28px;top:26px;width:70px;height:70px;border-radius:50%;background:#f2b51a}
+.truck .body{position:absolute;left:8%;right:8%;bottom:20%;height:46%;background:var(--card);border-radius:18px 46px 14px 14px}
+.truck .win{position:absolute;left:14%;width:46%;top:14%;height:46%;background:#2a1a10;border-radius:10px}
+.truck .win::after{content:"FALAFEL · GYRO · FRIES";position:absolute;inset:auto 0 -26px 0;text-align:center;font:800 11px var(--body);letter-spacing:.12em;color:var(--acc)}
+.truck .awning{position:absolute;left:12%;width:50%;top:6%;height:12%;background:repeating-linear-gradient(90deg,var(--acc) 0 18px,var(--card) 18px 36px);border-radius:6px}
+.truck .cab{position:absolute;right:6%;top:24%;width:24%;height:52%;background:#f5e6cf;border-radius:10px 26px 8px 8px}
+.truck .wheel{position:absolute;bottom:-26px;width:58px;height:58px;border-radius:50%;background:#1b120b;border:8px solid #6d5a48}
+.truck .w1{left:16%}.truck .w2{right:14%}
+.truck .ground{position:absolute;left:0;right:0;bottom:0;height:20%;background:#2c4a3b}
+.truck .tag{position:absolute;left:22px;top:22px;color:var(--on-band);font:800 12px var(--body);letter-spacing:.14em;text-transform:uppercase}
+section{padding:46px 0}
+h2{font-family:var(--display);font-weight:400;font-size:clamp(30px,4.5vw,44px);margin:0 0 8px}
+.sub{color:var(--soft);margin:0 0 26px}
+.menu{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px}
+.item{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px 20px;display:grid;gap:6px}
+.item .top{display:flex;justify-content:space-between;gap:10px;align-items:baseline}
+.item h3{margin:0;font-size:19px}
+.item .p{font-weight:800;color:var(--acc);font-variant-numeric:tabular-nums}
+.item p{margin:0;color:var(--soft);font-size:15px}
+.note{font-size:14px;color:var(--soft);margin-top:14px}
+.band{background:var(--band);color:var(--on-band)}
+.band .sub{color:#cfd8cf}
+.find{display:grid;grid-template-columns:1fr 1fr;gap:26px}
+@media(max-width:780px){.find{grid-template-columns:1fr}}
+.card{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);border-radius:18px;padding:22px}
+.card h3{margin:0 0 10px;font-size:20px}
+.hours{width:100%;border-collapse:collapse}
+.hours td{padding:7px 0;border-bottom:1px solid rgba(255,255,255,.12)}
+.hours td:last-child{text-align:right;font-weight:600}
+.band a{color:#ffd9b8}
+.events{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+footer{padding:30px 0 50px;color:var(--soft);font-size:14px;text-align:center}
+</style>
+</head>
+<body>
+<div class="preview">Website preview made for Kidane's by <a href="https://jrns-hub.github.io/bearly-technical/">Bearly Technical</a>. If you like it, it's yours.</div>
+<div class="wrap">
+<header>
+  <div class="brand">Kidane's<small>Mediterranean Food Truck</small></div>
+  <a class="btn" href="tel:+16467170410">Call (646) 717-0410</a>
+</header>
+
+<div class="hero">
+  <div>
+    <h1>Falafel worth the <em>walk</em> across town.</h1>
+    <p class="lede">The only Mediterranean spot in Black Mountain. Pita stuffed with hummus and crisp falafel, gyros with fresh dill tzatziki, and Belgian fries fried twice.</p>
+    <div class="acts">
+      <a class="btn" href="#menu">See the menu</a>
+      <a class="btn ghost" href="#find">Find the truck</a>
+    </div>
+    <p class="open"><b>Open Tuesday to Saturday</b>, 4 PM until close.</p>
+  </div>
+  <div class="truck" role="img" aria-label="Illustration of the Kidane's food truck">
+    <span class="tag">By Old Town District</span><span class="sun"></span>
+    <span class="ground"></span><span class="body"></span><span class="awning"></span><span class="win"></span><span class="cab"></span>
+    <span class="wheel w1"></span><span class="wheel w2"></span>
+  </div>
+</div>
+</div>
+
+<section id="menu"><div class="wrap">
+  <h2>The menu</h2>
+  <p class="sub">Every combo comes with frites. Straight from the board on the truck.</p>
+  <div class="menu">
+    <div class="item"><div class="top"><h3>Falafel sandwich</h3><span class="p">$9.75</span></div><p>Pita filled with hummus, salad, tomatoes and pickled cucumber, topped with falafel patties and drizzled with tahini.</p></div>
+    <div class="item"><div class="top"><h3>Falafel salad</h3><span class="p">$10.50</span></div><p>Tomatoes, red onions, fresh-cut cucumbers and red cabbage, topped with a hummus ball, four falafel patties and tahini.</p></div>
+    <div class="item"><div class="top"><h3>Gyro</h3><span class="p">$11.75</span></div><p>Gyro bread spread with freshly made dill tzatziki, with lamb, lettuce, tomatoes and red onions.</p></div>
+    <div class="item"><div class="top"><h3>Meatball sub</h3><span class="p">$11.50</span></div><p>Meatballs in marinara, topped with mozzarella and wrapped in an Italian sub.</p></div>
+    <div class="item"><div class="top"><h3>Belgian fries</h3><span class="p">$5.00</span></div><p>Hand-cut fries, Belgian style: fried twice in special oil and made fresh every day.</p></div>
+  </div>
+  <p class="note">Prices from the menu board. Call ahead to check today's specials.</p>
+</div></section>
+
+<section id="find" class="band"><div class="wrap">
+  <h2>Find the truck</h2>
+  <p class="sub">Parked by Old Town District, right in Black Mountain.</p>
+  <div class="find">
+    <div class="card">
+      <h3>Hours</h3>
+      <table class="hours">
+        <tr><td>Tuesday to Saturday</td><td>4 PM until close</td></tr>
+        <tr><td>Sunday and Monday</td><td>Closed</td></tr>
+      </table>
+    </div>
+    <div class="card">
+      <h3>Where</h3>
+      <p>110 Black Mountain Ave, Black Mountain, NC 28711</p>
+      <p><a href="https://www.google.com/maps/dir/?api=1&destination=110+Black+Mountain+Ave+Black+Mountain+NC+28711">Get directions</a></p>
+      <p>Call or text: <a href="tel:+16467170410">(646) 717-0410</a></p>
+      <p><a href="https://www.instagram.com/kidanes_mediterranean_food">Follow on Instagram</a></p>
+    </div>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <h2>Feeding a crowd?</h2>
+  <p class="sub">Ask about bringing the truck to your party, brewery night or work lunch.</p>
+  <div class="events">
+    <div class="item"><h3>Private events</h3><p>Birthdays, weddings and backyard parties. Text the date and how many people.</p></div>
+    <div class="item"><h3>Breweries and markets</h3><p>Hosting a night or a market? We'd love to park and feed your people.</p></div>
+    <div class="item"><h3>Office lunches</h3><p>Ask about falafel and gyro for the whole team.</p></div>
+  </div>
+  <p style="margin-top:22px"><a class="btn" href="sms:+16467170410">Text to book the truck</a></p>
+</div></section>
+
+<footer>Kidane's Mediterranean Food Truck · Black Mountain, NC</footer>
+</body>
+</html>

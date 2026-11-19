@@ -215,5 +215,7 @@ document.querySelectorAll('.flaps').forEach(function(el,r){
   el.innerHTML=el.dataset.t.split('').map(function(c,i){return '<b aria-hidden="true" class="'+(c===' '?'gap':'')+'" style="animation-delay:'+(r*120+i*45)+'ms">'+(c===' '?'':c)+'</b>'}).join('');
 });
 </script>
+<link rel="stylesheet" href="../claim/claim.css">
+<script src="../claim/claim.js" defer></script>
 </body>
 </html>

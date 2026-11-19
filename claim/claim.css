@@ -1,0 +1,128 @@
+/* Claim bar for preview sites.
+   Injected by claim/install.py. Edit here, never per-site. */
+
+body.bt-claim-on {
+  padding-top: var(--bt-claim-h, 64px) !important;
+  scroll-padding-top: calc(var(--bt-claim-h, 64px) + 16px);
+}
+
+#bt-claim {
+  position: fixed;
+  inset: 0 0 auto 0;
+  z-index: 2147483000;
+  background: #16130f;
+  color: #f7f3ea;
+  font: 15px/1.35 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, .3);
+}
+
+#bt-claim * { box-sizing: border-box; }
+
+#bt-claim .bt-in {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  width: min(1160px, 100% - 24px);
+  margin-inline: auto;
+  padding: 10px 0;
+}
+
+#bt-claim .bt-txt {
+  flex: 1 1 auto;
+  min-width: 0;
+  color: #f7f3ea;
+}
+
+#bt-claim .bt-txt b { color: #f0b453; font-weight: 700; }
+
+#bt-claim .bt-sub {
+  display: block;
+  color: #b6ac9c;
+  font-size: 13px;
+  margin-top: 2px;
+}
+
+#bt-claim .bt-acts {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: none;
+}
+
+#bt-claim a.bt-go,
+#bt-claim a.bt-say {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 0 18px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 15px;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: transform .15s ease, background .15s ease;
+}
+
+#bt-claim a.bt-go {
+  background: #f0b453;
+  color: #241a08;
+}
+
+#bt-claim a.bt-go:hover { background: #ffc76b; }
+
+#bt-claim a.bt-say {
+  border: 1.5px solid #4b4238;
+  color: #f7f3ea;
+}
+
+#bt-claim a.bt-say:hover { border-color: #8a7d6b; }
+
+#bt-claim a.bt-go:hover,
+#bt-claim a.bt-say:hover { transform: translateY(-1px); }
+
+#bt-claim a:focus-visible {
+  outline: 3px solid #f0b453;
+  outline-offset: 2px;
+}
+
+#bt-claim button.bt-x {
+  flex: none;
+  width: 34px;
+  height: 34px;
+  margin-left: 2px;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: #8a7d6b;
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+#bt-claim button.bt-x:hover { background: #2a251e; color: #f7f3ea; }
+#bt-claim button.bt-x:focus-visible { outline: 3px solid #f0b453; outline-offset: 2px; }
+
+@media (max-width: 620px) {
+  #bt-claim .bt-in { flex-wrap: wrap; gap: 8px; padding: 9px 0; }
+  #bt-claim .bt-txt { flex: 1 1 100%; font-size: 14px; padding-right: 36px; }
+  #bt-claim .bt-sub { font-size: 12px; }
+  #bt-claim .bt-acts { width: 100%; }
+  #bt-claim a.bt-go { flex: 1 1 auto; }
+  #bt-claim a.bt-say { flex: 0 0 auto; }
+  #bt-claim button.bt-x { position: absolute; top: 4px; right: 6px; }
+  body.bt-claim-on { padding-top: var(--bt-claim-h, 104px) !important; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #bt-claim a.bt-go,
+  #bt-claim a.bt-say { transition: none; }
+  #bt-claim a.bt-go:hover,
+  #bt-claim a.bt-say:hover { transform: none; }
+}
+
+@media print { #bt-claim { display: none; } }
+
+/* Sticky page headers sit below the fixed bar instead of under it. */
+body.bt-claim-on header { top: var(--bt-claim-h, 0px); }
